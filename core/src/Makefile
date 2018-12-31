@@ -122,21 +122,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/P2P.dir/rule:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/P2P.dir/rule
-.PHONY : src/CMakeFiles/P2P.dir/rule
-
-# Convenience name for target.
-P2P: src/CMakeFiles/P2P.dir/rule
-
-.PHONY : P2P
-
-# fast build rule for target.
-P2P/fast:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/build
-.PHONY : P2P/fast
-
-# Convenience name for target.
 src/CMakeFiles/NodeRpcProxy.dir/rule:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/NodeRpcProxy.dir/rule
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/rule
@@ -182,36 +167,6 @@ Logging/fast:
 .PHONY : Logging/fast
 
 # Convenience name for target.
-src/CMakeFiles/Daemon.dir/rule:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Daemon.dir/rule
-.PHONY : src/CMakeFiles/Daemon.dir/rule
-
-# Convenience name for target.
-Daemon: src/CMakeFiles/Daemon.dir/rule
-
-.PHONY : Daemon
-
-# fast build rule for target.
-Daemon/fast:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/build
-.PHONY : Daemon/fast
-
-# Convenience name for target.
-src/CMakeFiles/Common.dir/rule:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Common.dir/rule
-.PHONY : src/CMakeFiles/Common.dir/rule
-
-# Convenience name for target.
-Common: src/CMakeFiles/Common.dir/rule
-
-.PHONY : Common
-
-# fast build rule for target.
-Common/fast:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/build
-.PHONY : Common/fast
-
-# Convenience name for target.
 src/CMakeFiles/Crypto.dir/rule:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Crypto.dir/rule
 .PHONY : src/CMakeFiles/Crypto.dir/rule
@@ -227,34 +182,34 @@ Crypto/fast:
 .PHONY : Crypto/fast
 
 # Convenience name for target.
-src/CMakeFiles/Http.dir/rule:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Http.dir/rule
-.PHONY : src/CMakeFiles/Http.dir/rule
+src/CMakeFiles/CryptoNoteCore.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CryptoNoteCore.dir/rule
+.PHONY : src/CMakeFiles/CryptoNoteCore.dir/rule
 
 # Convenience name for target.
-Http: src/CMakeFiles/Http.dir/rule
+CryptoNoteCore: src/CMakeFiles/CryptoNoteCore.dir/rule
 
-.PHONY : Http
+.PHONY : CryptoNoteCore
 
 # fast build rule for target.
-Http/fast:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/build
-.PHONY : Http/fast
+CryptoNoteCore/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/build
+.PHONY : CryptoNoteCore/fast
 
 # Convenience name for target.
-src/CMakeFiles/Transfers.dir/rule:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transfers.dir/rule
-.PHONY : src/CMakeFiles/Transfers.dir/rule
+src/CMakeFiles/Config.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Config.dir/rule
+.PHONY : src/CMakeFiles/Config.dir/rule
 
 # Convenience name for target.
-Transfers: src/CMakeFiles/Transfers.dir/rule
+Config: src/CMakeFiles/Config.dir/rule
 
-.PHONY : Transfers
+.PHONY : Config
 
 # fast build rule for target.
-Transfers/fast:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/build
-.PHONY : Transfers/fast
+Config/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/build
+.PHONY : Config/fast
 
 # Convenience name for target.
 src/CMakeFiles/BlockchainExplorer.dir/rule:
@@ -302,19 +257,64 @@ SimpleWallet/fast:
 .PHONY : SimpleWallet/fast
 
 # Convenience name for target.
-src/CMakeFiles/CryptoNoteCore.dir/rule:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CryptoNoteCore.dir/rule
-.PHONY : src/CMakeFiles/CryptoNoteCore.dir/rule
+src/CMakeFiles/Common.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Common.dir/rule
+.PHONY : src/CMakeFiles/Common.dir/rule
 
 # Convenience name for target.
-CryptoNoteCore: src/CMakeFiles/CryptoNoteCore.dir/rule
+Common: src/CMakeFiles/Common.dir/rule
 
-.PHONY : CryptoNoteCore
+.PHONY : Common
 
 # fast build rule for target.
-CryptoNoteCore/fast:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/build
-.PHONY : CryptoNoteCore/fast
+Common/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/build
+.PHONY : Common/fast
+
+# Convenience name for target.
+src/CMakeFiles/Transfers.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transfers.dir/rule
+.PHONY : src/CMakeFiles/Transfers.dir/rule
+
+# Convenience name for target.
+Transfers: src/CMakeFiles/Transfers.dir/rule
+
+.PHONY : Transfers
+
+# fast build rule for target.
+Transfers/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/build
+.PHONY : Transfers/fast
+
+# Convenience name for target.
+src/CMakeFiles/Http.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Http.dir/rule
+.PHONY : src/CMakeFiles/Http.dir/rule
+
+# Convenience name for target.
+Http: src/CMakeFiles/Http.dir/rule
+
+.PHONY : Http
+
+# fast build rule for target.
+Http/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/build
+.PHONY : Http/fast
+
+# Convenience name for target.
+src/CMakeFiles/CommandLine.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CommandLine.dir/rule
+.PHONY : src/CMakeFiles/CommandLine.dir/rule
+
+# Convenience name for target.
+CommandLine: src/CMakeFiles/CommandLine.dir/rule
+
+.PHONY : CommandLine
+
+# fast build rule for target.
+CommandLine/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/build
+.PHONY : CommandLine/fast
 
 # Convenience name for target.
 src/CMakeFiles/System.dir/rule:
@@ -330,6 +330,66 @@ System: src/CMakeFiles/System.dir/rule
 System/fast:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/build
 .PHONY : System/fast
+
+# Convenience name for target.
+src/CMakeFiles/Miner.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Miner.dir/rule
+.PHONY : src/CMakeFiles/Miner.dir/rule
+
+# Convenience name for target.
+Miner: src/CMakeFiles/Miner.dir/rule
+
+.PHONY : Miner
+
+# fast build rule for target.
+Miner/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/build
+.PHONY : Miner/fast
+
+# Convenience name for target.
+src/CMakeFiles/Rpc.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Rpc.dir/rule
+.PHONY : src/CMakeFiles/Rpc.dir/rule
+
+# Convenience name for target.
+Rpc: src/CMakeFiles/Rpc.dir/rule
+
+.PHONY : Rpc
+
+# fast build rule for target.
+Rpc/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/build
+.PHONY : Rpc/fast
+
+# Convenience name for target.
+src/CMakeFiles/P2P.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/P2P.dir/rule
+.PHONY : src/CMakeFiles/P2P.dir/rule
+
+# Convenience name for target.
+P2P: src/CMakeFiles/P2P.dir/rule
+
+.PHONY : P2P
+
+# fast build rule for target.
+P2P/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/build
+.PHONY : P2P/fast
+
+# Convenience name for target.
+src/CMakeFiles/Serialization.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Serialization.dir/rule
+.PHONY : src/CMakeFiles/Serialization.dir/rule
+
+# Convenience name for target.
+Serialization: src/CMakeFiles/Serialization.dir/rule
+
+.PHONY : Serialization
+
+# fast build rule for target.
+Serialization/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/build
+.PHONY : Serialization/fast
 
 # Convenience name for target.
 src/CMakeFiles/PaymentGate.dir/rule:
@@ -377,6 +437,21 @@ ConnectivityTool/fast:
 .PHONY : ConnectivityTool/fast
 
 # Convenience name for target.
+src/CMakeFiles/daemon.dir/rule:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/daemon.dir/rule
+.PHONY : src/CMakeFiles/daemon.dir/rule
+
+# Convenience name for target.
+daemon: src/CMakeFiles/daemon.dir/rule
+
+.PHONY : daemon
+
+# fast build rule for target.
+daemon/fast:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/daemon.dir/build.make src/CMakeFiles/daemon.dir/build
+.PHONY : daemon/fast
+
+# Convenience name for target.
 src/CMakeFiles/PaymentGateService.dir/rule:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/PaymentGateService.dir/rule
 .PHONY : src/CMakeFiles/PaymentGateService.dir/rule
@@ -390,726 +465,6 @@ PaymentGateService: src/CMakeFiles/PaymentGateService.dir/rule
 PaymentGateService/fast:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/build
 .PHONY : PaymentGateService/fast
-
-# Convenience name for target.
-src/CMakeFiles/Rpc.dir/rule:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Rpc.dir/rule
-.PHONY : src/CMakeFiles/Rpc.dir/rule
-
-# Convenience name for target.
-Rpc: src/CMakeFiles/Rpc.dir/rule
-
-.PHONY : Rpc
-
-# fast build rule for target.
-Rpc/fast:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/build
-.PHONY : Rpc/fast
-
-# Convenience name for target.
-src/CMakeFiles/Miner.dir/rule:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Miner.dir/rule
-.PHONY : src/CMakeFiles/Miner.dir/rule
-
-# Convenience name for target.
-Miner: src/CMakeFiles/Miner.dir/rule
-
-.PHONY : Miner
-
-# fast build rule for target.
-Miner/fast:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/build
-.PHONY : Miner/fast
-
-# Convenience name for target.
-src/CMakeFiles/Serialization.dir/rule:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Serialization.dir/rule
-.PHONY : src/CMakeFiles/Serialization.dir/rule
-
-# Convenience name for target.
-Serialization: src/CMakeFiles/Serialization.dir/rule
-
-.PHONY : Serialization
-
-# fast build rule for target.
-Serialization/fast:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/build
-.PHONY : Serialization/fast
-
-BlockchainExplorer/BlockchainExplorer.o: BlockchainExplorer/BlockchainExplorer.cpp.o
-
-.PHONY : BlockchainExplorer/BlockchainExplorer.o
-
-# target to build an object file
-BlockchainExplorer/BlockchainExplorer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.o
-.PHONY : BlockchainExplorer/BlockchainExplorer.cpp.o
-
-BlockchainExplorer/BlockchainExplorer.i: BlockchainExplorer/BlockchainExplorer.cpp.i
-
-.PHONY : BlockchainExplorer/BlockchainExplorer.i
-
-# target to preprocess a source file
-BlockchainExplorer/BlockchainExplorer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.i
-.PHONY : BlockchainExplorer/BlockchainExplorer.cpp.i
-
-BlockchainExplorer/BlockchainExplorer.s: BlockchainExplorer/BlockchainExplorer.cpp.s
-
-.PHONY : BlockchainExplorer/BlockchainExplorer.s
-
-# target to generate assembly for a file
-BlockchainExplorer/BlockchainExplorer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.s
-.PHONY : BlockchainExplorer/BlockchainExplorer.cpp.s
-
-BlockchainExplorer/BlockchainExplorerDataBuilder.o: BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o
-
-.PHONY : BlockchainExplorer/BlockchainExplorerDataBuilder.o
-
-# target to build an object file
-BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o
-.PHONY : BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o
-
-BlockchainExplorer/BlockchainExplorerDataBuilder.i: BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.i
-
-.PHONY : BlockchainExplorer/BlockchainExplorerDataBuilder.i
-
-# target to preprocess a source file
-BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.i
-.PHONY : BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.i
-
-BlockchainExplorer/BlockchainExplorerDataBuilder.s: BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.s
-
-.PHONY : BlockchainExplorer/BlockchainExplorerDataBuilder.s
-
-# target to generate assembly for a file
-BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.s
-.PHONY : BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.s
-
-BlockchainExplorer/BlockchainExplorerErrors.o: BlockchainExplorer/BlockchainExplorerErrors.cpp.o
-
-.PHONY : BlockchainExplorer/BlockchainExplorerErrors.o
-
-# target to build an object file
-BlockchainExplorer/BlockchainExplorerErrors.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.o
-.PHONY : BlockchainExplorer/BlockchainExplorerErrors.cpp.o
-
-BlockchainExplorer/BlockchainExplorerErrors.i: BlockchainExplorer/BlockchainExplorerErrors.cpp.i
-
-.PHONY : BlockchainExplorer/BlockchainExplorerErrors.i
-
-# target to preprocess a source file
-BlockchainExplorer/BlockchainExplorerErrors.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.i
-.PHONY : BlockchainExplorer/BlockchainExplorerErrors.cpp.i
-
-BlockchainExplorer/BlockchainExplorerErrors.s: BlockchainExplorer/BlockchainExplorerErrors.cpp.s
-
-.PHONY : BlockchainExplorer/BlockchainExplorerErrors.s
-
-# target to generate assembly for a file
-BlockchainExplorer/BlockchainExplorerErrors.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.s
-.PHONY : BlockchainExplorer/BlockchainExplorerErrors.cpp.s
-
-Common/Base58.o: Common/Base58.cpp.o
-
-.PHONY : Common/Base58.o
-
-# target to build an object file
-Common/Base58.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Base58.cpp.o
-.PHONY : Common/Base58.cpp.o
-
-Common/Base58.i: Common/Base58.cpp.i
-
-.PHONY : Common/Base58.i
-
-# target to preprocess a source file
-Common/Base58.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Base58.cpp.i
-.PHONY : Common/Base58.cpp.i
-
-Common/Base58.s: Common/Base58.cpp.s
-
-.PHONY : Common/Base58.s
-
-# target to generate assembly for a file
-Common/Base58.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Base58.cpp.s
-.PHONY : Common/Base58.cpp.s
-
-Common/BlockingQueue.o: Common/BlockingQueue.cpp.o
-
-.PHONY : Common/BlockingQueue.o
-
-# target to build an object file
-Common/BlockingQueue.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/BlockingQueue.cpp.o
-.PHONY : Common/BlockingQueue.cpp.o
-
-Common/BlockingQueue.i: Common/BlockingQueue.cpp.i
-
-.PHONY : Common/BlockingQueue.i
-
-# target to preprocess a source file
-Common/BlockingQueue.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/BlockingQueue.cpp.i
-.PHONY : Common/BlockingQueue.cpp.i
-
-Common/BlockingQueue.s: Common/BlockingQueue.cpp.s
-
-.PHONY : Common/BlockingQueue.s
-
-# target to generate assembly for a file
-Common/BlockingQueue.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/BlockingQueue.cpp.s
-.PHONY : Common/BlockingQueue.cpp.s
-
-Common/CommandLine.o: Common/CommandLine.cpp.o
-
-.PHONY : Common/CommandLine.o
-
-# target to build an object file
-Common/CommandLine.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/CommandLine.cpp.o
-.PHONY : Common/CommandLine.cpp.o
-
-Common/CommandLine.i: Common/CommandLine.cpp.i
-
-.PHONY : Common/CommandLine.i
-
-# target to preprocess a source file
-Common/CommandLine.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/CommandLine.cpp.i
-.PHONY : Common/CommandLine.cpp.i
-
-Common/CommandLine.s: Common/CommandLine.cpp.s
-
-.PHONY : Common/CommandLine.s
-
-# target to generate assembly for a file
-Common/CommandLine.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/CommandLine.cpp.s
-.PHONY : Common/CommandLine.cpp.s
-
-Common/ConsoleHandler.o: Common/ConsoleHandler.cpp.o
-
-.PHONY : Common/ConsoleHandler.o
-
-# target to build an object file
-Common/ConsoleHandler.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleHandler.cpp.o
-.PHONY : Common/ConsoleHandler.cpp.o
-
-Common/ConsoleHandler.i: Common/ConsoleHandler.cpp.i
-
-.PHONY : Common/ConsoleHandler.i
-
-# target to preprocess a source file
-Common/ConsoleHandler.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleHandler.cpp.i
-.PHONY : Common/ConsoleHandler.cpp.i
-
-Common/ConsoleHandler.s: Common/ConsoleHandler.cpp.s
-
-.PHONY : Common/ConsoleHandler.s
-
-# target to generate assembly for a file
-Common/ConsoleHandler.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleHandler.cpp.s
-.PHONY : Common/ConsoleHandler.cpp.s
-
-Common/ConsoleTools.o: Common/ConsoleTools.cpp.o
-
-.PHONY : Common/ConsoleTools.o
-
-# target to build an object file
-Common/ConsoleTools.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleTools.cpp.o
-.PHONY : Common/ConsoleTools.cpp.o
-
-Common/ConsoleTools.i: Common/ConsoleTools.cpp.i
-
-.PHONY : Common/ConsoleTools.i
-
-# target to preprocess a source file
-Common/ConsoleTools.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleTools.cpp.i
-.PHONY : Common/ConsoleTools.cpp.i
-
-Common/ConsoleTools.s: Common/ConsoleTools.cpp.s
-
-.PHONY : Common/ConsoleTools.s
-
-# target to generate assembly for a file
-Common/ConsoleTools.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleTools.cpp.s
-.PHONY : Common/ConsoleTools.cpp.s
-
-Common/IInputStream.o: Common/IInputStream.cpp.o
-
-.PHONY : Common/IInputStream.o
-
-# target to build an object file
-Common/IInputStream.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IInputStream.cpp.o
-.PHONY : Common/IInputStream.cpp.o
-
-Common/IInputStream.i: Common/IInputStream.cpp.i
-
-.PHONY : Common/IInputStream.i
-
-# target to preprocess a source file
-Common/IInputStream.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IInputStream.cpp.i
-.PHONY : Common/IInputStream.cpp.i
-
-Common/IInputStream.s: Common/IInputStream.cpp.s
-
-.PHONY : Common/IInputStream.s
-
-# target to generate assembly for a file
-Common/IInputStream.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IInputStream.cpp.s
-.PHONY : Common/IInputStream.cpp.s
-
-Common/IOutputStream.o: Common/IOutputStream.cpp.o
-
-.PHONY : Common/IOutputStream.o
-
-# target to build an object file
-Common/IOutputStream.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IOutputStream.cpp.o
-.PHONY : Common/IOutputStream.cpp.o
-
-Common/IOutputStream.i: Common/IOutputStream.cpp.i
-
-.PHONY : Common/IOutputStream.i
-
-# target to preprocess a source file
-Common/IOutputStream.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IOutputStream.cpp.i
-.PHONY : Common/IOutputStream.cpp.i
-
-Common/IOutputStream.s: Common/IOutputStream.cpp.s
-
-.PHONY : Common/IOutputStream.s
-
-# target to generate assembly for a file
-Common/IOutputStream.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IOutputStream.cpp.s
-.PHONY : Common/IOutputStream.cpp.s
-
-Common/JsonValue.o: Common/JsonValue.cpp.o
-
-.PHONY : Common/JsonValue.o
-
-# target to build an object file
-Common/JsonValue.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/JsonValue.cpp.o
-.PHONY : Common/JsonValue.cpp.o
-
-Common/JsonValue.i: Common/JsonValue.cpp.i
-
-.PHONY : Common/JsonValue.i
-
-# target to preprocess a source file
-Common/JsonValue.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/JsonValue.cpp.i
-.PHONY : Common/JsonValue.cpp.i
-
-Common/JsonValue.s: Common/JsonValue.cpp.s
-
-.PHONY : Common/JsonValue.s
-
-# target to generate assembly for a file
-Common/JsonValue.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/JsonValue.cpp.s
-.PHONY : Common/JsonValue.cpp.s
-
-Common/Math.o: Common/Math.cpp.o
-
-.PHONY : Common/Math.o
-
-# target to build an object file
-Common/Math.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Math.cpp.o
-.PHONY : Common/Math.cpp.o
-
-Common/Math.i: Common/Math.cpp.i
-
-.PHONY : Common/Math.i
-
-# target to preprocess a source file
-Common/Math.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Math.cpp.i
-.PHONY : Common/Math.cpp.i
-
-Common/Math.s: Common/Math.cpp.s
-
-.PHONY : Common/Math.s
-
-# target to generate assembly for a file
-Common/Math.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Math.cpp.s
-.PHONY : Common/Math.cpp.s
-
-Common/MemoryInputStream.o: Common/MemoryInputStream.cpp.o
-
-.PHONY : Common/MemoryInputStream.o
-
-# target to build an object file
-Common/MemoryInputStream.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/MemoryInputStream.cpp.o
-.PHONY : Common/MemoryInputStream.cpp.o
-
-Common/MemoryInputStream.i: Common/MemoryInputStream.cpp.i
-
-.PHONY : Common/MemoryInputStream.i
-
-# target to preprocess a source file
-Common/MemoryInputStream.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/MemoryInputStream.cpp.i
-.PHONY : Common/MemoryInputStream.cpp.i
-
-Common/MemoryInputStream.s: Common/MemoryInputStream.cpp.s
-
-.PHONY : Common/MemoryInputStream.s
-
-# target to generate assembly for a file
-Common/MemoryInputStream.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/MemoryInputStream.cpp.s
-.PHONY : Common/MemoryInputStream.cpp.s
-
-Common/PathTools.o: Common/PathTools.cpp.o
-
-.PHONY : Common/PathTools.o
-
-# target to build an object file
-Common/PathTools.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/PathTools.cpp.o
-.PHONY : Common/PathTools.cpp.o
-
-Common/PathTools.i: Common/PathTools.cpp.i
-
-.PHONY : Common/PathTools.i
-
-# target to preprocess a source file
-Common/PathTools.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/PathTools.cpp.i
-.PHONY : Common/PathTools.cpp.i
-
-Common/PathTools.s: Common/PathTools.cpp.s
-
-.PHONY : Common/PathTools.s
-
-# target to generate assembly for a file
-Common/PathTools.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/PathTools.cpp.s
-.PHONY : Common/PathTools.cpp.s
-
-Common/ScopeExit.o: Common/ScopeExit.cpp.o
-
-.PHONY : Common/ScopeExit.o
-
-# target to build an object file
-Common/ScopeExit.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ScopeExit.cpp.o
-.PHONY : Common/ScopeExit.cpp.o
-
-Common/ScopeExit.i: Common/ScopeExit.cpp.i
-
-.PHONY : Common/ScopeExit.i
-
-# target to preprocess a source file
-Common/ScopeExit.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ScopeExit.cpp.i
-.PHONY : Common/ScopeExit.cpp.i
-
-Common/ScopeExit.s: Common/ScopeExit.cpp.s
-
-.PHONY : Common/ScopeExit.s
-
-# target to generate assembly for a file
-Common/ScopeExit.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ScopeExit.cpp.s
-.PHONY : Common/ScopeExit.cpp.s
-
-Common/SignalHandler.o: Common/SignalHandler.cpp.o
-
-.PHONY : Common/SignalHandler.o
-
-# target to build an object file
-Common/SignalHandler.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/SignalHandler.cpp.o
-.PHONY : Common/SignalHandler.cpp.o
-
-Common/SignalHandler.i: Common/SignalHandler.cpp.i
-
-.PHONY : Common/SignalHandler.i
-
-# target to preprocess a source file
-Common/SignalHandler.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/SignalHandler.cpp.i
-.PHONY : Common/SignalHandler.cpp.i
-
-Common/SignalHandler.s: Common/SignalHandler.cpp.s
-
-.PHONY : Common/SignalHandler.s
-
-# target to generate assembly for a file
-Common/SignalHandler.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/SignalHandler.cpp.s
-.PHONY : Common/SignalHandler.cpp.s
-
-Common/StdInputStream.o: Common/StdInputStream.cpp.o
-
-.PHONY : Common/StdInputStream.o
-
-# target to build an object file
-Common/StdInputStream.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdInputStream.cpp.o
-.PHONY : Common/StdInputStream.cpp.o
-
-Common/StdInputStream.i: Common/StdInputStream.cpp.i
-
-.PHONY : Common/StdInputStream.i
-
-# target to preprocess a source file
-Common/StdInputStream.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdInputStream.cpp.i
-.PHONY : Common/StdInputStream.cpp.i
-
-Common/StdInputStream.s: Common/StdInputStream.cpp.s
-
-.PHONY : Common/StdInputStream.s
-
-# target to generate assembly for a file
-Common/StdInputStream.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdInputStream.cpp.s
-.PHONY : Common/StdInputStream.cpp.s
-
-Common/StdOutputStream.o: Common/StdOutputStream.cpp.o
-
-.PHONY : Common/StdOutputStream.o
-
-# target to build an object file
-Common/StdOutputStream.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdOutputStream.cpp.o
-.PHONY : Common/StdOutputStream.cpp.o
-
-Common/StdOutputStream.i: Common/StdOutputStream.cpp.i
-
-.PHONY : Common/StdOutputStream.i
-
-# target to preprocess a source file
-Common/StdOutputStream.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdOutputStream.cpp.i
-.PHONY : Common/StdOutputStream.cpp.i
-
-Common/StdOutputStream.s: Common/StdOutputStream.cpp.s
-
-.PHONY : Common/StdOutputStream.s
-
-# target to generate assembly for a file
-Common/StdOutputStream.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdOutputStream.cpp.s
-.PHONY : Common/StdOutputStream.cpp.s
-
-Common/StreamTools.o: Common/StreamTools.cpp.o
-
-.PHONY : Common/StreamTools.o
-
-# target to build an object file
-Common/StreamTools.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StreamTools.cpp.o
-.PHONY : Common/StreamTools.cpp.o
-
-Common/StreamTools.i: Common/StreamTools.cpp.i
-
-.PHONY : Common/StreamTools.i
-
-# target to preprocess a source file
-Common/StreamTools.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StreamTools.cpp.i
-.PHONY : Common/StreamTools.cpp.i
-
-Common/StreamTools.s: Common/StreamTools.cpp.s
-
-.PHONY : Common/StreamTools.s
-
-# target to generate assembly for a file
-Common/StreamTools.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StreamTools.cpp.s
-.PHONY : Common/StreamTools.cpp.s
-
-Common/StringInputStream.o: Common/StringInputStream.cpp.o
-
-.PHONY : Common/StringInputStream.o
-
-# target to build an object file
-Common/StringInputStream.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringInputStream.cpp.o
-.PHONY : Common/StringInputStream.cpp.o
-
-Common/StringInputStream.i: Common/StringInputStream.cpp.i
-
-.PHONY : Common/StringInputStream.i
-
-# target to preprocess a source file
-Common/StringInputStream.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringInputStream.cpp.i
-.PHONY : Common/StringInputStream.cpp.i
-
-Common/StringInputStream.s: Common/StringInputStream.cpp.s
-
-.PHONY : Common/StringInputStream.s
-
-# target to generate assembly for a file
-Common/StringInputStream.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringInputStream.cpp.s
-.PHONY : Common/StringInputStream.cpp.s
-
-Common/StringOutputStream.o: Common/StringOutputStream.cpp.o
-
-.PHONY : Common/StringOutputStream.o
-
-# target to build an object file
-Common/StringOutputStream.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringOutputStream.cpp.o
-.PHONY : Common/StringOutputStream.cpp.o
-
-Common/StringOutputStream.i: Common/StringOutputStream.cpp.i
-
-.PHONY : Common/StringOutputStream.i
-
-# target to preprocess a source file
-Common/StringOutputStream.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringOutputStream.cpp.i
-.PHONY : Common/StringOutputStream.cpp.i
-
-Common/StringOutputStream.s: Common/StringOutputStream.cpp.s
-
-.PHONY : Common/StringOutputStream.s
-
-# target to generate assembly for a file
-Common/StringOutputStream.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringOutputStream.cpp.s
-.PHONY : Common/StringOutputStream.cpp.s
-
-Common/StringTools.o: Common/StringTools.cpp.o
-
-.PHONY : Common/StringTools.o
-
-# target to build an object file
-Common/StringTools.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringTools.cpp.o
-.PHONY : Common/StringTools.cpp.o
-
-Common/StringTools.i: Common/StringTools.cpp.i
-
-.PHONY : Common/StringTools.i
-
-# target to preprocess a source file
-Common/StringTools.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringTools.cpp.i
-.PHONY : Common/StringTools.cpp.i
-
-Common/StringTools.s: Common/StringTools.cpp.s
-
-.PHONY : Common/StringTools.s
-
-# target to generate assembly for a file
-Common/StringTools.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringTools.cpp.s
-.PHONY : Common/StringTools.cpp.s
-
-Common/StringView.o: Common/StringView.cpp.o
-
-.PHONY : Common/StringView.o
-
-# target to build an object file
-Common/StringView.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringView.cpp.o
-.PHONY : Common/StringView.cpp.o
-
-Common/StringView.i: Common/StringView.cpp.i
-
-.PHONY : Common/StringView.i
-
-# target to preprocess a source file
-Common/StringView.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringView.cpp.i
-.PHONY : Common/StringView.cpp.i
-
-Common/StringView.s: Common/StringView.cpp.s
-
-.PHONY : Common/StringView.s
-
-# target to generate assembly for a file
-Common/StringView.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringView.cpp.s
-.PHONY : Common/StringView.cpp.s
-
-Common/Util.o: Common/Util.cpp.o
-
-.PHONY : Common/Util.o
-
-# target to build an object file
-Common/Util.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Util.cpp.o
-.PHONY : Common/Util.cpp.o
-
-Common/Util.i: Common/Util.cpp.i
-
-.PHONY : Common/Util.i
-
-# target to preprocess a source file
-Common/Util.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Util.cpp.i
-.PHONY : Common/Util.cpp.i
-
-Common/Util.s: Common/Util.cpp.s
-
-.PHONY : Common/Util.s
-
-# target to generate assembly for a file
-Common/Util.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Util.cpp.s
-.PHONY : Common/Util.cpp.s
-
-Common/VectorOutputStream.o: Common/VectorOutputStream.cpp.o
-
-.PHONY : Common/VectorOutputStream.o
-
-# target to build an object file
-Common/VectorOutputStream.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/VectorOutputStream.cpp.o
-.PHONY : Common/VectorOutputStream.cpp.o
-
-Common/VectorOutputStream.i: Common/VectorOutputStream.cpp.i
-
-.PHONY : Common/VectorOutputStream.i
-
-# target to preprocess a source file
-Common/VectorOutputStream.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/VectorOutputStream.cpp.i
-.PHONY : Common/VectorOutputStream.cpp.i
-
-Common/VectorOutputStream.s: Common/VectorOutputStream.cpp.s
-
-.PHONY : Common/VectorOutputStream.s
-
-# target to generate assembly for a file
-Common/VectorOutputStream.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/VectorOutputStream.cpp.s
-.PHONY : Common/VectorOutputStream.cpp.s
 
 ConnectivityTool/ConnectivityTool.o: ConnectivityTool/ConnectivityTool.cpp.o
 
@@ -1137,897 +492,6 @@ ConnectivityTool/ConnectivityTool.s: ConnectivityTool/ConnectivityTool.cpp.s
 ConnectivityTool/ConnectivityTool.cpp.s:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/ConnectivityTool.dir/build.make src/CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.s
 .PHONY : ConnectivityTool/ConnectivityTool.cpp.s
-
-CryptoNoteCore/Account.o: CryptoNoteCore/Account.cpp.o
-
-.PHONY : CryptoNoteCore/Account.o
-
-# target to build an object file
-CryptoNoteCore/Account.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.o
-.PHONY : CryptoNoteCore/Account.cpp.o
-
-CryptoNoteCore/Account.i: CryptoNoteCore/Account.cpp.i
-
-.PHONY : CryptoNoteCore/Account.i
-
-# target to preprocess a source file
-CryptoNoteCore/Account.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.i
-.PHONY : CryptoNoteCore/Account.cpp.i
-
-CryptoNoteCore/Account.s: CryptoNoteCore/Account.cpp.s
-
-.PHONY : CryptoNoteCore/Account.s
-
-# target to generate assembly for a file
-CryptoNoteCore/Account.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.s
-.PHONY : CryptoNoteCore/Account.cpp.s
-
-CryptoNoteCore/BlockIndex.o: CryptoNoteCore/BlockIndex.cpp.o
-
-.PHONY : CryptoNoteCore/BlockIndex.o
-
-# target to build an object file
-CryptoNoteCore/BlockIndex.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.o
-.PHONY : CryptoNoteCore/BlockIndex.cpp.o
-
-CryptoNoteCore/BlockIndex.i: CryptoNoteCore/BlockIndex.cpp.i
-
-.PHONY : CryptoNoteCore/BlockIndex.i
-
-# target to preprocess a source file
-CryptoNoteCore/BlockIndex.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.i
-.PHONY : CryptoNoteCore/BlockIndex.cpp.i
-
-CryptoNoteCore/BlockIndex.s: CryptoNoteCore/BlockIndex.cpp.s
-
-.PHONY : CryptoNoteCore/BlockIndex.s
-
-# target to generate assembly for a file
-CryptoNoteCore/BlockIndex.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.s
-.PHONY : CryptoNoteCore/BlockIndex.cpp.s
-
-CryptoNoteCore/Blockchain.o: CryptoNoteCore/Blockchain.cpp.o
-
-.PHONY : CryptoNoteCore/Blockchain.o
-
-# target to build an object file
-CryptoNoteCore/Blockchain.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.o
-.PHONY : CryptoNoteCore/Blockchain.cpp.o
-
-CryptoNoteCore/Blockchain.i: CryptoNoteCore/Blockchain.cpp.i
-
-.PHONY : CryptoNoteCore/Blockchain.i
-
-# target to preprocess a source file
-CryptoNoteCore/Blockchain.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.i
-.PHONY : CryptoNoteCore/Blockchain.cpp.i
-
-CryptoNoteCore/Blockchain.s: CryptoNoteCore/Blockchain.cpp.s
-
-.PHONY : CryptoNoteCore/Blockchain.s
-
-# target to generate assembly for a file
-CryptoNoteCore/Blockchain.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.s
-.PHONY : CryptoNoteCore/Blockchain.cpp.s
-
-CryptoNoteCore/BlockchainIndices.o: CryptoNoteCore/BlockchainIndices.cpp.o
-
-.PHONY : CryptoNoteCore/BlockchainIndices.o
-
-# target to build an object file
-CryptoNoteCore/BlockchainIndices.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.o
-.PHONY : CryptoNoteCore/BlockchainIndices.cpp.o
-
-CryptoNoteCore/BlockchainIndices.i: CryptoNoteCore/BlockchainIndices.cpp.i
-
-.PHONY : CryptoNoteCore/BlockchainIndices.i
-
-# target to preprocess a source file
-CryptoNoteCore/BlockchainIndices.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.i
-.PHONY : CryptoNoteCore/BlockchainIndices.cpp.i
-
-CryptoNoteCore/BlockchainIndices.s: CryptoNoteCore/BlockchainIndices.cpp.s
-
-.PHONY : CryptoNoteCore/BlockchainIndices.s
-
-# target to generate assembly for a file
-CryptoNoteCore/BlockchainIndices.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.s
-.PHONY : CryptoNoteCore/BlockchainIndices.cpp.s
-
-CryptoNoteCore/BlockchainMessages.o: CryptoNoteCore/BlockchainMessages.cpp.o
-
-.PHONY : CryptoNoteCore/BlockchainMessages.o
-
-# target to build an object file
-CryptoNoteCore/BlockchainMessages.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.o
-.PHONY : CryptoNoteCore/BlockchainMessages.cpp.o
-
-CryptoNoteCore/BlockchainMessages.i: CryptoNoteCore/BlockchainMessages.cpp.i
-
-.PHONY : CryptoNoteCore/BlockchainMessages.i
-
-# target to preprocess a source file
-CryptoNoteCore/BlockchainMessages.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.i
-.PHONY : CryptoNoteCore/BlockchainMessages.cpp.i
-
-CryptoNoteCore/BlockchainMessages.s: CryptoNoteCore/BlockchainMessages.cpp.s
-
-.PHONY : CryptoNoteCore/BlockchainMessages.s
-
-# target to generate assembly for a file
-CryptoNoteCore/BlockchainMessages.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.s
-.PHONY : CryptoNoteCore/BlockchainMessages.cpp.s
-
-CryptoNoteCore/Checkpoints.o: CryptoNoteCore/Checkpoints.cpp.o
-
-.PHONY : CryptoNoteCore/Checkpoints.o
-
-# target to build an object file
-CryptoNoteCore/Checkpoints.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.o
-.PHONY : CryptoNoteCore/Checkpoints.cpp.o
-
-CryptoNoteCore/Checkpoints.i: CryptoNoteCore/Checkpoints.cpp.i
-
-.PHONY : CryptoNoteCore/Checkpoints.i
-
-# target to preprocess a source file
-CryptoNoteCore/Checkpoints.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.i
-.PHONY : CryptoNoteCore/Checkpoints.cpp.i
-
-CryptoNoteCore/Checkpoints.s: CryptoNoteCore/Checkpoints.cpp.s
-
-.PHONY : CryptoNoteCore/Checkpoints.s
-
-# target to generate assembly for a file
-CryptoNoteCore/Checkpoints.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.s
-.PHONY : CryptoNoteCore/Checkpoints.cpp.s
-
-CryptoNoteCore/Core.o: CryptoNoteCore/Core.cpp.o
-
-.PHONY : CryptoNoteCore/Core.o
-
-# target to build an object file
-CryptoNoteCore/Core.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.o
-.PHONY : CryptoNoteCore/Core.cpp.o
-
-CryptoNoteCore/Core.i: CryptoNoteCore/Core.cpp.i
-
-.PHONY : CryptoNoteCore/Core.i
-
-# target to preprocess a source file
-CryptoNoteCore/Core.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.i
-.PHONY : CryptoNoteCore/Core.cpp.i
-
-CryptoNoteCore/Core.s: CryptoNoteCore/Core.cpp.s
-
-.PHONY : CryptoNoteCore/Core.s
-
-# target to generate assembly for a file
-CryptoNoteCore/Core.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.s
-.PHONY : CryptoNoteCore/Core.cpp.s
-
-CryptoNoteCore/CoreConfig.o: CryptoNoteCore/CoreConfig.cpp.o
-
-.PHONY : CryptoNoteCore/CoreConfig.o
-
-# target to build an object file
-CryptoNoteCore/CoreConfig.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreConfig.cpp.o
-.PHONY : CryptoNoteCore/CoreConfig.cpp.o
-
-CryptoNoteCore/CoreConfig.i: CryptoNoteCore/CoreConfig.cpp.i
-
-.PHONY : CryptoNoteCore/CoreConfig.i
-
-# target to preprocess a source file
-CryptoNoteCore/CoreConfig.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreConfig.cpp.i
-.PHONY : CryptoNoteCore/CoreConfig.cpp.i
-
-CryptoNoteCore/CoreConfig.s: CryptoNoteCore/CoreConfig.cpp.s
-
-.PHONY : CryptoNoteCore/CoreConfig.s
-
-# target to generate assembly for a file
-CryptoNoteCore/CoreConfig.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreConfig.cpp.s
-.PHONY : CryptoNoteCore/CoreConfig.cpp.s
-
-CryptoNoteCore/CryptoNoteBasic.o: CryptoNoteCore/CryptoNoteBasic.cpp.o
-
-.PHONY : CryptoNoteCore/CryptoNoteBasic.o
-
-# target to build an object file
-CryptoNoteCore/CryptoNoteBasic.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.o
-.PHONY : CryptoNoteCore/CryptoNoteBasic.cpp.o
-
-CryptoNoteCore/CryptoNoteBasic.i: CryptoNoteCore/CryptoNoteBasic.cpp.i
-
-.PHONY : CryptoNoteCore/CryptoNoteBasic.i
-
-# target to preprocess a source file
-CryptoNoteCore/CryptoNoteBasic.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.i
-.PHONY : CryptoNoteCore/CryptoNoteBasic.cpp.i
-
-CryptoNoteCore/CryptoNoteBasic.s: CryptoNoteCore/CryptoNoteBasic.cpp.s
-
-.PHONY : CryptoNoteCore/CryptoNoteBasic.s
-
-# target to generate assembly for a file
-CryptoNoteCore/CryptoNoteBasic.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.s
-.PHONY : CryptoNoteCore/CryptoNoteBasic.cpp.s
-
-CryptoNoteCore/CryptoNoteBasicImpl.o: CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
-
-.PHONY : CryptoNoteCore/CryptoNoteBasicImpl.o
-
-# target to build an object file
-CryptoNoteCore/CryptoNoteBasicImpl.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
-.PHONY : CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
-
-CryptoNoteCore/CryptoNoteBasicImpl.i: CryptoNoteCore/CryptoNoteBasicImpl.cpp.i
-
-.PHONY : CryptoNoteCore/CryptoNoteBasicImpl.i
-
-# target to preprocess a source file
-CryptoNoteCore/CryptoNoteBasicImpl.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.i
-.PHONY : CryptoNoteCore/CryptoNoteBasicImpl.cpp.i
-
-CryptoNoteCore/CryptoNoteBasicImpl.s: CryptoNoteCore/CryptoNoteBasicImpl.cpp.s
-
-.PHONY : CryptoNoteCore/CryptoNoteBasicImpl.s
-
-# target to generate assembly for a file
-CryptoNoteCore/CryptoNoteBasicImpl.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.s
-.PHONY : CryptoNoteCore/CryptoNoteBasicImpl.cpp.s
-
-CryptoNoteCore/CryptoNoteFormatUtils.o: CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
-
-.PHONY : CryptoNoteCore/CryptoNoteFormatUtils.o
-
-# target to build an object file
-CryptoNoteCore/CryptoNoteFormatUtils.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
-.PHONY : CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
-
-CryptoNoteCore/CryptoNoteFormatUtils.i: CryptoNoteCore/CryptoNoteFormatUtils.cpp.i
-
-.PHONY : CryptoNoteCore/CryptoNoteFormatUtils.i
-
-# target to preprocess a source file
-CryptoNoteCore/CryptoNoteFormatUtils.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.i
-.PHONY : CryptoNoteCore/CryptoNoteFormatUtils.cpp.i
-
-CryptoNoteCore/CryptoNoteFormatUtils.s: CryptoNoteCore/CryptoNoteFormatUtils.cpp.s
-
-.PHONY : CryptoNoteCore/CryptoNoteFormatUtils.s
-
-# target to generate assembly for a file
-CryptoNoteCore/CryptoNoteFormatUtils.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.s
-.PHONY : CryptoNoteCore/CryptoNoteFormatUtils.cpp.s
-
-CryptoNoteCore/CryptoNoteSerialization.o: CryptoNoteCore/CryptoNoteSerialization.cpp.o
-
-.PHONY : CryptoNoteCore/CryptoNoteSerialization.o
-
-# target to build an object file
-CryptoNoteCore/CryptoNoteSerialization.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.o
-.PHONY : CryptoNoteCore/CryptoNoteSerialization.cpp.o
-
-CryptoNoteCore/CryptoNoteSerialization.i: CryptoNoteCore/CryptoNoteSerialization.cpp.i
-
-.PHONY : CryptoNoteCore/CryptoNoteSerialization.i
-
-# target to preprocess a source file
-CryptoNoteCore/CryptoNoteSerialization.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.i
-.PHONY : CryptoNoteCore/CryptoNoteSerialization.cpp.i
-
-CryptoNoteCore/CryptoNoteSerialization.s: CryptoNoteCore/CryptoNoteSerialization.cpp.s
-
-.PHONY : CryptoNoteCore/CryptoNoteSerialization.s
-
-# target to generate assembly for a file
-CryptoNoteCore/CryptoNoteSerialization.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.s
-.PHONY : CryptoNoteCore/CryptoNoteSerialization.cpp.s
-
-CryptoNoteCore/CryptoNoteTools.o: CryptoNoteCore/CryptoNoteTools.cpp.o
-
-.PHONY : CryptoNoteCore/CryptoNoteTools.o
-
-# target to build an object file
-CryptoNoteCore/CryptoNoteTools.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.o
-.PHONY : CryptoNoteCore/CryptoNoteTools.cpp.o
-
-CryptoNoteCore/CryptoNoteTools.i: CryptoNoteCore/CryptoNoteTools.cpp.i
-
-.PHONY : CryptoNoteCore/CryptoNoteTools.i
-
-# target to preprocess a source file
-CryptoNoteCore/CryptoNoteTools.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.i
-.PHONY : CryptoNoteCore/CryptoNoteTools.cpp.i
-
-CryptoNoteCore/CryptoNoteTools.s: CryptoNoteCore/CryptoNoteTools.cpp.s
-
-.PHONY : CryptoNoteCore/CryptoNoteTools.s
-
-# target to generate assembly for a file
-CryptoNoteCore/CryptoNoteTools.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.s
-.PHONY : CryptoNoteCore/CryptoNoteTools.cpp.s
-
-CryptoNoteCore/Currency.o: CryptoNoteCore/Currency.cpp.o
-
-.PHONY : CryptoNoteCore/Currency.o
-
-# target to build an object file
-CryptoNoteCore/Currency.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.o
-.PHONY : CryptoNoteCore/Currency.cpp.o
-
-CryptoNoteCore/Currency.i: CryptoNoteCore/Currency.cpp.i
-
-.PHONY : CryptoNoteCore/Currency.i
-
-# target to preprocess a source file
-CryptoNoteCore/Currency.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.i
-.PHONY : CryptoNoteCore/Currency.cpp.i
-
-CryptoNoteCore/Currency.s: CryptoNoteCore/Currency.cpp.s
-
-.PHONY : CryptoNoteCore/Currency.s
-
-# target to generate assembly for a file
-CryptoNoteCore/Currency.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.s
-.PHONY : CryptoNoteCore/Currency.cpp.s
-
-CryptoNoteCore/Difficulty.o: CryptoNoteCore/Difficulty.cpp.o
-
-.PHONY : CryptoNoteCore/Difficulty.o
-
-# target to build an object file
-CryptoNoteCore/Difficulty.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.o
-.PHONY : CryptoNoteCore/Difficulty.cpp.o
-
-CryptoNoteCore/Difficulty.i: CryptoNoteCore/Difficulty.cpp.i
-
-.PHONY : CryptoNoteCore/Difficulty.i
-
-# target to preprocess a source file
-CryptoNoteCore/Difficulty.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.i
-.PHONY : CryptoNoteCore/Difficulty.cpp.i
-
-CryptoNoteCore/Difficulty.s: CryptoNoteCore/Difficulty.cpp.s
-
-.PHONY : CryptoNoteCore/Difficulty.s
-
-# target to generate assembly for a file
-CryptoNoteCore/Difficulty.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.s
-.PHONY : CryptoNoteCore/Difficulty.cpp.s
-
-CryptoNoteCore/IBlock.o: CryptoNoteCore/IBlock.cpp.o
-
-.PHONY : CryptoNoteCore/IBlock.o
-
-# target to build an object file
-CryptoNoteCore/IBlock.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/IBlock.cpp.o
-.PHONY : CryptoNoteCore/IBlock.cpp.o
-
-CryptoNoteCore/IBlock.i: CryptoNoteCore/IBlock.cpp.i
-
-.PHONY : CryptoNoteCore/IBlock.i
-
-# target to preprocess a source file
-CryptoNoteCore/IBlock.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/IBlock.cpp.i
-.PHONY : CryptoNoteCore/IBlock.cpp.i
-
-CryptoNoteCore/IBlock.s: CryptoNoteCore/IBlock.cpp.s
-
-.PHONY : CryptoNoteCore/IBlock.s
-
-# target to generate assembly for a file
-CryptoNoteCore/IBlock.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/IBlock.cpp.s
-.PHONY : CryptoNoteCore/IBlock.cpp.s
-
-CryptoNoteCore/ITimeProvider.o: CryptoNoteCore/ITimeProvider.cpp.o
-
-.PHONY : CryptoNoteCore/ITimeProvider.o
-
-# target to build an object file
-CryptoNoteCore/ITimeProvider.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.o
-.PHONY : CryptoNoteCore/ITimeProvider.cpp.o
-
-CryptoNoteCore/ITimeProvider.i: CryptoNoteCore/ITimeProvider.cpp.i
-
-.PHONY : CryptoNoteCore/ITimeProvider.i
-
-# target to preprocess a source file
-CryptoNoteCore/ITimeProvider.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.i
-.PHONY : CryptoNoteCore/ITimeProvider.cpp.i
-
-CryptoNoteCore/ITimeProvider.s: CryptoNoteCore/ITimeProvider.cpp.s
-
-.PHONY : CryptoNoteCore/ITimeProvider.s
-
-# target to generate assembly for a file
-CryptoNoteCore/ITimeProvider.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.s
-.PHONY : CryptoNoteCore/ITimeProvider.cpp.s
-
-CryptoNoteCore/Miner.o: CryptoNoteCore/Miner.cpp.o
-
-.PHONY : CryptoNoteCore/Miner.o
-
-# target to build an object file
-CryptoNoteCore/Miner.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.o
-.PHONY : CryptoNoteCore/Miner.cpp.o
-
-CryptoNoteCore/Miner.i: CryptoNoteCore/Miner.cpp.i
-
-.PHONY : CryptoNoteCore/Miner.i
-
-# target to preprocess a source file
-CryptoNoteCore/Miner.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.i
-.PHONY : CryptoNoteCore/Miner.cpp.i
-
-CryptoNoteCore/Miner.s: CryptoNoteCore/Miner.cpp.s
-
-.PHONY : CryptoNoteCore/Miner.s
-
-# target to generate assembly for a file
-CryptoNoteCore/Miner.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.s
-.PHONY : CryptoNoteCore/Miner.cpp.s
-
-CryptoNoteCore/MinerConfig.o: CryptoNoteCore/MinerConfig.cpp.o
-
-.PHONY : CryptoNoteCore/MinerConfig.o
-
-# target to build an object file
-CryptoNoteCore/MinerConfig.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.o
-.PHONY : CryptoNoteCore/MinerConfig.cpp.o
-
-CryptoNoteCore/MinerConfig.i: CryptoNoteCore/MinerConfig.cpp.i
-
-.PHONY : CryptoNoteCore/MinerConfig.i
-
-# target to preprocess a source file
-CryptoNoteCore/MinerConfig.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.i
-.PHONY : CryptoNoteCore/MinerConfig.cpp.i
-
-CryptoNoteCore/MinerConfig.s: CryptoNoteCore/MinerConfig.cpp.s
-
-.PHONY : CryptoNoteCore/MinerConfig.s
-
-# target to generate assembly for a file
-CryptoNoteCore/MinerConfig.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.s
-.PHONY : CryptoNoteCore/MinerConfig.cpp.s
-
-CryptoNoteCore/SwappedMap.o: CryptoNoteCore/SwappedMap.cpp.o
-
-.PHONY : CryptoNoteCore/SwappedMap.o
-
-# target to build an object file
-CryptoNoteCore/SwappedMap.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.o
-.PHONY : CryptoNoteCore/SwappedMap.cpp.o
-
-CryptoNoteCore/SwappedMap.i: CryptoNoteCore/SwappedMap.cpp.i
-
-.PHONY : CryptoNoteCore/SwappedMap.i
-
-# target to preprocess a source file
-CryptoNoteCore/SwappedMap.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.i
-.PHONY : CryptoNoteCore/SwappedMap.cpp.i
-
-CryptoNoteCore/SwappedMap.s: CryptoNoteCore/SwappedMap.cpp.s
-
-.PHONY : CryptoNoteCore/SwappedMap.s
-
-# target to generate assembly for a file
-CryptoNoteCore/SwappedMap.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.s
-.PHONY : CryptoNoteCore/SwappedMap.cpp.s
-
-CryptoNoteCore/SwappedVector.o: CryptoNoteCore/SwappedVector.cpp.o
-
-.PHONY : CryptoNoteCore/SwappedVector.o
-
-# target to build an object file
-CryptoNoteCore/SwappedVector.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.o
-.PHONY : CryptoNoteCore/SwappedVector.cpp.o
-
-CryptoNoteCore/SwappedVector.i: CryptoNoteCore/SwappedVector.cpp.i
-
-.PHONY : CryptoNoteCore/SwappedVector.i
-
-# target to preprocess a source file
-CryptoNoteCore/SwappedVector.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.i
-.PHONY : CryptoNoteCore/SwappedVector.cpp.i
-
-CryptoNoteCore/SwappedVector.s: CryptoNoteCore/SwappedVector.cpp.s
-
-.PHONY : CryptoNoteCore/SwappedVector.s
-
-# target to generate assembly for a file
-CryptoNoteCore/SwappedVector.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.s
-.PHONY : CryptoNoteCore/SwappedVector.cpp.s
-
-CryptoNoteCore/Transaction.o: CryptoNoteCore/Transaction.cpp.o
-
-.PHONY : CryptoNoteCore/Transaction.o
-
-# target to build an object file
-CryptoNoteCore/Transaction.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.o
-.PHONY : CryptoNoteCore/Transaction.cpp.o
-
-CryptoNoteCore/Transaction.i: CryptoNoteCore/Transaction.cpp.i
-
-.PHONY : CryptoNoteCore/Transaction.i
-
-# target to preprocess a source file
-CryptoNoteCore/Transaction.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.i
-.PHONY : CryptoNoteCore/Transaction.cpp.i
-
-CryptoNoteCore/Transaction.s: CryptoNoteCore/Transaction.cpp.s
-
-.PHONY : CryptoNoteCore/Transaction.s
-
-# target to generate assembly for a file
-CryptoNoteCore/Transaction.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.s
-.PHONY : CryptoNoteCore/Transaction.cpp.s
-
-CryptoNoteCore/TransactionExtra.o: CryptoNoteCore/TransactionExtra.cpp.o
-
-.PHONY : CryptoNoteCore/TransactionExtra.o
-
-# target to build an object file
-CryptoNoteCore/TransactionExtra.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.o
-.PHONY : CryptoNoteCore/TransactionExtra.cpp.o
-
-CryptoNoteCore/TransactionExtra.i: CryptoNoteCore/TransactionExtra.cpp.i
-
-.PHONY : CryptoNoteCore/TransactionExtra.i
-
-# target to preprocess a source file
-CryptoNoteCore/TransactionExtra.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.i
-.PHONY : CryptoNoteCore/TransactionExtra.cpp.i
-
-CryptoNoteCore/TransactionExtra.s: CryptoNoteCore/TransactionExtra.cpp.s
-
-.PHONY : CryptoNoteCore/TransactionExtra.s
-
-# target to generate assembly for a file
-CryptoNoteCore/TransactionExtra.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.s
-.PHONY : CryptoNoteCore/TransactionExtra.cpp.s
-
-CryptoNoteCore/TransactionPool.o: CryptoNoteCore/TransactionPool.cpp.o
-
-.PHONY : CryptoNoteCore/TransactionPool.o
-
-# target to build an object file
-CryptoNoteCore/TransactionPool.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.o
-.PHONY : CryptoNoteCore/TransactionPool.cpp.o
-
-CryptoNoteCore/TransactionPool.i: CryptoNoteCore/TransactionPool.cpp.i
-
-.PHONY : CryptoNoteCore/TransactionPool.i
-
-# target to preprocess a source file
-CryptoNoteCore/TransactionPool.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.i
-.PHONY : CryptoNoteCore/TransactionPool.cpp.i
-
-CryptoNoteCore/TransactionPool.s: CryptoNoteCore/TransactionPool.cpp.s
-
-.PHONY : CryptoNoteCore/TransactionPool.s
-
-# target to generate assembly for a file
-CryptoNoteCore/TransactionPool.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.s
-.PHONY : CryptoNoteCore/TransactionPool.cpp.s
-
-CryptoNoteCore/TransactionPrefixImpl.o: CryptoNoteCore/TransactionPrefixImpl.cpp.o
-
-.PHONY : CryptoNoteCore/TransactionPrefixImpl.o
-
-# target to build an object file
-CryptoNoteCore/TransactionPrefixImpl.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.o
-.PHONY : CryptoNoteCore/TransactionPrefixImpl.cpp.o
-
-CryptoNoteCore/TransactionPrefixImpl.i: CryptoNoteCore/TransactionPrefixImpl.cpp.i
-
-.PHONY : CryptoNoteCore/TransactionPrefixImpl.i
-
-# target to preprocess a source file
-CryptoNoteCore/TransactionPrefixImpl.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.i
-.PHONY : CryptoNoteCore/TransactionPrefixImpl.cpp.i
-
-CryptoNoteCore/TransactionPrefixImpl.s: CryptoNoteCore/TransactionPrefixImpl.cpp.s
-
-.PHONY : CryptoNoteCore/TransactionPrefixImpl.s
-
-# target to generate assembly for a file
-CryptoNoteCore/TransactionPrefixImpl.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.s
-.PHONY : CryptoNoteCore/TransactionPrefixImpl.cpp.s
-
-CryptoNoteCore/TransactionUtils.o: CryptoNoteCore/TransactionUtils.cpp.o
-
-.PHONY : CryptoNoteCore/TransactionUtils.o
-
-# target to build an object file
-CryptoNoteCore/TransactionUtils.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.o
-.PHONY : CryptoNoteCore/TransactionUtils.cpp.o
-
-CryptoNoteCore/TransactionUtils.i: CryptoNoteCore/TransactionUtils.cpp.i
-
-.PHONY : CryptoNoteCore/TransactionUtils.i
-
-# target to preprocess a source file
-CryptoNoteCore/TransactionUtils.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.i
-.PHONY : CryptoNoteCore/TransactionUtils.cpp.i
-
-CryptoNoteCore/TransactionUtils.s: CryptoNoteCore/TransactionUtils.cpp.s
-
-.PHONY : CryptoNoteCore/TransactionUtils.s
-
-# target to generate assembly for a file
-CryptoNoteCore/TransactionUtils.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.s
-.PHONY : CryptoNoteCore/TransactionUtils.cpp.s
-
-CryptoNoteProtocol/CryptoNoteProtocolHandler.o: CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o
-
-.PHONY : CryptoNoteProtocol/CryptoNoteProtocolHandler.o
-
-# target to build an object file
-CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o
-.PHONY : CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o
-
-CryptoNoteProtocol/CryptoNoteProtocolHandler.i: CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.i
-
-.PHONY : CryptoNoteProtocol/CryptoNoteProtocolHandler.i
-
-# target to preprocess a source file
-CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.i
-.PHONY : CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.i
-
-CryptoNoteProtocol/CryptoNoteProtocolHandler.s: CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.s
-
-.PHONY : CryptoNoteProtocol/CryptoNoteProtocolHandler.s
-
-# target to generate assembly for a file
-CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.s
-.PHONY : CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.s
-
-Daemon/Daemon.o: Daemon/Daemon.cpp.o
-
-.PHONY : Daemon/Daemon.o
-
-# target to build an object file
-Daemon/Daemon.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.o
-.PHONY : Daemon/Daemon.cpp.o
-
-Daemon/Daemon.i: Daemon/Daemon.cpp.i
-
-.PHONY : Daemon/Daemon.i
-
-# target to preprocess a source file
-Daemon/Daemon.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.i
-.PHONY : Daemon/Daemon.cpp.i
-
-Daemon/Daemon.s: Daemon/Daemon.cpp.s
-
-.PHONY : Daemon/Daemon.s
-
-# target to generate assembly for a file
-Daemon/Daemon.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.s
-.PHONY : Daemon/Daemon.cpp.s
-
-Daemon/DaemonCommandsHandler.o: Daemon/DaemonCommandsHandler.cpp.o
-
-.PHONY : Daemon/DaemonCommandsHandler.o
-
-# target to build an object file
-Daemon/DaemonCommandsHandler.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.o
-.PHONY : Daemon/DaemonCommandsHandler.cpp.o
-
-Daemon/DaemonCommandsHandler.i: Daemon/DaemonCommandsHandler.cpp.i
-
-.PHONY : Daemon/DaemonCommandsHandler.i
-
-# target to preprocess a source file
-Daemon/DaemonCommandsHandler.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.i
-.PHONY : Daemon/DaemonCommandsHandler.cpp.i
-
-Daemon/DaemonCommandsHandler.s: Daemon/DaemonCommandsHandler.cpp.s
-
-.PHONY : Daemon/DaemonCommandsHandler.s
-
-# target to generate assembly for a file
-Daemon/DaemonCommandsHandler.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.s
-.PHONY : Daemon/DaemonCommandsHandler.cpp.s
-
-HTTP/HttpParser.o: HTTP/HttpParser.cpp.o
-
-.PHONY : HTTP/HttpParser.o
-
-# target to build an object file
-HTTP/HttpParser.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.o
-.PHONY : HTTP/HttpParser.cpp.o
-
-HTTP/HttpParser.i: HTTP/HttpParser.cpp.i
-
-.PHONY : HTTP/HttpParser.i
-
-# target to preprocess a source file
-HTTP/HttpParser.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.i
-.PHONY : HTTP/HttpParser.cpp.i
-
-HTTP/HttpParser.s: HTTP/HttpParser.cpp.s
-
-.PHONY : HTTP/HttpParser.s
-
-# target to generate assembly for a file
-HTTP/HttpParser.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.s
-.PHONY : HTTP/HttpParser.cpp.s
-
-HTTP/HttpParserErrorCodes.o: HTTP/HttpParserErrorCodes.cpp.o
-
-.PHONY : HTTP/HttpParserErrorCodes.o
-
-# target to build an object file
-HTTP/HttpParserErrorCodes.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.o
-.PHONY : HTTP/HttpParserErrorCodes.cpp.o
-
-HTTP/HttpParserErrorCodes.i: HTTP/HttpParserErrorCodes.cpp.i
-
-.PHONY : HTTP/HttpParserErrorCodes.i
-
-# target to preprocess a source file
-HTTP/HttpParserErrorCodes.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.i
-.PHONY : HTTP/HttpParserErrorCodes.cpp.i
-
-HTTP/HttpParserErrorCodes.s: HTTP/HttpParserErrorCodes.cpp.s
-
-.PHONY : HTTP/HttpParserErrorCodes.s
-
-# target to generate assembly for a file
-HTTP/HttpParserErrorCodes.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.s
-.PHONY : HTTP/HttpParserErrorCodes.cpp.s
-
-HTTP/HttpRequest.o: HTTP/HttpRequest.cpp.o
-
-.PHONY : HTTP/HttpRequest.o
-
-# target to build an object file
-HTTP/HttpRequest.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.o
-.PHONY : HTTP/HttpRequest.cpp.o
-
-HTTP/HttpRequest.i: HTTP/HttpRequest.cpp.i
-
-.PHONY : HTTP/HttpRequest.i
-
-# target to preprocess a source file
-HTTP/HttpRequest.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.i
-.PHONY : HTTP/HttpRequest.cpp.i
-
-HTTP/HttpRequest.s: HTTP/HttpRequest.cpp.s
-
-.PHONY : HTTP/HttpRequest.s
-
-# target to generate assembly for a file
-HTTP/HttpRequest.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.s
-.PHONY : HTTP/HttpRequest.cpp.s
-
-HTTP/HttpResponse.o: HTTP/HttpResponse.cpp.o
-
-.PHONY : HTTP/HttpResponse.o
-
-# target to build an object file
-HTTP/HttpResponse.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.o
-.PHONY : HTTP/HttpResponse.cpp.o
-
-HTTP/HttpResponse.i: HTTP/HttpResponse.cpp.i
-
-.PHONY : HTTP/HttpResponse.i
-
-# target to preprocess a source file
-HTTP/HttpResponse.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.i
-.PHONY : HTTP/HttpResponse.cpp.i
-
-HTTP/HttpResponse.s: HTTP/HttpResponse.cpp.s
-
-.PHONY : HTTP/HttpResponse.s
-
-# target to generate assembly for a file
-HTTP/HttpResponse.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.s
-.PHONY : HTTP/HttpResponse.cpp.s
 
 InProcessNode/InProcessNode.o: InProcessNode/InProcessNode.cpp.o
 
@@ -2110,384 +574,6 @@ JsonRpcServer/JsonRpcServer.cpp.s:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.s
 .PHONY : JsonRpcServer/JsonRpcServer.cpp.s
 
-Logging/CommonLogger.o: Logging/CommonLogger.cpp.o
-
-.PHONY : Logging/CommonLogger.o
-
-# target to build an object file
-Logging/CommonLogger.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.o
-.PHONY : Logging/CommonLogger.cpp.o
-
-Logging/CommonLogger.i: Logging/CommonLogger.cpp.i
-
-.PHONY : Logging/CommonLogger.i
-
-# target to preprocess a source file
-Logging/CommonLogger.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.i
-.PHONY : Logging/CommonLogger.cpp.i
-
-Logging/CommonLogger.s: Logging/CommonLogger.cpp.s
-
-.PHONY : Logging/CommonLogger.s
-
-# target to generate assembly for a file
-Logging/CommonLogger.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.s
-.PHONY : Logging/CommonLogger.cpp.s
-
-Logging/ConsoleLogger.o: Logging/ConsoleLogger.cpp.o
-
-.PHONY : Logging/ConsoleLogger.o
-
-# target to build an object file
-Logging/ConsoleLogger.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.o
-.PHONY : Logging/ConsoleLogger.cpp.o
-
-Logging/ConsoleLogger.i: Logging/ConsoleLogger.cpp.i
-
-.PHONY : Logging/ConsoleLogger.i
-
-# target to preprocess a source file
-Logging/ConsoleLogger.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.i
-.PHONY : Logging/ConsoleLogger.cpp.i
-
-Logging/ConsoleLogger.s: Logging/ConsoleLogger.cpp.s
-
-.PHONY : Logging/ConsoleLogger.s
-
-# target to generate assembly for a file
-Logging/ConsoleLogger.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.s
-.PHONY : Logging/ConsoleLogger.cpp.s
-
-Logging/FileLogger.o: Logging/FileLogger.cpp.o
-
-.PHONY : Logging/FileLogger.o
-
-# target to build an object file
-Logging/FileLogger.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.o
-.PHONY : Logging/FileLogger.cpp.o
-
-Logging/FileLogger.i: Logging/FileLogger.cpp.i
-
-.PHONY : Logging/FileLogger.i
-
-# target to preprocess a source file
-Logging/FileLogger.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.i
-.PHONY : Logging/FileLogger.cpp.i
-
-Logging/FileLogger.s: Logging/FileLogger.cpp.s
-
-.PHONY : Logging/FileLogger.s
-
-# target to generate assembly for a file
-Logging/FileLogger.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.s
-.PHONY : Logging/FileLogger.cpp.s
-
-Logging/ILogger.o: Logging/ILogger.cpp.o
-
-.PHONY : Logging/ILogger.o
-
-# target to build an object file
-Logging/ILogger.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.o
-.PHONY : Logging/ILogger.cpp.o
-
-Logging/ILogger.i: Logging/ILogger.cpp.i
-
-.PHONY : Logging/ILogger.i
-
-# target to preprocess a source file
-Logging/ILogger.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.i
-.PHONY : Logging/ILogger.cpp.i
-
-Logging/ILogger.s: Logging/ILogger.cpp.s
-
-.PHONY : Logging/ILogger.s
-
-# target to generate assembly for a file
-Logging/ILogger.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.s
-.PHONY : Logging/ILogger.cpp.s
-
-Logging/LoggerGroup.o: Logging/LoggerGroup.cpp.o
-
-.PHONY : Logging/LoggerGroup.o
-
-# target to build an object file
-Logging/LoggerGroup.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.o
-.PHONY : Logging/LoggerGroup.cpp.o
-
-Logging/LoggerGroup.i: Logging/LoggerGroup.cpp.i
-
-.PHONY : Logging/LoggerGroup.i
-
-# target to preprocess a source file
-Logging/LoggerGroup.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.i
-.PHONY : Logging/LoggerGroup.cpp.i
-
-Logging/LoggerGroup.s: Logging/LoggerGroup.cpp.s
-
-.PHONY : Logging/LoggerGroup.s
-
-# target to generate assembly for a file
-Logging/LoggerGroup.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.s
-.PHONY : Logging/LoggerGroup.cpp.s
-
-Logging/LoggerManager.o: Logging/LoggerManager.cpp.o
-
-.PHONY : Logging/LoggerManager.o
-
-# target to build an object file
-Logging/LoggerManager.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.o
-.PHONY : Logging/LoggerManager.cpp.o
-
-Logging/LoggerManager.i: Logging/LoggerManager.cpp.i
-
-.PHONY : Logging/LoggerManager.i
-
-# target to preprocess a source file
-Logging/LoggerManager.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.i
-.PHONY : Logging/LoggerManager.cpp.i
-
-Logging/LoggerManager.s: Logging/LoggerManager.cpp.s
-
-.PHONY : Logging/LoggerManager.s
-
-# target to generate assembly for a file
-Logging/LoggerManager.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.s
-.PHONY : Logging/LoggerManager.cpp.s
-
-Logging/LoggerMessage.o: Logging/LoggerMessage.cpp.o
-
-.PHONY : Logging/LoggerMessage.o
-
-# target to build an object file
-Logging/LoggerMessage.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.o
-.PHONY : Logging/LoggerMessage.cpp.o
-
-Logging/LoggerMessage.i: Logging/LoggerMessage.cpp.i
-
-.PHONY : Logging/LoggerMessage.i
-
-# target to preprocess a source file
-Logging/LoggerMessage.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.i
-.PHONY : Logging/LoggerMessage.cpp.i
-
-Logging/LoggerMessage.s: Logging/LoggerMessage.cpp.s
-
-.PHONY : Logging/LoggerMessage.s
-
-# target to generate assembly for a file
-Logging/LoggerMessage.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.s
-.PHONY : Logging/LoggerMessage.cpp.s
-
-Logging/LoggerRef.o: Logging/LoggerRef.cpp.o
-
-.PHONY : Logging/LoggerRef.o
-
-# target to build an object file
-Logging/LoggerRef.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.o
-.PHONY : Logging/LoggerRef.cpp.o
-
-Logging/LoggerRef.i: Logging/LoggerRef.cpp.i
-
-.PHONY : Logging/LoggerRef.i
-
-# target to preprocess a source file
-Logging/LoggerRef.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.i
-.PHONY : Logging/LoggerRef.cpp.i
-
-Logging/LoggerRef.s: Logging/LoggerRef.cpp.s
-
-.PHONY : Logging/LoggerRef.s
-
-# target to generate assembly for a file
-Logging/LoggerRef.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.s
-.PHONY : Logging/LoggerRef.cpp.s
-
-Logging/StreamLogger.o: Logging/StreamLogger.cpp.o
-
-.PHONY : Logging/StreamLogger.o
-
-# target to build an object file
-Logging/StreamLogger.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.o
-.PHONY : Logging/StreamLogger.cpp.o
-
-Logging/StreamLogger.i: Logging/StreamLogger.cpp.i
-
-.PHONY : Logging/StreamLogger.i
-
-# target to preprocess a source file
-Logging/StreamLogger.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.i
-.PHONY : Logging/StreamLogger.cpp.i
-
-Logging/StreamLogger.s: Logging/StreamLogger.cpp.s
-
-.PHONY : Logging/StreamLogger.s
-
-# target to generate assembly for a file
-Logging/StreamLogger.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.s
-.PHONY : Logging/StreamLogger.cpp.s
-
-Miner/BlockchainMonitor.o: Miner/BlockchainMonitor.cpp.o
-
-.PHONY : Miner/BlockchainMonitor.o
-
-# target to build an object file
-Miner/BlockchainMonitor.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.o
-.PHONY : Miner/BlockchainMonitor.cpp.o
-
-Miner/BlockchainMonitor.i: Miner/BlockchainMonitor.cpp.i
-
-.PHONY : Miner/BlockchainMonitor.i
-
-# target to preprocess a source file
-Miner/BlockchainMonitor.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.i
-.PHONY : Miner/BlockchainMonitor.cpp.i
-
-Miner/BlockchainMonitor.s: Miner/BlockchainMonitor.cpp.s
-
-.PHONY : Miner/BlockchainMonitor.s
-
-# target to generate assembly for a file
-Miner/BlockchainMonitor.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.s
-.PHONY : Miner/BlockchainMonitor.cpp.s
-
-Miner/Miner.o: Miner/Miner.cpp.o
-
-.PHONY : Miner/Miner.o
-
-# target to build an object file
-Miner/Miner.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/Miner.cpp.o
-.PHONY : Miner/Miner.cpp.o
-
-Miner/Miner.i: Miner/Miner.cpp.i
-
-.PHONY : Miner/Miner.i
-
-# target to preprocess a source file
-Miner/Miner.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/Miner.cpp.i
-.PHONY : Miner/Miner.cpp.i
-
-Miner/Miner.s: Miner/Miner.cpp.s
-
-.PHONY : Miner/Miner.s
-
-# target to generate assembly for a file
-Miner/Miner.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/Miner.cpp.s
-.PHONY : Miner/Miner.cpp.s
-
-Miner/MinerManager.o: Miner/MinerManager.cpp.o
-
-.PHONY : Miner/MinerManager.o
-
-# target to build an object file
-Miner/MinerManager.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.o
-.PHONY : Miner/MinerManager.cpp.o
-
-Miner/MinerManager.i: Miner/MinerManager.cpp.i
-
-.PHONY : Miner/MinerManager.i
-
-# target to preprocess a source file
-Miner/MinerManager.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.i
-.PHONY : Miner/MinerManager.cpp.i
-
-Miner/MinerManager.s: Miner/MinerManager.cpp.s
-
-.PHONY : Miner/MinerManager.s
-
-# target to generate assembly for a file
-Miner/MinerManager.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.s
-.PHONY : Miner/MinerManager.cpp.s
-
-Miner/MiningConfig.o: Miner/MiningConfig.cpp.o
-
-.PHONY : Miner/MiningConfig.o
-
-# target to build an object file
-Miner/MiningConfig.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.o
-.PHONY : Miner/MiningConfig.cpp.o
-
-Miner/MiningConfig.i: Miner/MiningConfig.cpp.i
-
-.PHONY : Miner/MiningConfig.i
-
-# target to preprocess a source file
-Miner/MiningConfig.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.i
-.PHONY : Miner/MiningConfig.cpp.i
-
-Miner/MiningConfig.s: Miner/MiningConfig.cpp.s
-
-.PHONY : Miner/MiningConfig.s
-
-# target to generate assembly for a file
-Miner/MiningConfig.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.s
-.PHONY : Miner/MiningConfig.cpp.s
-
-Miner/main.o: Miner/main.cpp.o
-
-.PHONY : Miner/main.o
-
-# target to build an object file
-Miner/main.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/main.cpp.o
-.PHONY : Miner/main.cpp.o
-
-Miner/main.i: Miner/main.cpp.i
-
-.PHONY : Miner/main.i
-
-# target to preprocess a source file
-Miner/main.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/main.cpp.i
-.PHONY : Miner/main.cpp.i
-
-Miner/main.s: Miner/main.cpp.s
-
-.PHONY : Miner/main.s
-
-# target to generate assembly for a file
-Miner/main.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/main.cpp.s
-.PHONY : Miner/main.cpp.s
-
 NodeRpcProxy/NodeErrors.o: NodeRpcProxy/NodeErrors.cpp.o
 
 .PHONY : NodeRpcProxy/NodeErrors.o
@@ -2542,2003 +628,842 @@ NodeRpcProxy/NodeRpcProxy.cpp.s:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s
 .PHONY : NodeRpcProxy/NodeRpcProxy.cpp.s
 
-P2p/IP2pNodeInternal.o: P2p/IP2pNodeInternal.cpp.o
+blockchain_explorer/BlockchainExplorer.o: blockchain_explorer/BlockchainExplorer.cpp.o
 
-.PHONY : P2p/IP2pNodeInternal.o
+.PHONY : blockchain_explorer/BlockchainExplorer.o
 
 # target to build an object file
-P2p/IP2pNodeInternal.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o
-.PHONY : P2p/IP2pNodeInternal.cpp.o
+blockchain_explorer/BlockchainExplorer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchain_explorer/BlockchainExplorer.cpp.o
+.PHONY : blockchain_explorer/BlockchainExplorer.cpp.o
 
-P2p/IP2pNodeInternal.i: P2p/IP2pNodeInternal.cpp.i
+blockchain_explorer/BlockchainExplorer.i: blockchain_explorer/BlockchainExplorer.cpp.i
 
-.PHONY : P2p/IP2pNodeInternal.i
+.PHONY : blockchain_explorer/BlockchainExplorer.i
 
 # target to preprocess a source file
-P2p/IP2pNodeInternal.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.i
-.PHONY : P2p/IP2pNodeInternal.cpp.i
+blockchain_explorer/BlockchainExplorer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchain_explorer/BlockchainExplorer.cpp.i
+.PHONY : blockchain_explorer/BlockchainExplorer.cpp.i
 
-P2p/IP2pNodeInternal.s: P2p/IP2pNodeInternal.cpp.s
+blockchain_explorer/BlockchainExplorer.s: blockchain_explorer/BlockchainExplorer.cpp.s
 
-.PHONY : P2p/IP2pNodeInternal.s
+.PHONY : blockchain_explorer/BlockchainExplorer.s
 
 # target to generate assembly for a file
-P2p/IP2pNodeInternal.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.s
-.PHONY : P2p/IP2pNodeInternal.cpp.s
+blockchain_explorer/BlockchainExplorer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchain_explorer/BlockchainExplorer.cpp.s
+.PHONY : blockchain_explorer/BlockchainExplorer.cpp.s
 
-P2p/LevinProtocol.o: P2p/LevinProtocol.cpp.o
+blockchain_explorer/BlockchainExplorerDataBuilder.o: blockchain_explorer/BlockchainExplorerDataBuilder.cpp.o
 
-.PHONY : P2p/LevinProtocol.o
+.PHONY : blockchain_explorer/BlockchainExplorerDataBuilder.o
 
 # target to build an object file
-P2p/LevinProtocol.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o
-.PHONY : P2p/LevinProtocol.cpp.o
+blockchain_explorer/BlockchainExplorerDataBuilder.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchain_explorer/BlockchainExplorerDataBuilder.cpp.o
+.PHONY : blockchain_explorer/BlockchainExplorerDataBuilder.cpp.o
 
-P2p/LevinProtocol.i: P2p/LevinProtocol.cpp.i
+blockchain_explorer/BlockchainExplorerDataBuilder.i: blockchain_explorer/BlockchainExplorerDataBuilder.cpp.i
 
-.PHONY : P2p/LevinProtocol.i
+.PHONY : blockchain_explorer/BlockchainExplorerDataBuilder.i
 
 # target to preprocess a source file
-P2p/LevinProtocol.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.i
-.PHONY : P2p/LevinProtocol.cpp.i
+blockchain_explorer/BlockchainExplorerDataBuilder.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchain_explorer/BlockchainExplorerDataBuilder.cpp.i
+.PHONY : blockchain_explorer/BlockchainExplorerDataBuilder.cpp.i
 
-P2p/LevinProtocol.s: P2p/LevinProtocol.cpp.s
+blockchain_explorer/BlockchainExplorerDataBuilder.s: blockchain_explorer/BlockchainExplorerDataBuilder.cpp.s
 
-.PHONY : P2p/LevinProtocol.s
+.PHONY : blockchain_explorer/BlockchainExplorerDataBuilder.s
 
 # target to generate assembly for a file
-P2p/LevinProtocol.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.s
-.PHONY : P2p/LevinProtocol.cpp.s
+blockchain_explorer/BlockchainExplorerDataBuilder.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchain_explorer/BlockchainExplorerDataBuilder.cpp.s
+.PHONY : blockchain_explorer/BlockchainExplorerDataBuilder.cpp.s
 
-P2p/NetNode.o: P2p/NetNode.cpp.o
+blockchain_explorer/BlockchainExplorerErrors.o: blockchain_explorer/BlockchainExplorerErrors.cpp.o
 
-.PHONY : P2p/NetNode.o
+.PHONY : blockchain_explorer/BlockchainExplorerErrors.o
 
 # target to build an object file
-P2p/NetNode.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o
-.PHONY : P2p/NetNode.cpp.o
+blockchain_explorer/BlockchainExplorerErrors.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchain_explorer/BlockchainExplorerErrors.cpp.o
+.PHONY : blockchain_explorer/BlockchainExplorerErrors.cpp.o
 
-P2p/NetNode.i: P2p/NetNode.cpp.i
+blockchain_explorer/BlockchainExplorerErrors.i: blockchain_explorer/BlockchainExplorerErrors.cpp.i
 
-.PHONY : P2p/NetNode.i
+.PHONY : blockchain_explorer/BlockchainExplorerErrors.i
 
 # target to preprocess a source file
-P2p/NetNode.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.i
-.PHONY : P2p/NetNode.cpp.i
+blockchain_explorer/BlockchainExplorerErrors.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchain_explorer/BlockchainExplorerErrors.cpp.i
+.PHONY : blockchain_explorer/BlockchainExplorerErrors.cpp.i
 
-P2p/NetNode.s: P2p/NetNode.cpp.s
+blockchain_explorer/BlockchainExplorerErrors.s: blockchain_explorer/BlockchainExplorerErrors.cpp.s
 
-.PHONY : P2p/NetNode.s
+.PHONY : blockchain_explorer/BlockchainExplorerErrors.s
 
 # target to generate assembly for a file
-P2p/NetNode.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.s
-.PHONY : P2p/NetNode.cpp.s
+blockchain_explorer/BlockchainExplorerErrors.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/blockchain_explorer/BlockchainExplorerErrors.cpp.s
+.PHONY : blockchain_explorer/BlockchainExplorerErrors.cpp.s
 
-P2p/NetNodeConfig.o: P2p/NetNodeConfig.cpp.o
+command_line/ConfigurationManager.o: command_line/ConfigurationManager.cpp.o
 
-.PHONY : P2p/NetNodeConfig.o
+.PHONY : command_line/ConfigurationManager.o
 
 # target to build an object file
-P2p/NetNodeConfig.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o
-.PHONY : P2p/NetNodeConfig.cpp.o
+command_line/ConfigurationManager.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/ConfigurationManager.cpp.o
+.PHONY : command_line/ConfigurationManager.cpp.o
 
-P2p/NetNodeConfig.i: P2p/NetNodeConfig.cpp.i
+command_line/ConfigurationManager.i: command_line/ConfigurationManager.cpp.i
 
-.PHONY : P2p/NetNodeConfig.i
+.PHONY : command_line/ConfigurationManager.i
 
 # target to preprocess a source file
-P2p/NetNodeConfig.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.i
-.PHONY : P2p/NetNodeConfig.cpp.i
+command_line/ConfigurationManager.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/ConfigurationManager.cpp.i
+.PHONY : command_line/ConfigurationManager.cpp.i
 
-P2p/NetNodeConfig.s: P2p/NetNodeConfig.cpp.s
+command_line/ConfigurationManager.s: command_line/ConfigurationManager.cpp.s
 
-.PHONY : P2p/NetNodeConfig.s
+.PHONY : command_line/ConfigurationManager.s
 
 # target to generate assembly for a file
-P2p/NetNodeConfig.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.s
-.PHONY : P2p/NetNodeConfig.cpp.s
+command_line/ConfigurationManager.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/ConfigurationManager.cpp.s
+.PHONY : command_line/ConfigurationManager.cpp.s
 
-P2p/P2pConnectionProxy.o: P2p/P2pConnectionProxy.cpp.o
+command_line/CoreConfig.o: command_line/CoreConfig.cpp.o
 
-.PHONY : P2p/P2pConnectionProxy.o
+.PHONY : command_line/CoreConfig.o
 
 # target to build an object file
-P2p/P2pConnectionProxy.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o
-.PHONY : P2p/P2pConnectionProxy.cpp.o
+command_line/CoreConfig.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/CoreConfig.cpp.o
+.PHONY : command_line/CoreConfig.cpp.o
 
-P2p/P2pConnectionProxy.i: P2p/P2pConnectionProxy.cpp.i
+command_line/CoreConfig.i: command_line/CoreConfig.cpp.i
 
-.PHONY : P2p/P2pConnectionProxy.i
+.PHONY : command_line/CoreConfig.i
 
 # target to preprocess a source file
-P2p/P2pConnectionProxy.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.i
-.PHONY : P2p/P2pConnectionProxy.cpp.i
+command_line/CoreConfig.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/CoreConfig.cpp.i
+.PHONY : command_line/CoreConfig.cpp.i
 
-P2p/P2pConnectionProxy.s: P2p/P2pConnectionProxy.cpp.s
+command_line/CoreConfig.s: command_line/CoreConfig.cpp.s
 
-.PHONY : P2p/P2pConnectionProxy.s
+.PHONY : command_line/CoreConfig.s
 
 # target to generate assembly for a file
-P2p/P2pConnectionProxy.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.s
-.PHONY : P2p/P2pConnectionProxy.cpp.s
+command_line/CoreConfig.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/CoreConfig.cpp.s
+.PHONY : command_line/CoreConfig.cpp.s
 
-P2p/P2pContext.o: P2p/P2pContext.cpp.o
+command_line/MinerConfig.o: command_line/MinerConfig.cpp.o
 
-.PHONY : P2p/P2pContext.o
+.PHONY : command_line/MinerConfig.o
 
 # target to build an object file
-P2p/P2pContext.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o
-.PHONY : P2p/P2pContext.cpp.o
+command_line/MinerConfig.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/MinerConfig.cpp.o
+.PHONY : command_line/MinerConfig.cpp.o
 
-P2p/P2pContext.i: P2p/P2pContext.cpp.i
+command_line/MinerConfig.i: command_line/MinerConfig.cpp.i
 
-.PHONY : P2p/P2pContext.i
+.PHONY : command_line/MinerConfig.i
 
 # target to preprocess a source file
-P2p/P2pContext.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.i
-.PHONY : P2p/P2pContext.cpp.i
+command_line/MinerConfig.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/MinerConfig.cpp.i
+.PHONY : command_line/MinerConfig.cpp.i
 
-P2p/P2pContext.s: P2p/P2pContext.cpp.s
+command_line/MinerConfig.s: command_line/MinerConfig.cpp.s
 
-.PHONY : P2p/P2pContext.s
+.PHONY : command_line/MinerConfig.s
 
 # target to generate assembly for a file
-P2p/P2pContext.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.s
-.PHONY : P2p/P2pContext.cpp.s
+command_line/MinerConfig.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/MinerConfig.cpp.s
+.PHONY : command_line/MinerConfig.cpp.s
 
-P2p/P2pContextOwner.o: P2p/P2pContextOwner.cpp.o
+command_line/NetNodeConfig.o: command_line/NetNodeConfig.cpp.o
 
-.PHONY : P2p/P2pContextOwner.o
+.PHONY : command_line/NetNodeConfig.o
 
 # target to build an object file
-P2p/P2pContextOwner.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o
-.PHONY : P2p/P2pContextOwner.cpp.o
+command_line/NetNodeConfig.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/NetNodeConfig.cpp.o
+.PHONY : command_line/NetNodeConfig.cpp.o
 
-P2p/P2pContextOwner.i: P2p/P2pContextOwner.cpp.i
+command_line/NetNodeConfig.i: command_line/NetNodeConfig.cpp.i
 
-.PHONY : P2p/P2pContextOwner.i
+.PHONY : command_line/NetNodeConfig.i
 
 # target to preprocess a source file
-P2p/P2pContextOwner.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.i
-.PHONY : P2p/P2pContextOwner.cpp.i
+command_line/NetNodeConfig.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/NetNodeConfig.cpp.i
+.PHONY : command_line/NetNodeConfig.cpp.i
 
-P2p/P2pContextOwner.s: P2p/P2pContextOwner.cpp.s
+command_line/NetNodeConfig.s: command_line/NetNodeConfig.cpp.s
 
-.PHONY : P2p/P2pContextOwner.s
+.PHONY : command_line/NetNodeConfig.s
 
 # target to generate assembly for a file
-P2p/P2pContextOwner.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.s
-.PHONY : P2p/P2pContextOwner.cpp.s
+command_line/NetNodeConfig.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/NetNodeConfig.cpp.s
+.PHONY : command_line/NetNodeConfig.cpp.s
 
-P2p/P2pInterfaces.o: P2p/P2pInterfaces.cpp.o
+command_line/P2pNodeConfig.o: command_line/P2pNodeConfig.cpp.o
 
-.PHONY : P2p/P2pInterfaces.o
+.PHONY : command_line/P2pNodeConfig.o
 
 # target to build an object file
-P2p/P2pInterfaces.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.o
-.PHONY : P2p/P2pInterfaces.cpp.o
+command_line/P2pNodeConfig.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/P2pNodeConfig.cpp.o
+.PHONY : command_line/P2pNodeConfig.cpp.o
 
-P2p/P2pInterfaces.i: P2p/P2pInterfaces.cpp.i
+command_line/P2pNodeConfig.i: command_line/P2pNodeConfig.cpp.i
 
-.PHONY : P2p/P2pInterfaces.i
+.PHONY : command_line/P2pNodeConfig.i
 
 # target to preprocess a source file
-P2p/P2pInterfaces.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.i
-.PHONY : P2p/P2pInterfaces.cpp.i
+command_line/P2pNodeConfig.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/P2pNodeConfig.cpp.i
+.PHONY : command_line/P2pNodeConfig.cpp.i
 
-P2p/P2pInterfaces.s: P2p/P2pInterfaces.cpp.s
+command_line/P2pNodeConfig.s: command_line/P2pNodeConfig.cpp.s
 
-.PHONY : P2p/P2pInterfaces.s
+.PHONY : command_line/P2pNodeConfig.s
 
 # target to generate assembly for a file
-P2p/P2pInterfaces.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.s
-.PHONY : P2p/P2pInterfaces.cpp.s
+command_line/P2pNodeConfig.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/P2pNodeConfig.cpp.s
+.PHONY : command_line/P2pNodeConfig.cpp.s
 
-P2p/P2pNode.o: P2p/P2pNode.cpp.o
+command_line/PaymentServiceConfiguration.o: command_line/PaymentServiceConfiguration.cpp.o
 
-.PHONY : P2p/P2pNode.o
+.PHONY : command_line/PaymentServiceConfiguration.o
 
 # target to build an object file
-P2p/P2pNode.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o
-.PHONY : P2p/P2pNode.cpp.o
+command_line/PaymentServiceConfiguration.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/PaymentServiceConfiguration.cpp.o
+.PHONY : command_line/PaymentServiceConfiguration.cpp.o
 
-P2p/P2pNode.i: P2p/P2pNode.cpp.i
+command_line/PaymentServiceConfiguration.i: command_line/PaymentServiceConfiguration.cpp.i
 
-.PHONY : P2p/P2pNode.i
+.PHONY : command_line/PaymentServiceConfiguration.i
 
 # target to preprocess a source file
-P2p/P2pNode.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.i
-.PHONY : P2p/P2pNode.cpp.i
+command_line/PaymentServiceConfiguration.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/PaymentServiceConfiguration.cpp.i
+.PHONY : command_line/PaymentServiceConfiguration.cpp.i
 
-P2p/P2pNode.s: P2p/P2pNode.cpp.s
+command_line/PaymentServiceConfiguration.s: command_line/PaymentServiceConfiguration.cpp.s
 
-.PHONY : P2p/P2pNode.s
+.PHONY : command_line/PaymentServiceConfiguration.s
 
 # target to generate assembly for a file
-P2p/P2pNode.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.s
-.PHONY : P2p/P2pNode.cpp.s
+command_line/PaymentServiceConfiguration.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/PaymentServiceConfiguration.cpp.s
+.PHONY : command_line/PaymentServiceConfiguration.cpp.s
 
-P2p/P2pNodeConfig.o: P2p/P2pNodeConfig.cpp.o
+command_line/RpcNodeConfiguration.o: command_line/RpcNodeConfiguration.cpp.o
 
-.PHONY : P2p/P2pNodeConfig.o
+.PHONY : command_line/RpcNodeConfiguration.o
 
 # target to build an object file
-P2p/P2pNodeConfig.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.o
-.PHONY : P2p/P2pNodeConfig.cpp.o
+command_line/RpcNodeConfiguration.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/RpcNodeConfiguration.cpp.o
+.PHONY : command_line/RpcNodeConfiguration.cpp.o
 
-P2p/P2pNodeConfig.i: P2p/P2pNodeConfig.cpp.i
+command_line/RpcNodeConfiguration.i: command_line/RpcNodeConfiguration.cpp.i
 
-.PHONY : P2p/P2pNodeConfig.i
+.PHONY : command_line/RpcNodeConfiguration.i
 
 # target to preprocess a source file
-P2p/P2pNodeConfig.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.i
-.PHONY : P2p/P2pNodeConfig.cpp.i
+command_line/RpcNodeConfiguration.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/RpcNodeConfiguration.cpp.i
+.PHONY : command_line/RpcNodeConfiguration.cpp.i
 
-P2p/P2pNodeConfig.s: P2p/P2pNodeConfig.cpp.s
+command_line/RpcNodeConfiguration.s: command_line/RpcNodeConfiguration.cpp.s
 
-.PHONY : P2p/P2pNodeConfig.s
+.PHONY : command_line/RpcNodeConfiguration.s
 
 # target to generate assembly for a file
-P2p/P2pNodeConfig.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.s
-.PHONY : P2p/P2pNodeConfig.cpp.s
+command_line/RpcNodeConfiguration.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/RpcNodeConfiguration.cpp.s
+.PHONY : command_line/RpcNodeConfiguration.cpp.s
 
-P2p/PeerListManager.o: P2p/PeerListManager.cpp.o
+command_line/RpcServerConfig.o: command_line/RpcServerConfig.cpp.o
 
-.PHONY : P2p/PeerListManager.o
+.PHONY : command_line/RpcServerConfig.o
 
 # target to build an object file
-P2p/PeerListManager.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o
-.PHONY : P2p/PeerListManager.cpp.o
+command_line/RpcServerConfig.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/RpcServerConfig.cpp.o
+.PHONY : command_line/RpcServerConfig.cpp.o
 
-P2p/PeerListManager.i: P2p/PeerListManager.cpp.i
+command_line/RpcServerConfig.i: command_line/RpcServerConfig.cpp.i
 
-.PHONY : P2p/PeerListManager.i
+.PHONY : command_line/RpcServerConfig.i
 
 # target to preprocess a source file
-P2p/PeerListManager.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.i
-.PHONY : P2p/PeerListManager.cpp.i
+command_line/RpcServerConfig.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/RpcServerConfig.cpp.i
+.PHONY : command_line/RpcServerConfig.cpp.i
 
-P2p/PeerListManager.s: P2p/PeerListManager.cpp.s
+command_line/RpcServerConfig.s: command_line/RpcServerConfig.cpp.s
 
-.PHONY : P2p/PeerListManager.s
+.PHONY : command_line/RpcServerConfig.s
 
 # target to generate assembly for a file
-P2p/PeerListManager.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.s
-.PHONY : P2p/PeerListManager.cpp.s
+command_line/RpcServerConfig.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/RpcServerConfig.cpp.s
+.PHONY : command_line/RpcServerConfig.cpp.s
 
-PaymentGate/NodeFactory.o: PaymentGate/NodeFactory.cpp.o
+command_line/daemon.o: command_line/daemon.cpp.o
 
-.PHONY : PaymentGate/NodeFactory.o
+.PHONY : command_line/daemon.o
 
 # target to build an object file
-PaymentGate/NodeFactory.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.o
-.PHONY : PaymentGate/NodeFactory.cpp.o
+command_line/daemon.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/daemon.cpp.o
+.PHONY : command_line/daemon.cpp.o
 
-PaymentGate/NodeFactory.i: PaymentGate/NodeFactory.cpp.i
+command_line/daemon.i: command_line/daemon.cpp.i
 
-.PHONY : PaymentGate/NodeFactory.i
+.PHONY : command_line/daemon.i
 
 # target to preprocess a source file
-PaymentGate/NodeFactory.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.i
-.PHONY : PaymentGate/NodeFactory.cpp.i
+command_line/daemon.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/daemon.cpp.i
+.PHONY : command_line/daemon.cpp.i
 
-PaymentGate/NodeFactory.s: PaymentGate/NodeFactory.cpp.s
+command_line/daemon.s: command_line/daemon.cpp.s
 
-.PHONY : PaymentGate/NodeFactory.s
+.PHONY : command_line/daemon.s
 
 # target to generate assembly for a file
-PaymentGate/NodeFactory.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.s
-.PHONY : PaymentGate/NodeFactory.cpp.s
+command_line/daemon.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/daemon.cpp.s
+.PHONY : command_line/daemon.cpp.s
 
-PaymentGate/PaymentServiceJsonRpcMessages.o: PaymentGate/PaymentServiceJsonRpcMessages.cpp.o
+command_line/options.o: command_line/options.cpp.o
 
-.PHONY : PaymentGate/PaymentServiceJsonRpcMessages.o
+.PHONY : command_line/options.o
 
 # target to build an object file
-PaymentGate/PaymentServiceJsonRpcMessages.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.o
-.PHONY : PaymentGate/PaymentServiceJsonRpcMessages.cpp.o
+command_line/options.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/options.cpp.o
+.PHONY : command_line/options.cpp.o
 
-PaymentGate/PaymentServiceJsonRpcMessages.i: PaymentGate/PaymentServiceJsonRpcMessages.cpp.i
+command_line/options.i: command_line/options.cpp.i
 
-.PHONY : PaymentGate/PaymentServiceJsonRpcMessages.i
+.PHONY : command_line/options.i
 
 # target to preprocess a source file
-PaymentGate/PaymentServiceJsonRpcMessages.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.i
-.PHONY : PaymentGate/PaymentServiceJsonRpcMessages.cpp.i
+command_line/options.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/options.cpp.i
+.PHONY : command_line/options.cpp.i
 
-PaymentGate/PaymentServiceJsonRpcMessages.s: PaymentGate/PaymentServiceJsonRpcMessages.cpp.s
+command_line/options.s: command_line/options.cpp.s
 
-.PHONY : PaymentGate/PaymentServiceJsonRpcMessages.s
+.PHONY : command_line/options.s
 
 # target to generate assembly for a file
-PaymentGate/PaymentServiceJsonRpcMessages.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.s
-.PHONY : PaymentGate/PaymentServiceJsonRpcMessages.cpp.s
+command_line/options.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CommandLine.dir/build.make src/CMakeFiles/CommandLine.dir/command_line/options.cpp.s
+.PHONY : command_line/options.cpp.s
 
-PaymentGate/PaymentServiceJsonRpcServer.o: PaymentGate/PaymentServiceJsonRpcServer.cpp.o
+common/BlockingQueue.o: common/BlockingQueue.cpp.o
 
-.PHONY : PaymentGate/PaymentServiceJsonRpcServer.o
+.PHONY : common/BlockingQueue.o
 
 # target to build an object file
-PaymentGate/PaymentServiceJsonRpcServer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.o
-.PHONY : PaymentGate/PaymentServiceJsonRpcServer.cpp.o
+common/BlockingQueue.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/BlockingQueue.cpp.o
+.PHONY : common/BlockingQueue.cpp.o
 
-PaymentGate/PaymentServiceJsonRpcServer.i: PaymentGate/PaymentServiceJsonRpcServer.cpp.i
+common/BlockingQueue.i: common/BlockingQueue.cpp.i
 
-.PHONY : PaymentGate/PaymentServiceJsonRpcServer.i
+.PHONY : common/BlockingQueue.i
 
 # target to preprocess a source file
-PaymentGate/PaymentServiceJsonRpcServer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.i
-.PHONY : PaymentGate/PaymentServiceJsonRpcServer.cpp.i
+common/BlockingQueue.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/BlockingQueue.cpp.i
+.PHONY : common/BlockingQueue.cpp.i
 
-PaymentGate/PaymentServiceJsonRpcServer.s: PaymentGate/PaymentServiceJsonRpcServer.cpp.s
+common/BlockingQueue.s: common/BlockingQueue.cpp.s
 
-.PHONY : PaymentGate/PaymentServiceJsonRpcServer.s
+.PHONY : common/BlockingQueue.s
 
 # target to generate assembly for a file
-PaymentGate/PaymentServiceJsonRpcServer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.s
-.PHONY : PaymentGate/PaymentServiceJsonRpcServer.cpp.s
+common/BlockingQueue.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/BlockingQueue.cpp.s
+.PHONY : common/BlockingQueue.cpp.s
 
-PaymentGate/WalletFactory.o: PaymentGate/WalletFactory.cpp.o
+common/ConsoleHandler.o: common/ConsoleHandler.cpp.o
 
-.PHONY : PaymentGate/WalletFactory.o
+.PHONY : common/ConsoleHandler.o
 
 # target to build an object file
-PaymentGate/WalletFactory.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletFactory.cpp.o
-.PHONY : PaymentGate/WalletFactory.cpp.o
+common/ConsoleHandler.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleHandler.cpp.o
+.PHONY : common/ConsoleHandler.cpp.o
 
-PaymentGate/WalletFactory.i: PaymentGate/WalletFactory.cpp.i
+common/ConsoleHandler.i: common/ConsoleHandler.cpp.i
 
-.PHONY : PaymentGate/WalletFactory.i
+.PHONY : common/ConsoleHandler.i
 
 # target to preprocess a source file
-PaymentGate/WalletFactory.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletFactory.cpp.i
-.PHONY : PaymentGate/WalletFactory.cpp.i
+common/ConsoleHandler.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleHandler.cpp.i
+.PHONY : common/ConsoleHandler.cpp.i
 
-PaymentGate/WalletFactory.s: PaymentGate/WalletFactory.cpp.s
+common/ConsoleHandler.s: common/ConsoleHandler.cpp.s
 
-.PHONY : PaymentGate/WalletFactory.s
+.PHONY : common/ConsoleHandler.s
 
 # target to generate assembly for a file
-PaymentGate/WalletFactory.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletFactory.cpp.s
-.PHONY : PaymentGate/WalletFactory.cpp.s
+common/ConsoleHandler.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleHandler.cpp.s
+.PHONY : common/ConsoleHandler.cpp.s
 
-PaymentGate/WalletService.o: PaymentGate/WalletService.cpp.o
+common/ConsoleTools.o: common/ConsoleTools.cpp.o
 
-.PHONY : PaymentGate/WalletService.o
+.PHONY : common/ConsoleTools.o
 
 # target to build an object file
-PaymentGate/WalletService.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.o
-.PHONY : PaymentGate/WalletService.cpp.o
+common/ConsoleTools.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleTools.cpp.o
+.PHONY : common/ConsoleTools.cpp.o
 
-PaymentGate/WalletService.i: PaymentGate/WalletService.cpp.i
+common/ConsoleTools.i: common/ConsoleTools.cpp.i
 
-.PHONY : PaymentGate/WalletService.i
+.PHONY : common/ConsoleTools.i
 
 # target to preprocess a source file
-PaymentGate/WalletService.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.i
-.PHONY : PaymentGate/WalletService.cpp.i
+common/ConsoleTools.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleTools.cpp.i
+.PHONY : common/ConsoleTools.cpp.i
 
-PaymentGate/WalletService.s: PaymentGate/WalletService.cpp.s
+common/ConsoleTools.s: common/ConsoleTools.cpp.s
 
-.PHONY : PaymentGate/WalletService.s
+.PHONY : common/ConsoleTools.s
 
 # target to generate assembly for a file
-PaymentGate/WalletService.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.s
-.PHONY : PaymentGate/WalletService.cpp.s
+common/ConsoleTools.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ConsoleTools.cpp.s
+.PHONY : common/ConsoleTools.cpp.s
 
-PaymentGate/WalletServiceErrorCategory.o: PaymentGate/WalletServiceErrorCategory.cpp.o
+common/JsonValue.o: common/JsonValue.cpp.o
 
-.PHONY : PaymentGate/WalletServiceErrorCategory.o
+.PHONY : common/JsonValue.o
 
 # target to build an object file
-PaymentGate/WalletServiceErrorCategory.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.o
-.PHONY : PaymentGate/WalletServiceErrorCategory.cpp.o
+common/JsonValue.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/JsonValue.cpp.o
+.PHONY : common/JsonValue.cpp.o
 
-PaymentGate/WalletServiceErrorCategory.i: PaymentGate/WalletServiceErrorCategory.cpp.i
+common/JsonValue.i: common/JsonValue.cpp.i
 
-.PHONY : PaymentGate/WalletServiceErrorCategory.i
+.PHONY : common/JsonValue.i
 
 # target to preprocess a source file
-PaymentGate/WalletServiceErrorCategory.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.i
-.PHONY : PaymentGate/WalletServiceErrorCategory.cpp.i
+common/JsonValue.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/JsonValue.cpp.i
+.PHONY : common/JsonValue.cpp.i
 
-PaymentGate/WalletServiceErrorCategory.s: PaymentGate/WalletServiceErrorCategory.cpp.s
+common/JsonValue.s: common/JsonValue.cpp.s
 
-.PHONY : PaymentGate/WalletServiceErrorCategory.s
+.PHONY : common/JsonValue.s
 
 # target to generate assembly for a file
-PaymentGate/WalletServiceErrorCategory.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.s
-.PHONY : PaymentGate/WalletServiceErrorCategory.cpp.s
+common/JsonValue.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/JsonValue.cpp.s
+.PHONY : common/JsonValue.cpp.s
 
-PaymentGateService/ConfigurationManager.o: PaymentGateService/ConfigurationManager.cpp.o
+common/ScopeExit.o: common/ScopeExit.cpp.o
 
-.PHONY : PaymentGateService/ConfigurationManager.o
+.PHONY : common/ScopeExit.o
 
 # target to build an object file
-PaymentGateService/ConfigurationManager.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.o
-.PHONY : PaymentGateService/ConfigurationManager.cpp.o
+common/ScopeExit.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ScopeExit.cpp.o
+.PHONY : common/ScopeExit.cpp.o
 
-PaymentGateService/ConfigurationManager.i: PaymentGateService/ConfigurationManager.cpp.i
+common/ScopeExit.i: common/ScopeExit.cpp.i
 
-.PHONY : PaymentGateService/ConfigurationManager.i
+.PHONY : common/ScopeExit.i
 
 # target to preprocess a source file
-PaymentGateService/ConfigurationManager.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.i
-.PHONY : PaymentGateService/ConfigurationManager.cpp.i
+common/ScopeExit.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ScopeExit.cpp.i
+.PHONY : common/ScopeExit.cpp.i
 
-PaymentGateService/ConfigurationManager.s: PaymentGateService/ConfigurationManager.cpp.s
+common/ScopeExit.s: common/ScopeExit.cpp.s
 
-.PHONY : PaymentGateService/ConfigurationManager.s
+.PHONY : common/ScopeExit.s
 
 # target to generate assembly for a file
-PaymentGateService/ConfigurationManager.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.s
-.PHONY : PaymentGateService/ConfigurationManager.cpp.s
+common/ScopeExit.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/ScopeExit.cpp.s
+.PHONY : common/ScopeExit.cpp.s
 
-PaymentGateService/PaymentGateService.o: PaymentGateService/PaymentGateService.cpp.o
+common/SignalHandler.o: common/SignalHandler.cpp.o
 
-.PHONY : PaymentGateService/PaymentGateService.o
+.PHONY : common/SignalHandler.o
 
 # target to build an object file
-PaymentGateService/PaymentGateService.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.o
-.PHONY : PaymentGateService/PaymentGateService.cpp.o
+common/SignalHandler.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/SignalHandler.cpp.o
+.PHONY : common/SignalHandler.cpp.o
 
-PaymentGateService/PaymentGateService.i: PaymentGateService/PaymentGateService.cpp.i
+common/SignalHandler.i: common/SignalHandler.cpp.i
 
-.PHONY : PaymentGateService/PaymentGateService.i
+.PHONY : common/SignalHandler.i
 
 # target to preprocess a source file
-PaymentGateService/PaymentGateService.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.i
-.PHONY : PaymentGateService/PaymentGateService.cpp.i
+common/SignalHandler.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/SignalHandler.cpp.i
+.PHONY : common/SignalHandler.cpp.i
 
-PaymentGateService/PaymentGateService.s: PaymentGateService/PaymentGateService.cpp.s
+common/SignalHandler.s: common/SignalHandler.cpp.s
 
-.PHONY : PaymentGateService/PaymentGateService.s
+.PHONY : common/SignalHandler.s
 
 # target to generate assembly for a file
-PaymentGateService/PaymentGateService.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.s
-.PHONY : PaymentGateService/PaymentGateService.cpp.s
+common/SignalHandler.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/SignalHandler.cpp.s
+.PHONY : common/SignalHandler.cpp.s
 
-PaymentGateService/PaymentServiceConfiguration.o: PaymentGateService/PaymentServiceConfiguration.cpp.o
+common/StringTools.o: common/StringTools.cpp.o
 
-.PHONY : PaymentGateService/PaymentServiceConfiguration.o
+.PHONY : common/StringTools.o
 
 # target to build an object file
-PaymentGateService/PaymentServiceConfiguration.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.o
-.PHONY : PaymentGateService/PaymentServiceConfiguration.cpp.o
+common/StringTools.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringTools.cpp.o
+.PHONY : common/StringTools.cpp.o
 
-PaymentGateService/PaymentServiceConfiguration.i: PaymentGateService/PaymentServiceConfiguration.cpp.i
+common/StringTools.i: common/StringTools.cpp.i
 
-.PHONY : PaymentGateService/PaymentServiceConfiguration.i
+.PHONY : common/StringTools.i
 
 # target to preprocess a source file
-PaymentGateService/PaymentServiceConfiguration.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.i
-.PHONY : PaymentGateService/PaymentServiceConfiguration.cpp.i
+common/StringTools.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringTools.cpp.i
+.PHONY : common/StringTools.cpp.i
 
-PaymentGateService/PaymentServiceConfiguration.s: PaymentGateService/PaymentServiceConfiguration.cpp.s
+common/StringTools.s: common/StringTools.cpp.s
 
-.PHONY : PaymentGateService/PaymentServiceConfiguration.s
+.PHONY : common/StringTools.s
 
 # target to generate assembly for a file
-PaymentGateService/PaymentServiceConfiguration.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.s
-.PHONY : PaymentGateService/PaymentServiceConfiguration.cpp.s
+common/StringTools.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringTools.cpp.s
+.PHONY : common/StringTools.cpp.s
 
-PaymentGateService/RpcNodeConfiguration.o: PaymentGateService/RpcNodeConfiguration.cpp.o
+common/StringView.o: common/StringView.cpp.o
 
-.PHONY : PaymentGateService/RpcNodeConfiguration.o
+.PHONY : common/StringView.o
 
 # target to build an object file
-PaymentGateService/RpcNodeConfiguration.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.o
-.PHONY : PaymentGateService/RpcNodeConfiguration.cpp.o
+common/StringView.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringView.cpp.o
+.PHONY : common/StringView.cpp.o
 
-PaymentGateService/RpcNodeConfiguration.i: PaymentGateService/RpcNodeConfiguration.cpp.i
+common/StringView.i: common/StringView.cpp.i
 
-.PHONY : PaymentGateService/RpcNodeConfiguration.i
+.PHONY : common/StringView.i
 
 # target to preprocess a source file
-PaymentGateService/RpcNodeConfiguration.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.i
-.PHONY : PaymentGateService/RpcNodeConfiguration.cpp.i
+common/StringView.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringView.cpp.i
+.PHONY : common/StringView.cpp.i
 
-PaymentGateService/RpcNodeConfiguration.s: PaymentGateService/RpcNodeConfiguration.cpp.s
+common/StringView.s: common/StringView.cpp.s
 
-.PHONY : PaymentGateService/RpcNodeConfiguration.s
+.PHONY : common/StringView.s
 
 # target to generate assembly for a file
-PaymentGateService/RpcNodeConfiguration.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.s
-.PHONY : PaymentGateService/RpcNodeConfiguration.cpp.s
+common/StringView.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/StringView.cpp.s
+.PHONY : common/StringView.cpp.s
 
-PaymentGateService/main.o: PaymentGateService/main.cpp.o
+common/base58.o: common/base58.cpp.o
 
-.PHONY : PaymentGateService/main.o
+.PHONY : common/base58.o
 
 # target to build an object file
-PaymentGateService/main.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.o
-.PHONY : PaymentGateService/main.cpp.o
+common/base58.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/base58.cpp.o
+.PHONY : common/base58.cpp.o
 
-PaymentGateService/main.i: PaymentGateService/main.cpp.i
+common/base58.i: common/base58.cpp.i
 
-.PHONY : PaymentGateService/main.i
+.PHONY : common/base58.i
 
 # target to preprocess a source file
-PaymentGateService/main.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.i
-.PHONY : PaymentGateService/main.cpp.i
+common/base58.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/base58.cpp.i
+.PHONY : common/base58.cpp.i
 
-PaymentGateService/main.s: PaymentGateService/main.cpp.s
+common/base58.s: common/base58.cpp.s
 
-.PHONY : PaymentGateService/main.s
+.PHONY : common/base58.s
 
 # target to generate assembly for a file
-PaymentGateService/main.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.s
-.PHONY : PaymentGateService/main.cpp.s
+common/base58.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/base58.cpp.s
+.PHONY : common/base58.cpp.s
 
-Platform/Linux/System/Dispatcher.o: Platform/Linux/System/Dispatcher.cpp.o
+common/binary_array.o: common/binary_array.cpp.o
 
-.PHONY : Platform/Linux/System/Dispatcher.o
+.PHONY : common/binary_array.o
 
 # target to build an object file
-Platform/Linux/System/Dispatcher.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.o
-.PHONY : Platform/Linux/System/Dispatcher.cpp.o
+common/binary_array.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/binary_array.cpp.o
+.PHONY : common/binary_array.cpp.o
 
-Platform/Linux/System/Dispatcher.i: Platform/Linux/System/Dispatcher.cpp.i
+common/binary_array.i: common/binary_array.cpp.i
 
-.PHONY : Platform/Linux/System/Dispatcher.i
+.PHONY : common/binary_array.i
 
 # target to preprocess a source file
-Platform/Linux/System/Dispatcher.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.i
-.PHONY : Platform/Linux/System/Dispatcher.cpp.i
+common/binary_array.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/binary_array.cpp.i
+.PHONY : common/binary_array.cpp.i
 
-Platform/Linux/System/Dispatcher.s: Platform/Linux/System/Dispatcher.cpp.s
+common/binary_array.s: common/binary_array.cpp.s
 
-.PHONY : Platform/Linux/System/Dispatcher.s
+.PHONY : common/binary_array.s
 
 # target to generate assembly for a file
-Platform/Linux/System/Dispatcher.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.s
-.PHONY : Platform/Linux/System/Dispatcher.cpp.s
+common/binary_array.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/binary_array.cpp.s
+.PHONY : common/binary_array.cpp.s
 
-Platform/Linux/System/ErrorMessage.o: Platform/Linux/System/ErrorMessage.cpp.o
+common/file.o: common/file.cpp.o
 
-.PHONY : Platform/Linux/System/ErrorMessage.o
+.PHONY : common/file.o
 
 # target to build an object file
-Platform/Linux/System/ErrorMessage.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.o
-.PHONY : Platform/Linux/System/ErrorMessage.cpp.o
+common/file.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/file.cpp.o
+.PHONY : common/file.cpp.o
 
-Platform/Linux/System/ErrorMessage.i: Platform/Linux/System/ErrorMessage.cpp.i
+common/file.i: common/file.cpp.i
 
-.PHONY : Platform/Linux/System/ErrorMessage.i
+.PHONY : common/file.i
 
 # target to preprocess a source file
-Platform/Linux/System/ErrorMessage.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.i
-.PHONY : Platform/Linux/System/ErrorMessage.cpp.i
+common/file.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/file.cpp.i
+.PHONY : common/file.cpp.i
 
-Platform/Linux/System/ErrorMessage.s: Platform/Linux/System/ErrorMessage.cpp.s
+common/file.s: common/file.cpp.s
 
-.PHONY : Platform/Linux/System/ErrorMessage.s
+.PHONY : common/file.s
 
 # target to generate assembly for a file
-Platform/Linux/System/ErrorMessage.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.s
-.PHONY : Platform/Linux/System/ErrorMessage.cpp.s
+common/file.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/file.cpp.s
+.PHONY : common/file.cpp.s
 
-Platform/Linux/System/Ipv4Resolver.o: Platform/Linux/System/Ipv4Resolver.cpp.o
+common/hex.o: common/hex.cpp.o
 
-.PHONY : Platform/Linux/System/Ipv4Resolver.o
+.PHONY : common/hex.o
 
 # target to build an object file
-Platform/Linux/System/Ipv4Resolver.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.o
-.PHONY : Platform/Linux/System/Ipv4Resolver.cpp.o
+common/hex.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/hex.cpp.o
+.PHONY : common/hex.cpp.o
 
-Platform/Linux/System/Ipv4Resolver.i: Platform/Linux/System/Ipv4Resolver.cpp.i
+common/hex.i: common/hex.cpp.i
 
-.PHONY : Platform/Linux/System/Ipv4Resolver.i
+.PHONY : common/hex.i
 
 # target to preprocess a source file
-Platform/Linux/System/Ipv4Resolver.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.i
-.PHONY : Platform/Linux/System/Ipv4Resolver.cpp.i
+common/hex.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/hex.cpp.i
+.PHONY : common/hex.cpp.i
 
-Platform/Linux/System/Ipv4Resolver.s: Platform/Linux/System/Ipv4Resolver.cpp.s
+common/hex.s: common/hex.cpp.s
 
-.PHONY : Platform/Linux/System/Ipv4Resolver.s
+.PHONY : common/hex.s
 
 # target to generate assembly for a file
-Platform/Linux/System/Ipv4Resolver.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.s
-.PHONY : Platform/Linux/System/Ipv4Resolver.cpp.s
+common/hex.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/hex.cpp.s
+.PHONY : common/hex.cpp.s
 
-Platform/Linux/System/TcpConnection.o: Platform/Linux/System/TcpConnection.cpp.o
+common/os.o: common/os.cpp.o
 
-.PHONY : Platform/Linux/System/TcpConnection.o
+.PHONY : common/os.o
 
 # target to build an object file
-Platform/Linux/System/TcpConnection.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.o
-.PHONY : Platform/Linux/System/TcpConnection.cpp.o
+common/os.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/os.cpp.o
+.PHONY : common/os.cpp.o
 
-Platform/Linux/System/TcpConnection.i: Platform/Linux/System/TcpConnection.cpp.i
+common/os.i: common/os.cpp.i
 
-.PHONY : Platform/Linux/System/TcpConnection.i
+.PHONY : common/os.i
 
 # target to preprocess a source file
-Platform/Linux/System/TcpConnection.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.i
-.PHONY : Platform/Linux/System/TcpConnection.cpp.i
+common/os.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/os.cpp.i
+.PHONY : common/os.cpp.i
 
-Platform/Linux/System/TcpConnection.s: Platform/Linux/System/TcpConnection.cpp.s
+common/os.s: common/os.cpp.s
 
-.PHONY : Platform/Linux/System/TcpConnection.s
+.PHONY : common/os.s
 
 # target to generate assembly for a file
-Platform/Linux/System/TcpConnection.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.s
-.PHONY : Platform/Linux/System/TcpConnection.cpp.s
+common/os.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/os.cpp.s
+.PHONY : common/os.cpp.s
 
-Platform/Linux/System/TcpConnector.o: Platform/Linux/System/TcpConnector.cpp.o
+common/stream.o: common/stream.cpp.o
 
-.PHONY : Platform/Linux/System/TcpConnector.o
+.PHONY : common/stream.o
 
 # target to build an object file
-Platform/Linux/System/TcpConnector.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.o
-.PHONY : Platform/Linux/System/TcpConnector.cpp.o
+common/stream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/stream.cpp.o
+.PHONY : common/stream.cpp.o
 
-Platform/Linux/System/TcpConnector.i: Platform/Linux/System/TcpConnector.cpp.i
+common/stream.i: common/stream.cpp.i
 
-.PHONY : Platform/Linux/System/TcpConnector.i
+.PHONY : common/stream.i
 
 # target to preprocess a source file
-Platform/Linux/System/TcpConnector.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.i
-.PHONY : Platform/Linux/System/TcpConnector.cpp.i
+common/stream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/stream.cpp.i
+.PHONY : common/stream.cpp.i
 
-Platform/Linux/System/TcpConnector.s: Platform/Linux/System/TcpConnector.cpp.s
+common/stream.s: common/stream.cpp.s
 
-.PHONY : Platform/Linux/System/TcpConnector.s
+.PHONY : common/stream.s
 
 # target to generate assembly for a file
-Platform/Linux/System/TcpConnector.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.s
-.PHONY : Platform/Linux/System/TcpConnector.cpp.s
+common/stream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/common/stream.cpp.s
+.PHONY : common/stream.cpp.s
 
-Platform/Linux/System/TcpListener.o: Platform/Linux/System/TcpListener.cpp.o
+config/common.o: config/common.cpp.o
 
-.PHONY : Platform/Linux/System/TcpListener.o
+.PHONY : config/common.o
 
 # target to build an object file
-Platform/Linux/System/TcpListener.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.o
-.PHONY : Platform/Linux/System/TcpListener.cpp.o
+config/common.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/common.cpp.o
+.PHONY : config/common.cpp.o
 
-Platform/Linux/System/TcpListener.i: Platform/Linux/System/TcpListener.cpp.i
+config/common.i: config/common.cpp.i
 
-.PHONY : Platform/Linux/System/TcpListener.i
+.PHONY : config/common.i
 
 # target to preprocess a source file
-Platform/Linux/System/TcpListener.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.i
-.PHONY : Platform/Linux/System/TcpListener.cpp.i
+config/common.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/common.cpp.i
+.PHONY : config/common.cpp.i
 
-Platform/Linux/System/TcpListener.s: Platform/Linux/System/TcpListener.cpp.s
+config/common.s: config/common.cpp.s
 
-.PHONY : Platform/Linux/System/TcpListener.s
+.PHONY : config/common.s
 
 # target to generate assembly for a file
-Platform/Linux/System/TcpListener.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.s
-.PHONY : Platform/Linux/System/TcpListener.cpp.s
+config/common.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/common.cpp.s
+.PHONY : config/common.cpp.s
 
-Platform/Linux/System/Timer.o: Platform/Linux/System/Timer.cpp.o
+config/mainnet.o: config/mainnet.cpp.o
 
-.PHONY : Platform/Linux/System/Timer.o
+.PHONY : config/mainnet.o
 
 # target to build an object file
-Platform/Linux/System/Timer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.o
-.PHONY : Platform/Linux/System/Timer.cpp.o
+config/mainnet.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/mainnet.cpp.o
+.PHONY : config/mainnet.cpp.o
 
-Platform/Linux/System/Timer.i: Platform/Linux/System/Timer.cpp.i
+config/mainnet.i: config/mainnet.cpp.i
 
-.PHONY : Platform/Linux/System/Timer.i
+.PHONY : config/mainnet.i
 
 # target to preprocess a source file
-Platform/Linux/System/Timer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.i
-.PHONY : Platform/Linux/System/Timer.cpp.i
+config/mainnet.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/mainnet.cpp.i
+.PHONY : config/mainnet.cpp.i
 
-Platform/Linux/System/Timer.s: Platform/Linux/System/Timer.cpp.s
+config/mainnet.s: config/mainnet.cpp.s
 
-.PHONY : Platform/Linux/System/Timer.s
+.PHONY : config/mainnet.s
 
 # target to generate assembly for a file
-Platform/Linux/System/Timer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.s
-.PHONY : Platform/Linux/System/Timer.cpp.s
+config/mainnet.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/mainnet.cpp.s
+.PHONY : config/mainnet.cpp.s
 
-Rpc/HttpClient.o: Rpc/HttpClient.cpp.o
+config/testnet.o: config/testnet.cpp.o
 
-.PHONY : Rpc/HttpClient.o
+.PHONY : config/testnet.o
 
 # target to build an object file
-Rpc/HttpClient.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.o
-.PHONY : Rpc/HttpClient.cpp.o
+config/testnet.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/testnet.cpp.o
+.PHONY : config/testnet.cpp.o
 
-Rpc/HttpClient.i: Rpc/HttpClient.cpp.i
+config/testnet.i: config/testnet.cpp.i
 
-.PHONY : Rpc/HttpClient.i
+.PHONY : config/testnet.i
 
 # target to preprocess a source file
-Rpc/HttpClient.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.i
-.PHONY : Rpc/HttpClient.cpp.i
+config/testnet.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/testnet.cpp.i
+.PHONY : config/testnet.cpp.i
 
-Rpc/HttpClient.s: Rpc/HttpClient.cpp.s
+config/testnet.s: config/testnet.cpp.s
 
-.PHONY : Rpc/HttpClient.s
+.PHONY : config/testnet.s
 
 # target to generate assembly for a file
-Rpc/HttpClient.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.s
-.PHONY : Rpc/HttpClient.cpp.s
+config/testnet.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Config.dir/build.make src/CMakeFiles/Config.dir/config/testnet.cpp.s
+.PHONY : config/testnet.cpp.s
 
-Rpc/HttpServer.o: Rpc/HttpServer.cpp.o
+crypto/aesb.o: crypto/aesb.c.o
 
-.PHONY : Rpc/HttpServer.o
+.PHONY : crypto/aesb.o
 
 # target to build an object file
-Rpc/HttpServer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.o
-.PHONY : Rpc/HttpServer.cpp.o
+crypto/aesb.c.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.o
+.PHONY : crypto/aesb.c.o
 
-Rpc/HttpServer.i: Rpc/HttpServer.cpp.i
+crypto/aesb.i: crypto/aesb.c.i
 
-.PHONY : Rpc/HttpServer.i
+.PHONY : crypto/aesb.i
 
 # target to preprocess a source file
-Rpc/HttpServer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.i
-.PHONY : Rpc/HttpServer.cpp.i
+crypto/aesb.c.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.i
+.PHONY : crypto/aesb.c.i
 
-Rpc/HttpServer.s: Rpc/HttpServer.cpp.s
+crypto/aesb.s: crypto/aesb.c.s
 
-.PHONY : Rpc/HttpServer.s
+.PHONY : crypto/aesb.s
 
 # target to generate assembly for a file
-Rpc/HttpServer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.s
-.PHONY : Rpc/HttpServer.cpp.s
-
-Rpc/JsonRpc.o: Rpc/JsonRpc.cpp.o
-
-.PHONY : Rpc/JsonRpc.o
-
-# target to build an object file
-Rpc/JsonRpc.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.o
-.PHONY : Rpc/JsonRpc.cpp.o
-
-Rpc/JsonRpc.i: Rpc/JsonRpc.cpp.i
-
-.PHONY : Rpc/JsonRpc.i
-
-# target to preprocess a source file
-Rpc/JsonRpc.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.i
-.PHONY : Rpc/JsonRpc.cpp.i
-
-Rpc/JsonRpc.s: Rpc/JsonRpc.cpp.s
-
-.PHONY : Rpc/JsonRpc.s
-
-# target to generate assembly for a file
-Rpc/JsonRpc.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.s
-.PHONY : Rpc/JsonRpc.cpp.s
-
-Rpc/RpcServer.o: Rpc/RpcServer.cpp.o
-
-.PHONY : Rpc/RpcServer.o
-
-# target to build an object file
-Rpc/RpcServer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.o
-.PHONY : Rpc/RpcServer.cpp.o
-
-Rpc/RpcServer.i: Rpc/RpcServer.cpp.i
-
-.PHONY : Rpc/RpcServer.i
-
-# target to preprocess a source file
-Rpc/RpcServer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.i
-.PHONY : Rpc/RpcServer.cpp.i
-
-Rpc/RpcServer.s: Rpc/RpcServer.cpp.s
-
-.PHONY : Rpc/RpcServer.s
-
-# target to generate assembly for a file
-Rpc/RpcServer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.s
-.PHONY : Rpc/RpcServer.cpp.s
-
-Rpc/RpcServerConfig.o: Rpc/RpcServerConfig.cpp.o
-
-.PHONY : Rpc/RpcServerConfig.o
-
-# target to build an object file
-Rpc/RpcServerConfig.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.o
-.PHONY : Rpc/RpcServerConfig.cpp.o
-
-Rpc/RpcServerConfig.i: Rpc/RpcServerConfig.cpp.i
-
-.PHONY : Rpc/RpcServerConfig.i
-
-# target to preprocess a source file
-Rpc/RpcServerConfig.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.i
-.PHONY : Rpc/RpcServerConfig.cpp.i
-
-Rpc/RpcServerConfig.s: Rpc/RpcServerConfig.cpp.s
-
-.PHONY : Rpc/RpcServerConfig.s
-
-# target to generate assembly for a file
-Rpc/RpcServerConfig.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.s
-.PHONY : Rpc/RpcServerConfig.cpp.s
-
-Serialization/BinaryInputStreamSerializer.o: Serialization/BinaryInputStreamSerializer.cpp.o
-
-.PHONY : Serialization/BinaryInputStreamSerializer.o
-
-# target to build an object file
-Serialization/BinaryInputStreamSerializer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.o
-.PHONY : Serialization/BinaryInputStreamSerializer.cpp.o
-
-Serialization/BinaryInputStreamSerializer.i: Serialization/BinaryInputStreamSerializer.cpp.i
-
-.PHONY : Serialization/BinaryInputStreamSerializer.i
-
-# target to preprocess a source file
-Serialization/BinaryInputStreamSerializer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.i
-.PHONY : Serialization/BinaryInputStreamSerializer.cpp.i
-
-Serialization/BinaryInputStreamSerializer.s: Serialization/BinaryInputStreamSerializer.cpp.s
-
-.PHONY : Serialization/BinaryInputStreamSerializer.s
-
-# target to generate assembly for a file
-Serialization/BinaryInputStreamSerializer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.s
-.PHONY : Serialization/BinaryInputStreamSerializer.cpp.s
-
-Serialization/BinaryOutputStreamSerializer.o: Serialization/BinaryOutputStreamSerializer.cpp.o
-
-.PHONY : Serialization/BinaryOutputStreamSerializer.o
-
-# target to build an object file
-Serialization/BinaryOutputStreamSerializer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.o
-.PHONY : Serialization/BinaryOutputStreamSerializer.cpp.o
-
-Serialization/BinaryOutputStreamSerializer.i: Serialization/BinaryOutputStreamSerializer.cpp.i
-
-.PHONY : Serialization/BinaryOutputStreamSerializer.i
-
-# target to preprocess a source file
-Serialization/BinaryOutputStreamSerializer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.i
-.PHONY : Serialization/BinaryOutputStreamSerializer.cpp.i
-
-Serialization/BinaryOutputStreamSerializer.s: Serialization/BinaryOutputStreamSerializer.cpp.s
-
-.PHONY : Serialization/BinaryOutputStreamSerializer.s
-
-# target to generate assembly for a file
-Serialization/BinaryOutputStreamSerializer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.s
-.PHONY : Serialization/BinaryOutputStreamSerializer.cpp.s
-
-Serialization/JsonInputStreamSerializer.o: Serialization/JsonInputStreamSerializer.cpp.o
-
-.PHONY : Serialization/JsonInputStreamSerializer.o
-
-# target to build an object file
-Serialization/JsonInputStreamSerializer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.o
-.PHONY : Serialization/JsonInputStreamSerializer.cpp.o
-
-Serialization/JsonInputStreamSerializer.i: Serialization/JsonInputStreamSerializer.cpp.i
-
-.PHONY : Serialization/JsonInputStreamSerializer.i
-
-# target to preprocess a source file
-Serialization/JsonInputStreamSerializer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.i
-.PHONY : Serialization/JsonInputStreamSerializer.cpp.i
-
-Serialization/JsonInputStreamSerializer.s: Serialization/JsonInputStreamSerializer.cpp.s
-
-.PHONY : Serialization/JsonInputStreamSerializer.s
-
-# target to generate assembly for a file
-Serialization/JsonInputStreamSerializer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.s
-.PHONY : Serialization/JsonInputStreamSerializer.cpp.s
-
-Serialization/JsonInputValueSerializer.o: Serialization/JsonInputValueSerializer.cpp.o
-
-.PHONY : Serialization/JsonInputValueSerializer.o
-
-# target to build an object file
-Serialization/JsonInputValueSerializer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.o
-.PHONY : Serialization/JsonInputValueSerializer.cpp.o
-
-Serialization/JsonInputValueSerializer.i: Serialization/JsonInputValueSerializer.cpp.i
-
-.PHONY : Serialization/JsonInputValueSerializer.i
-
-# target to preprocess a source file
-Serialization/JsonInputValueSerializer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.i
-.PHONY : Serialization/JsonInputValueSerializer.cpp.i
-
-Serialization/JsonInputValueSerializer.s: Serialization/JsonInputValueSerializer.cpp.s
-
-.PHONY : Serialization/JsonInputValueSerializer.s
-
-# target to generate assembly for a file
-Serialization/JsonInputValueSerializer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.s
-.PHONY : Serialization/JsonInputValueSerializer.cpp.s
-
-Serialization/JsonOutputStreamSerializer.o: Serialization/JsonOutputStreamSerializer.cpp.o
-
-.PHONY : Serialization/JsonOutputStreamSerializer.o
-
-# target to build an object file
-Serialization/JsonOutputStreamSerializer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.o
-.PHONY : Serialization/JsonOutputStreamSerializer.cpp.o
-
-Serialization/JsonOutputStreamSerializer.i: Serialization/JsonOutputStreamSerializer.cpp.i
-
-.PHONY : Serialization/JsonOutputStreamSerializer.i
-
-# target to preprocess a source file
-Serialization/JsonOutputStreamSerializer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.i
-.PHONY : Serialization/JsonOutputStreamSerializer.cpp.i
-
-Serialization/JsonOutputStreamSerializer.s: Serialization/JsonOutputStreamSerializer.cpp.s
-
-.PHONY : Serialization/JsonOutputStreamSerializer.s
-
-# target to generate assembly for a file
-Serialization/JsonOutputStreamSerializer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.s
-.PHONY : Serialization/JsonOutputStreamSerializer.cpp.s
-
-Serialization/KVBinaryInputStreamSerializer.o: Serialization/KVBinaryInputStreamSerializer.cpp.o
-
-.PHONY : Serialization/KVBinaryInputStreamSerializer.o
-
-# target to build an object file
-Serialization/KVBinaryInputStreamSerializer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.o
-.PHONY : Serialization/KVBinaryInputStreamSerializer.cpp.o
-
-Serialization/KVBinaryInputStreamSerializer.i: Serialization/KVBinaryInputStreamSerializer.cpp.i
-
-.PHONY : Serialization/KVBinaryInputStreamSerializer.i
-
-# target to preprocess a source file
-Serialization/KVBinaryInputStreamSerializer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.i
-.PHONY : Serialization/KVBinaryInputStreamSerializer.cpp.i
-
-Serialization/KVBinaryInputStreamSerializer.s: Serialization/KVBinaryInputStreamSerializer.cpp.s
-
-.PHONY : Serialization/KVBinaryInputStreamSerializer.s
-
-# target to generate assembly for a file
-Serialization/KVBinaryInputStreamSerializer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.s
-.PHONY : Serialization/KVBinaryInputStreamSerializer.cpp.s
-
-Serialization/KVBinaryOutputStreamSerializer.o: Serialization/KVBinaryOutputStreamSerializer.cpp.o
-
-.PHONY : Serialization/KVBinaryOutputStreamSerializer.o
-
-# target to build an object file
-Serialization/KVBinaryOutputStreamSerializer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.o
-.PHONY : Serialization/KVBinaryOutputStreamSerializer.cpp.o
-
-Serialization/KVBinaryOutputStreamSerializer.i: Serialization/KVBinaryOutputStreamSerializer.cpp.i
-
-.PHONY : Serialization/KVBinaryOutputStreamSerializer.i
-
-# target to preprocess a source file
-Serialization/KVBinaryOutputStreamSerializer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.i
-.PHONY : Serialization/KVBinaryOutputStreamSerializer.cpp.i
-
-Serialization/KVBinaryOutputStreamSerializer.s: Serialization/KVBinaryOutputStreamSerializer.cpp.s
-
-.PHONY : Serialization/KVBinaryOutputStreamSerializer.s
-
-# target to generate assembly for a file
-Serialization/KVBinaryOutputStreamSerializer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.s
-.PHONY : Serialization/KVBinaryOutputStreamSerializer.cpp.s
-
-Serialization/MemoryStream.o: Serialization/MemoryStream.cpp.o
-
-.PHONY : Serialization/MemoryStream.o
-
-# target to build an object file
-Serialization/MemoryStream.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.o
-.PHONY : Serialization/MemoryStream.cpp.o
-
-Serialization/MemoryStream.i: Serialization/MemoryStream.cpp.i
-
-.PHONY : Serialization/MemoryStream.i
-
-# target to preprocess a source file
-Serialization/MemoryStream.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.i
-.PHONY : Serialization/MemoryStream.cpp.i
-
-Serialization/MemoryStream.s: Serialization/MemoryStream.cpp.s
-
-.PHONY : Serialization/MemoryStream.s
-
-# target to generate assembly for a file
-Serialization/MemoryStream.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.s
-.PHONY : Serialization/MemoryStream.cpp.s
-
-Serialization/SerializationOverloads.o: Serialization/SerializationOverloads.cpp.o
-
-.PHONY : Serialization/SerializationOverloads.o
-
-# target to build an object file
-Serialization/SerializationOverloads.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.o
-.PHONY : Serialization/SerializationOverloads.cpp.o
-
-Serialization/SerializationOverloads.i: Serialization/SerializationOverloads.cpp.i
-
-.PHONY : Serialization/SerializationOverloads.i
-
-# target to preprocess a source file
-Serialization/SerializationOverloads.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.i
-.PHONY : Serialization/SerializationOverloads.cpp.i
-
-Serialization/SerializationOverloads.s: Serialization/SerializationOverloads.cpp.s
-
-.PHONY : Serialization/SerializationOverloads.s
-
-# target to generate assembly for a file
-Serialization/SerializationOverloads.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.s
-.PHONY : Serialization/SerializationOverloads.cpp.s
-
-SimpleWallet/PasswordContainer.o: SimpleWallet/PasswordContainer.cpp.o
-
-.PHONY : SimpleWallet/PasswordContainer.o
-
-# target to build an object file
-SimpleWallet/PasswordContainer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.o
-.PHONY : SimpleWallet/PasswordContainer.cpp.o
-
-SimpleWallet/PasswordContainer.i: SimpleWallet/PasswordContainer.cpp.i
-
-.PHONY : SimpleWallet/PasswordContainer.i
-
-# target to preprocess a source file
-SimpleWallet/PasswordContainer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.i
-.PHONY : SimpleWallet/PasswordContainer.cpp.i
-
-SimpleWallet/PasswordContainer.s: SimpleWallet/PasswordContainer.cpp.s
-
-.PHONY : SimpleWallet/PasswordContainer.s
-
-# target to generate assembly for a file
-SimpleWallet/PasswordContainer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.s
-.PHONY : SimpleWallet/PasswordContainer.cpp.s
-
-SimpleWallet/SimpleWallet.o: SimpleWallet/SimpleWallet.cpp.o
-
-.PHONY : SimpleWallet/SimpleWallet.o
-
-# target to build an object file
-SimpleWallet/SimpleWallet.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.o
-.PHONY : SimpleWallet/SimpleWallet.cpp.o
-
-SimpleWallet/SimpleWallet.i: SimpleWallet/SimpleWallet.cpp.i
-
-.PHONY : SimpleWallet/SimpleWallet.i
-
-# target to preprocess a source file
-SimpleWallet/SimpleWallet.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.i
-.PHONY : SimpleWallet/SimpleWallet.cpp.i
-
-SimpleWallet/SimpleWallet.s: SimpleWallet/SimpleWallet.cpp.s
-
-.PHONY : SimpleWallet/SimpleWallet.s
-
-# target to generate assembly for a file
-SimpleWallet/SimpleWallet.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.s
-.PHONY : SimpleWallet/SimpleWallet.cpp.s
-
-System/ContextGroup.o: System/ContextGroup.cpp.o
-
-.PHONY : System/ContextGroup.o
-
-# target to build an object file
-System/ContextGroup.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroup.cpp.o
-.PHONY : System/ContextGroup.cpp.o
-
-System/ContextGroup.i: System/ContextGroup.cpp.i
-
-.PHONY : System/ContextGroup.i
-
-# target to preprocess a source file
-System/ContextGroup.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroup.cpp.i
-.PHONY : System/ContextGroup.cpp.i
-
-System/ContextGroup.s: System/ContextGroup.cpp.s
-
-.PHONY : System/ContextGroup.s
-
-# target to generate assembly for a file
-System/ContextGroup.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroup.cpp.s
-.PHONY : System/ContextGroup.cpp.s
-
-System/ContextGroupTimeout.o: System/ContextGroupTimeout.cpp.o
-
-.PHONY : System/ContextGroupTimeout.o
-
-# target to build an object file
-System/ContextGroupTimeout.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.o
-.PHONY : System/ContextGroupTimeout.cpp.o
-
-System/ContextGroupTimeout.i: System/ContextGroupTimeout.cpp.i
-
-.PHONY : System/ContextGroupTimeout.i
-
-# target to preprocess a source file
-System/ContextGroupTimeout.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.i
-.PHONY : System/ContextGroupTimeout.cpp.i
-
-System/ContextGroupTimeout.s: System/ContextGroupTimeout.cpp.s
-
-.PHONY : System/ContextGroupTimeout.s
-
-# target to generate assembly for a file
-System/ContextGroupTimeout.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.s
-.PHONY : System/ContextGroupTimeout.cpp.s
-
-System/Event.o: System/Event.cpp.o
-
-.PHONY : System/Event.o
-
-# target to build an object file
-System/Event.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Event.cpp.o
-.PHONY : System/Event.cpp.o
-
-System/Event.i: System/Event.cpp.i
-
-.PHONY : System/Event.i
-
-# target to preprocess a source file
-System/Event.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Event.cpp.i
-.PHONY : System/Event.cpp.i
-
-System/Event.s: System/Event.cpp.s
-
-.PHONY : System/Event.s
-
-# target to generate assembly for a file
-System/Event.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Event.cpp.s
-.PHONY : System/Event.cpp.s
-
-System/EventLock.o: System/EventLock.cpp.o
-
-.PHONY : System/EventLock.o
-
-# target to build an object file
-System/EventLock.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/EventLock.cpp.o
-.PHONY : System/EventLock.cpp.o
-
-System/EventLock.i: System/EventLock.cpp.i
-
-.PHONY : System/EventLock.i
-
-# target to preprocess a source file
-System/EventLock.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/EventLock.cpp.i
-.PHONY : System/EventLock.cpp.i
-
-System/EventLock.s: System/EventLock.cpp.s
-
-.PHONY : System/EventLock.s
-
-# target to generate assembly for a file
-System/EventLock.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/EventLock.cpp.s
-.PHONY : System/EventLock.cpp.s
-
-System/InterruptedException.o: System/InterruptedException.cpp.o
-
-.PHONY : System/InterruptedException.o
-
-# target to build an object file
-System/InterruptedException.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/InterruptedException.cpp.o
-.PHONY : System/InterruptedException.cpp.o
-
-System/InterruptedException.i: System/InterruptedException.cpp.i
-
-.PHONY : System/InterruptedException.i
-
-# target to preprocess a source file
-System/InterruptedException.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/InterruptedException.cpp.i
-.PHONY : System/InterruptedException.cpp.i
-
-System/InterruptedException.s: System/InterruptedException.cpp.s
-
-.PHONY : System/InterruptedException.s
-
-# target to generate assembly for a file
-System/InterruptedException.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/InterruptedException.cpp.s
-.PHONY : System/InterruptedException.cpp.s
-
-System/Ipv4Address.o: System/Ipv4Address.cpp.o
-
-.PHONY : System/Ipv4Address.o
-
-# target to build an object file
-System/Ipv4Address.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Ipv4Address.cpp.o
-.PHONY : System/Ipv4Address.cpp.o
-
-System/Ipv4Address.i: System/Ipv4Address.cpp.i
-
-.PHONY : System/Ipv4Address.i
-
-# target to preprocess a source file
-System/Ipv4Address.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Ipv4Address.cpp.i
-.PHONY : System/Ipv4Address.cpp.i
-
-System/Ipv4Address.s: System/Ipv4Address.cpp.s
-
-.PHONY : System/Ipv4Address.s
-
-# target to generate assembly for a file
-System/Ipv4Address.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Ipv4Address.cpp.s
-.PHONY : System/Ipv4Address.cpp.s
-
-System/RemoteEventLock.o: System/RemoteEventLock.cpp.o
-
-.PHONY : System/RemoteEventLock.o
-
-# target to build an object file
-System/RemoteEventLock.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.o
-.PHONY : System/RemoteEventLock.cpp.o
-
-System/RemoteEventLock.i: System/RemoteEventLock.cpp.i
-
-.PHONY : System/RemoteEventLock.i
-
-# target to preprocess a source file
-System/RemoteEventLock.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.i
-.PHONY : System/RemoteEventLock.cpp.i
-
-System/RemoteEventLock.s: System/RemoteEventLock.cpp.s
-
-.PHONY : System/RemoteEventLock.s
-
-# target to generate assembly for a file
-System/RemoteEventLock.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.s
-.PHONY : System/RemoteEventLock.cpp.s
-
-System/TcpStream.o: System/TcpStream.cpp.o
-
-.PHONY : System/TcpStream.o
-
-# target to build an object file
-System/TcpStream.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/TcpStream.cpp.o
-.PHONY : System/TcpStream.cpp.o
-
-System/TcpStream.i: System/TcpStream.cpp.i
-
-.PHONY : System/TcpStream.i
-
-# target to preprocess a source file
-System/TcpStream.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/TcpStream.cpp.i
-.PHONY : System/TcpStream.cpp.i
-
-System/TcpStream.s: System/TcpStream.cpp.s
-
-.PHONY : System/TcpStream.s
-
-# target to generate assembly for a file
-System/TcpStream.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/TcpStream.cpp.s
-.PHONY : System/TcpStream.cpp.s
-
-Transfers/BlockchainSynchronizer.o: Transfers/BlockchainSynchronizer.cpp.o
-
-.PHONY : Transfers/BlockchainSynchronizer.o
-
-# target to build an object file
-Transfers/BlockchainSynchronizer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o
-.PHONY : Transfers/BlockchainSynchronizer.cpp.o
-
-Transfers/BlockchainSynchronizer.i: Transfers/BlockchainSynchronizer.cpp.i
-
-.PHONY : Transfers/BlockchainSynchronizer.i
-
-# target to preprocess a source file
-Transfers/BlockchainSynchronizer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.i
-.PHONY : Transfers/BlockchainSynchronizer.cpp.i
-
-Transfers/BlockchainSynchronizer.s: Transfers/BlockchainSynchronizer.cpp.s
-
-.PHONY : Transfers/BlockchainSynchronizer.s
-
-# target to generate assembly for a file
-Transfers/BlockchainSynchronizer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.s
-.PHONY : Transfers/BlockchainSynchronizer.cpp.s
-
-Transfers/SynchronizationState.o: Transfers/SynchronizationState.cpp.o
-
-.PHONY : Transfers/SynchronizationState.o
-
-# target to build an object file
-Transfers/SynchronizationState.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o
-.PHONY : Transfers/SynchronizationState.cpp.o
-
-Transfers/SynchronizationState.i: Transfers/SynchronizationState.cpp.i
-
-.PHONY : Transfers/SynchronizationState.i
-
-# target to preprocess a source file
-Transfers/SynchronizationState.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.i
-.PHONY : Transfers/SynchronizationState.cpp.i
-
-Transfers/SynchronizationState.s: Transfers/SynchronizationState.cpp.s
-
-.PHONY : Transfers/SynchronizationState.s
-
-# target to generate assembly for a file
-Transfers/SynchronizationState.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.s
-.PHONY : Transfers/SynchronizationState.cpp.s
-
-Transfers/TransfersConsumer.o: Transfers/TransfersConsumer.cpp.o
-
-.PHONY : Transfers/TransfersConsumer.o
-
-# target to build an object file
-Transfers/TransfersConsumer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o
-.PHONY : Transfers/TransfersConsumer.cpp.o
-
-Transfers/TransfersConsumer.i: Transfers/TransfersConsumer.cpp.i
-
-.PHONY : Transfers/TransfersConsumer.i
-
-# target to preprocess a source file
-Transfers/TransfersConsumer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.i
-.PHONY : Transfers/TransfersConsumer.cpp.i
-
-Transfers/TransfersConsumer.s: Transfers/TransfersConsumer.cpp.s
-
-.PHONY : Transfers/TransfersConsumer.s
-
-# target to generate assembly for a file
-Transfers/TransfersConsumer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.s
-.PHONY : Transfers/TransfersConsumer.cpp.s
-
-Transfers/TransfersContainer.o: Transfers/TransfersContainer.cpp.o
-
-.PHONY : Transfers/TransfersContainer.o
-
-# target to build an object file
-Transfers/TransfersContainer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o
-.PHONY : Transfers/TransfersContainer.cpp.o
-
-Transfers/TransfersContainer.i: Transfers/TransfersContainer.cpp.i
-
-.PHONY : Transfers/TransfersContainer.i
-
-# target to preprocess a source file
-Transfers/TransfersContainer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.i
-.PHONY : Transfers/TransfersContainer.cpp.i
-
-Transfers/TransfersContainer.s: Transfers/TransfersContainer.cpp.s
-
-.PHONY : Transfers/TransfersContainer.s
-
-# target to generate assembly for a file
-Transfers/TransfersContainer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.s
-.PHONY : Transfers/TransfersContainer.cpp.s
-
-Transfers/TransfersSubscription.o: Transfers/TransfersSubscription.cpp.o
-
-.PHONY : Transfers/TransfersSubscription.o
-
-# target to build an object file
-Transfers/TransfersSubscription.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o
-.PHONY : Transfers/TransfersSubscription.cpp.o
-
-Transfers/TransfersSubscription.i: Transfers/TransfersSubscription.cpp.i
-
-.PHONY : Transfers/TransfersSubscription.i
-
-# target to preprocess a source file
-Transfers/TransfersSubscription.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.i
-.PHONY : Transfers/TransfersSubscription.cpp.i
-
-Transfers/TransfersSubscription.s: Transfers/TransfersSubscription.cpp.s
-
-.PHONY : Transfers/TransfersSubscription.s
-
-# target to generate assembly for a file
-Transfers/TransfersSubscription.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.s
-.PHONY : Transfers/TransfersSubscription.cpp.s
-
-Transfers/TransfersSynchronizer.o: Transfers/TransfersSynchronizer.cpp.o
-
-.PHONY : Transfers/TransfersSynchronizer.o
-
-# target to build an object file
-Transfers/TransfersSynchronizer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o
-.PHONY : Transfers/TransfersSynchronizer.cpp.o
-
-Transfers/TransfersSynchronizer.i: Transfers/TransfersSynchronizer.cpp.i
-
-.PHONY : Transfers/TransfersSynchronizer.i
-
-# target to preprocess a source file
-Transfers/TransfersSynchronizer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.i
-.PHONY : Transfers/TransfersSynchronizer.cpp.i
-
-Transfers/TransfersSynchronizer.s: Transfers/TransfersSynchronizer.cpp.s
-
-.PHONY : Transfers/TransfersSynchronizer.s
-
-# target to generate assembly for a file
-Transfers/TransfersSynchronizer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.s
-.PHONY : Transfers/TransfersSynchronizer.cpp.s
-
-Wallet/LegacyKeysImporter.o: Wallet/LegacyKeysImporter.cpp.o
-
-.PHONY : Wallet/LegacyKeysImporter.o
-
-# target to build an object file
-Wallet/LegacyKeysImporter.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.o
-.PHONY : Wallet/LegacyKeysImporter.cpp.o
-
-Wallet/LegacyKeysImporter.i: Wallet/LegacyKeysImporter.cpp.i
-
-.PHONY : Wallet/LegacyKeysImporter.i
-
-# target to preprocess a source file
-Wallet/LegacyKeysImporter.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.i
-.PHONY : Wallet/LegacyKeysImporter.cpp.i
-
-Wallet/LegacyKeysImporter.s: Wallet/LegacyKeysImporter.cpp.s
-
-.PHONY : Wallet/LegacyKeysImporter.s
-
-# target to generate assembly for a file
-Wallet/LegacyKeysImporter.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.s
-.PHONY : Wallet/LegacyKeysImporter.cpp.s
-
-Wallet/WalletAsyncContextCounter.o: Wallet/WalletAsyncContextCounter.cpp.o
-
-.PHONY : Wallet/WalletAsyncContextCounter.o
-
-# target to build an object file
-Wallet/WalletAsyncContextCounter.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.o
-.PHONY : Wallet/WalletAsyncContextCounter.cpp.o
-
-Wallet/WalletAsyncContextCounter.i: Wallet/WalletAsyncContextCounter.cpp.i
-
-.PHONY : Wallet/WalletAsyncContextCounter.i
-
-# target to preprocess a source file
-Wallet/WalletAsyncContextCounter.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.i
-.PHONY : Wallet/WalletAsyncContextCounter.cpp.i
-
-Wallet/WalletAsyncContextCounter.s: Wallet/WalletAsyncContextCounter.cpp.s
-
-.PHONY : Wallet/WalletAsyncContextCounter.s
-
-# target to generate assembly for a file
-Wallet/WalletAsyncContextCounter.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.s
-.PHONY : Wallet/WalletAsyncContextCounter.cpp.s
-
-Wallet/WalletErrors.o: Wallet/WalletErrors.cpp.o
-
-.PHONY : Wallet/WalletErrors.o
-
-# target to build an object file
-Wallet/WalletErrors.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.o
-.PHONY : Wallet/WalletErrors.cpp.o
-
-Wallet/WalletErrors.i: Wallet/WalletErrors.cpp.i
-
-.PHONY : Wallet/WalletErrors.i
-
-# target to preprocess a source file
-Wallet/WalletErrors.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.i
-.PHONY : Wallet/WalletErrors.cpp.i
-
-Wallet/WalletErrors.s: Wallet/WalletErrors.cpp.s
-
-.PHONY : Wallet/WalletErrors.s
-
-# target to generate assembly for a file
-Wallet/WalletErrors.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.s
-.PHONY : Wallet/WalletErrors.cpp.s
-
-Wallet/WalletGreen.o: Wallet/WalletGreen.cpp.o
-
-.PHONY : Wallet/WalletGreen.o
-
-# target to build an object file
-Wallet/WalletGreen.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.o
-.PHONY : Wallet/WalletGreen.cpp.o
-
-Wallet/WalletGreen.i: Wallet/WalletGreen.cpp.i
-
-.PHONY : Wallet/WalletGreen.i
-
-# target to preprocess a source file
-Wallet/WalletGreen.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.i
-.PHONY : Wallet/WalletGreen.cpp.i
-
-Wallet/WalletGreen.s: Wallet/WalletGreen.cpp.s
-
-.PHONY : Wallet/WalletGreen.s
-
-# target to generate assembly for a file
-Wallet/WalletGreen.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.s
-.PHONY : Wallet/WalletGreen.cpp.s
-
-Wallet/WalletRpcServer.o: Wallet/WalletRpcServer.cpp.o
-
-.PHONY : Wallet/WalletRpcServer.o
-
-# target to build an object file
-Wallet/WalletRpcServer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.o
-.PHONY : Wallet/WalletRpcServer.cpp.o
-
-Wallet/WalletRpcServer.i: Wallet/WalletRpcServer.cpp.i
-
-.PHONY : Wallet/WalletRpcServer.i
-
-# target to preprocess a source file
-Wallet/WalletRpcServer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.i
-.PHONY : Wallet/WalletRpcServer.cpp.i
-
-Wallet/WalletRpcServer.s: Wallet/WalletRpcServer.cpp.s
-
-.PHONY : Wallet/WalletRpcServer.s
-
-# target to generate assembly for a file
-Wallet/WalletRpcServer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.s
-.PHONY : Wallet/WalletRpcServer.cpp.s
-
-Wallet/WalletSerialization.o: Wallet/WalletSerialization.cpp.o
-
-.PHONY : Wallet/WalletSerialization.o
-
-# target to build an object file
-Wallet/WalletSerialization.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerialization.cpp.o
-.PHONY : Wallet/WalletSerialization.cpp.o
-
-Wallet/WalletSerialization.i: Wallet/WalletSerialization.cpp.i
-
-.PHONY : Wallet/WalletSerialization.i
-
-# target to preprocess a source file
-Wallet/WalletSerialization.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerialization.cpp.i
-.PHONY : Wallet/WalletSerialization.cpp.i
-
-Wallet/WalletSerialization.s: Wallet/WalletSerialization.cpp.s
-
-.PHONY : Wallet/WalletSerialization.s
-
-# target to generate assembly for a file
-Wallet/WalletSerialization.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerialization.cpp.s
-.PHONY : Wallet/WalletSerialization.cpp.s
-
-Wallet/WalletUtils.o: Wallet/WalletUtils.cpp.o
-
-.PHONY : Wallet/WalletUtils.o
-
-# target to build an object file
-Wallet/WalletUtils.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.o
-.PHONY : Wallet/WalletUtils.cpp.o
-
-Wallet/WalletUtils.i: Wallet/WalletUtils.cpp.i
-
-.PHONY : Wallet/WalletUtils.i
-
-# target to preprocess a source file
-Wallet/WalletUtils.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.i
-.PHONY : Wallet/WalletUtils.cpp.i
-
-Wallet/WalletUtils.s: Wallet/WalletUtils.cpp.s
-
-.PHONY : Wallet/WalletUtils.s
-
-# target to generate assembly for a file
-Wallet/WalletUtils.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.s
-.PHONY : Wallet/WalletUtils.cpp.s
-
-WalletLegacy/KeysStorage.o: WalletLegacy/KeysStorage.cpp.o
-
-.PHONY : WalletLegacy/KeysStorage.o
-
-# target to build an object file
-WalletLegacy/KeysStorage.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.o
-.PHONY : WalletLegacy/KeysStorage.cpp.o
-
-WalletLegacy/KeysStorage.i: WalletLegacy/KeysStorage.cpp.i
-
-.PHONY : WalletLegacy/KeysStorage.i
-
-# target to preprocess a source file
-WalletLegacy/KeysStorage.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.i
-.PHONY : WalletLegacy/KeysStorage.cpp.i
-
-WalletLegacy/KeysStorage.s: WalletLegacy/KeysStorage.cpp.s
-
-.PHONY : WalletLegacy/KeysStorage.s
-
-# target to generate assembly for a file
-WalletLegacy/KeysStorage.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.s
-.PHONY : WalletLegacy/KeysStorage.cpp.s
-
-WalletLegacy/WalletHelper.o: WalletLegacy/WalletHelper.cpp.o
-
-.PHONY : WalletLegacy/WalletHelper.o
-
-# target to build an object file
-WalletLegacy/WalletHelper.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.o
-.PHONY : WalletLegacy/WalletHelper.cpp.o
-
-WalletLegacy/WalletHelper.i: WalletLegacy/WalletHelper.cpp.i
-
-.PHONY : WalletLegacy/WalletHelper.i
-
-# target to preprocess a source file
-WalletLegacy/WalletHelper.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.i
-.PHONY : WalletLegacy/WalletHelper.cpp.i
-
-WalletLegacy/WalletHelper.s: WalletLegacy/WalletHelper.cpp.s
-
-.PHONY : WalletLegacy/WalletHelper.s
-
-# target to generate assembly for a file
-WalletLegacy/WalletHelper.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.s
-.PHONY : WalletLegacy/WalletHelper.cpp.s
-
-WalletLegacy/WalletLegacy.o: WalletLegacy/WalletLegacy.cpp.o
-
-.PHONY : WalletLegacy/WalletLegacy.o
-
-# target to build an object file
-WalletLegacy/WalletLegacy.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.o
-.PHONY : WalletLegacy/WalletLegacy.cpp.o
-
-WalletLegacy/WalletLegacy.i: WalletLegacy/WalletLegacy.cpp.i
-
-.PHONY : WalletLegacy/WalletLegacy.i
-
-# target to preprocess a source file
-WalletLegacy/WalletLegacy.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.i
-.PHONY : WalletLegacy/WalletLegacy.cpp.i
-
-WalletLegacy/WalletLegacy.s: WalletLegacy/WalletLegacy.cpp.s
-
-.PHONY : WalletLegacy/WalletLegacy.s
-
-# target to generate assembly for a file
-WalletLegacy/WalletLegacy.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.s
-.PHONY : WalletLegacy/WalletLegacy.cpp.s
-
-WalletLegacy/WalletLegacySerialization.o: WalletLegacy/WalletLegacySerialization.cpp.o
-
-.PHONY : WalletLegacy/WalletLegacySerialization.o
-
-# target to build an object file
-WalletLegacy/WalletLegacySerialization.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.o
-.PHONY : WalletLegacy/WalletLegacySerialization.cpp.o
-
-WalletLegacy/WalletLegacySerialization.i: WalletLegacy/WalletLegacySerialization.cpp.i
-
-.PHONY : WalletLegacy/WalletLegacySerialization.i
-
-# target to preprocess a source file
-WalletLegacy/WalletLegacySerialization.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.i
-.PHONY : WalletLegacy/WalletLegacySerialization.cpp.i
-
-WalletLegacy/WalletLegacySerialization.s: WalletLegacy/WalletLegacySerialization.cpp.s
-
-.PHONY : WalletLegacy/WalletLegacySerialization.s
-
-# target to generate assembly for a file
-WalletLegacy/WalletLegacySerialization.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.s
-.PHONY : WalletLegacy/WalletLegacySerialization.cpp.s
-
-WalletLegacy/WalletLegacySerializer.o: WalletLegacy/WalletLegacySerializer.cpp.o
-
-.PHONY : WalletLegacy/WalletLegacySerializer.o
-
-# target to build an object file
-WalletLegacy/WalletLegacySerializer.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.o
-.PHONY : WalletLegacy/WalletLegacySerializer.cpp.o
-
-WalletLegacy/WalletLegacySerializer.i: WalletLegacy/WalletLegacySerializer.cpp.i
-
-.PHONY : WalletLegacy/WalletLegacySerializer.i
-
-# target to preprocess a source file
-WalletLegacy/WalletLegacySerializer.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.i
-.PHONY : WalletLegacy/WalletLegacySerializer.cpp.i
-
-WalletLegacy/WalletLegacySerializer.s: WalletLegacy/WalletLegacySerializer.cpp.s
-
-.PHONY : WalletLegacy/WalletLegacySerializer.s
-
-# target to generate assembly for a file
-WalletLegacy/WalletLegacySerializer.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.s
-.PHONY : WalletLegacy/WalletLegacySerializer.cpp.s
-
-WalletLegacy/WalletTransactionSender.o: WalletLegacy/WalletTransactionSender.cpp.o
-
-.PHONY : WalletLegacy/WalletTransactionSender.o
-
-# target to build an object file
-WalletLegacy/WalletTransactionSender.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.o
-.PHONY : WalletLegacy/WalletTransactionSender.cpp.o
-
-WalletLegacy/WalletTransactionSender.i: WalletLegacy/WalletTransactionSender.cpp.i
-
-.PHONY : WalletLegacy/WalletTransactionSender.i
-
-# target to preprocess a source file
-WalletLegacy/WalletTransactionSender.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.i
-.PHONY : WalletLegacy/WalletTransactionSender.cpp.i
-
-WalletLegacy/WalletTransactionSender.s: WalletLegacy/WalletTransactionSender.cpp.s
-
-.PHONY : WalletLegacy/WalletTransactionSender.s
-
-# target to generate assembly for a file
-WalletLegacy/WalletTransactionSender.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.s
-.PHONY : WalletLegacy/WalletTransactionSender.cpp.s
-
-WalletLegacy/WalletUnconfirmedTransactions.o: WalletLegacy/WalletUnconfirmedTransactions.cpp.o
-
-.PHONY : WalletLegacy/WalletUnconfirmedTransactions.o
-
-# target to build an object file
-WalletLegacy/WalletUnconfirmedTransactions.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.o
-.PHONY : WalletLegacy/WalletUnconfirmedTransactions.cpp.o
-
-WalletLegacy/WalletUnconfirmedTransactions.i: WalletLegacy/WalletUnconfirmedTransactions.cpp.i
-
-.PHONY : WalletLegacy/WalletUnconfirmedTransactions.i
-
-# target to preprocess a source file
-WalletLegacy/WalletUnconfirmedTransactions.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.i
-.PHONY : WalletLegacy/WalletUnconfirmedTransactions.cpp.i
-
-WalletLegacy/WalletUnconfirmedTransactions.s: WalletLegacy/WalletUnconfirmedTransactions.cpp.s
-
-.PHONY : WalletLegacy/WalletUnconfirmedTransactions.s
-
-# target to generate assembly for a file
-WalletLegacy/WalletUnconfirmedTransactions.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.s
-.PHONY : WalletLegacy/WalletUnconfirmedTransactions.cpp.s
-
-WalletLegacy/WalletUserTransactionsCache.o: WalletLegacy/WalletUserTransactionsCache.cpp.o
-
-.PHONY : WalletLegacy/WalletUserTransactionsCache.o
-
-# target to build an object file
-WalletLegacy/WalletUserTransactionsCache.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.o
-.PHONY : WalletLegacy/WalletUserTransactionsCache.cpp.o
-
-WalletLegacy/WalletUserTransactionsCache.i: WalletLegacy/WalletUserTransactionsCache.cpp.i
-
-.PHONY : WalletLegacy/WalletUserTransactionsCache.i
-
-# target to preprocess a source file
-WalletLegacy/WalletUserTransactionsCache.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.i
-.PHONY : WalletLegacy/WalletUserTransactionsCache.cpp.i
-
-WalletLegacy/WalletUserTransactionsCache.s: WalletLegacy/WalletUserTransactionsCache.cpp.s
-
-.PHONY : WalletLegacy/WalletUserTransactionsCache.s
-
-# target to generate assembly for a file
-WalletLegacy/WalletUserTransactionsCache.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.s
-.PHONY : WalletLegacy/WalletUserTransactionsCache.cpp.s
+crypto/aesb.c.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.s
+.PHONY : crypto/aesb.c.s
 
 crypto/blake256.o: crypto/blake256.c.o
 
@@ -4567,32 +1492,32 @@ crypto/blake256.c.s:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.s
 .PHONY : crypto/blake256.c.s
 
-crypto/chacha8.o: crypto/chacha8.c.o
+crypto/chacha.o: crypto/chacha.c.o
 
-.PHONY : crypto/chacha8.o
+.PHONY : crypto/chacha.o
 
 # target to build an object file
-crypto/chacha8.c.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o
-.PHONY : crypto/chacha8.c.o
+crypto/chacha.c.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha.c.o
+.PHONY : crypto/chacha.c.o
 
-crypto/chacha8.i: crypto/chacha8.c.i
+crypto/chacha.i: crypto/chacha.c.i
 
-.PHONY : crypto/chacha8.i
+.PHONY : crypto/chacha.i
 
 # target to preprocess a source file
-crypto/chacha8.c.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.i
-.PHONY : crypto/chacha8.c.i
+crypto/chacha.c.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha.c.i
+.PHONY : crypto/chacha.c.i
 
-crypto/chacha8.s: crypto/chacha8.c.s
+crypto/chacha.s: crypto/chacha.c.s
 
-.PHONY : crypto/chacha8.s
+.PHONY : crypto/chacha.s
 
 # target to generate assembly for a file
-crypto/chacha8.c.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.s
-.PHONY : crypto/chacha8.c.s
+crypto/chacha.c.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha.c.s
+.PHONY : crypto/chacha.c.s
 
 crypto/crypto-ops-data.o: crypto/crypto-ops-data.c.o
 
@@ -4999,33 +1924,6 @@ crypto/slow-hash.c.s:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.s
 .PHONY : crypto/slow-hash.c.s
 
-crypto/slow-hash.o: crypto/slow-hash.cpp.o
-
-.PHONY : crypto/slow-hash.o
-
-# target to build an object file
-crypto/slow-hash.cpp.o:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.o
-.PHONY : crypto/slow-hash.cpp.o
-
-crypto/slow-hash.i: crypto/slow-hash.cpp.i
-
-.PHONY : crypto/slow-hash.i
-
-# target to preprocess a source file
-crypto/slow-hash.cpp.i:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.i
-.PHONY : crypto/slow-hash.cpp.i
-
-crypto/slow-hash.s: crypto/slow-hash.cpp.s
-
-.PHONY : crypto/slow-hash.s
-
-# target to generate assembly for a file
-crypto/slow-hash.cpp.s:
-	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.s
-.PHONY : crypto/slow-hash.cpp.s
-
 crypto/tree-hash.o: crypto/tree-hash.c.o
 
 .PHONY : crypto/tree-hash.o
@@ -5053,6 +1951,3543 @@ crypto/tree-hash.c.s:
 	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.s
 .PHONY : crypto/tree-hash.c.s
 
+cryptonote/core/BlockchainMessages.o: cryptonote/core/BlockchainMessages.cpp.o
+
+.PHONY : cryptonote/core/BlockchainMessages.o
+
+# target to build an object file
+cryptonote/core/BlockchainMessages.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/BlockchainMessages.cpp.o
+.PHONY : cryptonote/core/BlockchainMessages.cpp.o
+
+cryptonote/core/BlockchainMessages.i: cryptonote/core/BlockchainMessages.cpp.i
+
+.PHONY : cryptonote/core/BlockchainMessages.i
+
+# target to preprocess a source file
+cryptonote/core/BlockchainMessages.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/BlockchainMessages.cpp.i
+.PHONY : cryptonote/core/BlockchainMessages.cpp.i
+
+cryptonote/core/BlockchainMessages.s: cryptonote/core/BlockchainMessages.cpp.s
+
+.PHONY : cryptonote/core/BlockchainMessages.s
+
+# target to generate assembly for a file
+cryptonote/core/BlockchainMessages.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/BlockchainMessages.cpp.s
+.PHONY : cryptonote/core/BlockchainMessages.cpp.s
+
+cryptonote/core/CryptoNoteFormatUtils.o: cryptonote/core/CryptoNoteFormatUtils.cpp.o
+
+.PHONY : cryptonote/core/CryptoNoteFormatUtils.o
+
+# target to build an object file
+cryptonote/core/CryptoNoteFormatUtils.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/CryptoNoteFormatUtils.cpp.o
+.PHONY : cryptonote/core/CryptoNoteFormatUtils.cpp.o
+
+cryptonote/core/CryptoNoteFormatUtils.i: cryptonote/core/CryptoNoteFormatUtils.cpp.i
+
+.PHONY : cryptonote/core/CryptoNoteFormatUtils.i
+
+# target to preprocess a source file
+cryptonote/core/CryptoNoteFormatUtils.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/CryptoNoteFormatUtils.cpp.i
+.PHONY : cryptonote/core/CryptoNoteFormatUtils.cpp.i
+
+cryptonote/core/CryptoNoteFormatUtils.s: cryptonote/core/CryptoNoteFormatUtils.cpp.s
+
+.PHONY : cryptonote/core/CryptoNoteFormatUtils.s
+
+# target to generate assembly for a file
+cryptonote/core/CryptoNoteFormatUtils.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/CryptoNoteFormatUtils.cpp.s
+.PHONY : cryptonote/core/CryptoNoteFormatUtils.cpp.s
+
+cryptonote/core/CryptoNoteTools.o: cryptonote/core/CryptoNoteTools.cpp.o
+
+.PHONY : cryptonote/core/CryptoNoteTools.o
+
+# target to build an object file
+cryptonote/core/CryptoNoteTools.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/CryptoNoteTools.cpp.o
+.PHONY : cryptonote/core/CryptoNoteTools.cpp.o
+
+cryptonote/core/CryptoNoteTools.i: cryptonote/core/CryptoNoteTools.cpp.i
+
+.PHONY : cryptonote/core/CryptoNoteTools.i
+
+# target to preprocess a source file
+cryptonote/core/CryptoNoteTools.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/CryptoNoteTools.cpp.i
+.PHONY : cryptonote/core/CryptoNoteTools.cpp.i
+
+cryptonote/core/CryptoNoteTools.s: cryptonote/core/CryptoNoteTools.cpp.s
+
+.PHONY : cryptonote/core/CryptoNoteTools.s
+
+# target to generate assembly for a file
+cryptonote/core/CryptoNoteTools.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/CryptoNoteTools.cpp.s
+.PHONY : cryptonote/core/CryptoNoteTools.cpp.s
+
+cryptonote/core/IBlock.o: cryptonote/core/IBlock.cpp.o
+
+.PHONY : cryptonote/core/IBlock.o
+
+# target to build an object file
+cryptonote/core/IBlock.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/IBlock.cpp.o
+.PHONY : cryptonote/core/IBlock.cpp.o
+
+cryptonote/core/IBlock.i: cryptonote/core/IBlock.cpp.i
+
+.PHONY : cryptonote/core/IBlock.i
+
+# target to preprocess a source file
+cryptonote/core/IBlock.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/IBlock.cpp.i
+.PHONY : cryptonote/core/IBlock.cpp.i
+
+cryptonote/core/IBlock.s: cryptonote/core/IBlock.cpp.s
+
+.PHONY : cryptonote/core/IBlock.s
+
+# target to generate assembly for a file
+cryptonote/core/IBlock.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/IBlock.cpp.s
+.PHONY : cryptonote/core/IBlock.cpp.s
+
+cryptonote/core/ITimeProvider.o: cryptonote/core/ITimeProvider.cpp.o
+
+.PHONY : cryptonote/core/ITimeProvider.o
+
+# target to build an object file
+cryptonote/core/ITimeProvider.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/ITimeProvider.cpp.o
+.PHONY : cryptonote/core/ITimeProvider.cpp.o
+
+cryptonote/core/ITimeProvider.i: cryptonote/core/ITimeProvider.cpp.i
+
+.PHONY : cryptonote/core/ITimeProvider.i
+
+# target to preprocess a source file
+cryptonote/core/ITimeProvider.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/ITimeProvider.cpp.i
+.PHONY : cryptonote/core/ITimeProvider.cpp.i
+
+cryptonote/core/ITimeProvider.s: cryptonote/core/ITimeProvider.cpp.s
+
+.PHONY : cryptonote/core/ITimeProvider.s
+
+# target to generate assembly for a file
+cryptonote/core/ITimeProvider.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/ITimeProvider.cpp.s
+.PHONY : cryptonote/core/ITimeProvider.cpp.s
+
+cryptonote/core/Miner.o: cryptonote/core/Miner.cpp.o
+
+.PHONY : cryptonote/core/Miner.o
+
+# target to build an object file
+cryptonote/core/Miner.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/Miner.cpp.o
+.PHONY : cryptonote/core/Miner.cpp.o
+
+cryptonote/core/Miner.i: cryptonote/core/Miner.cpp.i
+
+.PHONY : cryptonote/core/Miner.i
+
+# target to preprocess a source file
+cryptonote/core/Miner.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/Miner.cpp.i
+.PHONY : cryptonote/core/Miner.cpp.i
+
+cryptonote/core/Miner.s: cryptonote/core/Miner.cpp.s
+
+.PHONY : cryptonote/core/Miner.s
+
+# target to generate assembly for a file
+cryptonote/core/Miner.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/Miner.cpp.s
+.PHONY : cryptonote/core/Miner.cpp.s
+
+cryptonote/core/Transaction.o: cryptonote/core/Transaction.cpp.o
+
+.PHONY : cryptonote/core/Transaction.o
+
+# target to build an object file
+cryptonote/core/Transaction.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/Transaction.cpp.o
+.PHONY : cryptonote/core/Transaction.cpp.o
+
+cryptonote/core/Transaction.i: cryptonote/core/Transaction.cpp.i
+
+.PHONY : cryptonote/core/Transaction.i
+
+# target to preprocess a source file
+cryptonote/core/Transaction.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/Transaction.cpp.i
+.PHONY : cryptonote/core/Transaction.cpp.i
+
+cryptonote/core/Transaction.s: cryptonote/core/Transaction.cpp.s
+
+.PHONY : cryptonote/core/Transaction.s
+
+# target to generate assembly for a file
+cryptonote/core/Transaction.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/Transaction.cpp.s
+.PHONY : cryptonote/core/Transaction.cpp.s
+
+cryptonote/core/TransactionExtra.o: cryptonote/core/TransactionExtra.cpp.o
+
+.PHONY : cryptonote/core/TransactionExtra.o
+
+# target to build an object file
+cryptonote/core/TransactionExtra.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/TransactionExtra.cpp.o
+.PHONY : cryptonote/core/TransactionExtra.cpp.o
+
+cryptonote/core/TransactionExtra.i: cryptonote/core/TransactionExtra.cpp.i
+
+.PHONY : cryptonote/core/TransactionExtra.i
+
+# target to preprocess a source file
+cryptonote/core/TransactionExtra.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/TransactionExtra.cpp.i
+.PHONY : cryptonote/core/TransactionExtra.cpp.i
+
+cryptonote/core/TransactionExtra.s: cryptonote/core/TransactionExtra.cpp.s
+
+.PHONY : cryptonote/core/TransactionExtra.s
+
+# target to generate assembly for a file
+cryptonote/core/TransactionExtra.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/TransactionExtra.cpp.s
+.PHONY : cryptonote/core/TransactionExtra.cpp.s
+
+cryptonote/core/TransactionPrefixImpl.o: cryptonote/core/TransactionPrefixImpl.cpp.o
+
+.PHONY : cryptonote/core/TransactionPrefixImpl.o
+
+# target to build an object file
+cryptonote/core/TransactionPrefixImpl.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/TransactionPrefixImpl.cpp.o
+.PHONY : cryptonote/core/TransactionPrefixImpl.cpp.o
+
+cryptonote/core/TransactionPrefixImpl.i: cryptonote/core/TransactionPrefixImpl.cpp.i
+
+.PHONY : cryptonote/core/TransactionPrefixImpl.i
+
+# target to preprocess a source file
+cryptonote/core/TransactionPrefixImpl.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/TransactionPrefixImpl.cpp.i
+.PHONY : cryptonote/core/TransactionPrefixImpl.cpp.i
+
+cryptonote/core/TransactionPrefixImpl.s: cryptonote/core/TransactionPrefixImpl.cpp.s
+
+.PHONY : cryptonote/core/TransactionPrefixImpl.s
+
+# target to generate assembly for a file
+cryptonote/core/TransactionPrefixImpl.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/TransactionPrefixImpl.cpp.s
+.PHONY : cryptonote/core/TransactionPrefixImpl.cpp.s
+
+cryptonote/core/TransactionUtils.o: cryptonote/core/TransactionUtils.cpp.o
+
+.PHONY : cryptonote/core/TransactionUtils.o
+
+# target to build an object file
+cryptonote/core/TransactionUtils.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/TransactionUtils.cpp.o
+.PHONY : cryptonote/core/TransactionUtils.cpp.o
+
+cryptonote/core/TransactionUtils.i: cryptonote/core/TransactionUtils.cpp.i
+
+.PHONY : cryptonote/core/TransactionUtils.i
+
+# target to preprocess a source file
+cryptonote/core/TransactionUtils.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/TransactionUtils.cpp.i
+.PHONY : cryptonote/core/TransactionUtils.cpp.i
+
+cryptonote/core/TransactionUtils.s: cryptonote/core/TransactionUtils.cpp.s
+
+.PHONY : cryptonote/core/TransactionUtils.s
+
+# target to generate assembly for a file
+cryptonote/core/TransactionUtils.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/TransactionUtils.cpp.s
+.PHONY : cryptonote/core/TransactionUtils.cpp.s
+
+cryptonote/core/account.o: cryptonote/core/account.cpp.o
+
+.PHONY : cryptonote/core/account.o
+
+# target to build an object file
+cryptonote/core/account.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/account.cpp.o
+.PHONY : cryptonote/core/account.cpp.o
+
+cryptonote/core/account.i: cryptonote/core/account.cpp.i
+
+.PHONY : cryptonote/core/account.i
+
+# target to preprocess a source file
+cryptonote/core/account.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/account.cpp.i
+.PHONY : cryptonote/core/account.cpp.i
+
+cryptonote/core/account.s: cryptonote/core/account.cpp.s
+
+.PHONY : cryptonote/core/account.s
+
+# target to generate assembly for a file
+cryptonote/core/account.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/account.cpp.s
+.PHONY : cryptonote/core/account.cpp.s
+
+cryptonote/core/blockchain.o: cryptonote/core/blockchain.cpp.o
+
+.PHONY : cryptonote/core/blockchain.o
+
+# target to build an object file
+cryptonote/core/blockchain.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain.cpp.o
+.PHONY : cryptonote/core/blockchain.cpp.o
+
+cryptonote/core/blockchain.i: cryptonote/core/blockchain.cpp.i
+
+.PHONY : cryptonote/core/blockchain.i
+
+# target to preprocess a source file
+cryptonote/core/blockchain.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain.cpp.i
+.PHONY : cryptonote/core/blockchain.cpp.i
+
+cryptonote/core/blockchain.s: cryptonote/core/blockchain.cpp.s
+
+.PHONY : cryptonote/core/blockchain.s
+
+# target to generate assembly for a file
+cryptonote/core/blockchain.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain.cpp.s
+.PHONY : cryptonote/core/blockchain.cpp.s
+
+cryptonote/core/blockchain/indexing/generated_transaction.o: cryptonote/core/blockchain/indexing/generated_transaction.cpp.o
+
+.PHONY : cryptonote/core/blockchain/indexing/generated_transaction.o
+
+# target to build an object file
+cryptonote/core/blockchain/indexing/generated_transaction.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/generated_transaction.cpp.o
+.PHONY : cryptonote/core/blockchain/indexing/generated_transaction.cpp.o
+
+cryptonote/core/blockchain/indexing/generated_transaction.i: cryptonote/core/blockchain/indexing/generated_transaction.cpp.i
+
+.PHONY : cryptonote/core/blockchain/indexing/generated_transaction.i
+
+# target to preprocess a source file
+cryptonote/core/blockchain/indexing/generated_transaction.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/generated_transaction.cpp.i
+.PHONY : cryptonote/core/blockchain/indexing/generated_transaction.cpp.i
+
+cryptonote/core/blockchain/indexing/generated_transaction.s: cryptonote/core/blockchain/indexing/generated_transaction.cpp.s
+
+.PHONY : cryptonote/core/blockchain/indexing/generated_transaction.s
+
+# target to generate assembly for a file
+cryptonote/core/blockchain/indexing/generated_transaction.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/generated_transaction.cpp.s
+.PHONY : cryptonote/core/blockchain/indexing/generated_transaction.cpp.s
+
+cryptonote/core/blockchain/indexing/orphan_block.o: cryptonote/core/blockchain/indexing/orphan_block.cpp.o
+
+.PHONY : cryptonote/core/blockchain/indexing/orphan_block.o
+
+# target to build an object file
+cryptonote/core/blockchain/indexing/orphan_block.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/orphan_block.cpp.o
+.PHONY : cryptonote/core/blockchain/indexing/orphan_block.cpp.o
+
+cryptonote/core/blockchain/indexing/orphan_block.i: cryptonote/core/blockchain/indexing/orphan_block.cpp.i
+
+.PHONY : cryptonote/core/blockchain/indexing/orphan_block.i
+
+# target to preprocess a source file
+cryptonote/core/blockchain/indexing/orphan_block.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/orphan_block.cpp.i
+.PHONY : cryptonote/core/blockchain/indexing/orphan_block.cpp.i
+
+cryptonote/core/blockchain/indexing/orphan_block.s: cryptonote/core/blockchain/indexing/orphan_block.cpp.s
+
+.PHONY : cryptonote/core/blockchain/indexing/orphan_block.s
+
+# target to generate assembly for a file
+cryptonote/core/blockchain/indexing/orphan_block.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/orphan_block.cpp.s
+.PHONY : cryptonote/core/blockchain/indexing/orphan_block.cpp.s
+
+cryptonote/core/blockchain/indexing/payment.o: cryptonote/core/blockchain/indexing/payment.cpp.o
+
+.PHONY : cryptonote/core/blockchain/indexing/payment.o
+
+# target to build an object file
+cryptonote/core/blockchain/indexing/payment.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/payment.cpp.o
+.PHONY : cryptonote/core/blockchain/indexing/payment.cpp.o
+
+cryptonote/core/blockchain/indexing/payment.i: cryptonote/core/blockchain/indexing/payment.cpp.i
+
+.PHONY : cryptonote/core/blockchain/indexing/payment.i
+
+# target to preprocess a source file
+cryptonote/core/blockchain/indexing/payment.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/payment.cpp.i
+.PHONY : cryptonote/core/blockchain/indexing/payment.cpp.i
+
+cryptonote/core/blockchain/indexing/payment.s: cryptonote/core/blockchain/indexing/payment.cpp.s
+
+.PHONY : cryptonote/core/blockchain/indexing/payment.s
+
+# target to generate assembly for a file
+cryptonote/core/blockchain/indexing/payment.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/payment.cpp.s
+.PHONY : cryptonote/core/blockchain/indexing/payment.cpp.s
+
+cryptonote/core/blockchain/indexing/timestamp_block.o: cryptonote/core/blockchain/indexing/timestamp_block.cpp.o
+
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_block.o
+
+# target to build an object file
+cryptonote/core/blockchain/indexing/timestamp_block.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/timestamp_block.cpp.o
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_block.cpp.o
+
+cryptonote/core/blockchain/indexing/timestamp_block.i: cryptonote/core/blockchain/indexing/timestamp_block.cpp.i
+
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_block.i
+
+# target to preprocess a source file
+cryptonote/core/blockchain/indexing/timestamp_block.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/timestamp_block.cpp.i
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_block.cpp.i
+
+cryptonote/core/blockchain/indexing/timestamp_block.s: cryptonote/core/blockchain/indexing/timestamp_block.cpp.s
+
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_block.s
+
+# target to generate assembly for a file
+cryptonote/core/blockchain/indexing/timestamp_block.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/timestamp_block.cpp.s
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_block.cpp.s
+
+cryptonote/core/blockchain/indexing/timestamp_transaction.o: cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.o
+
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_transaction.o
+
+# target to build an object file
+cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.o
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.o
+
+cryptonote/core/blockchain/indexing/timestamp_transaction.i: cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.i
+
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_transaction.i
+
+# target to preprocess a source file
+cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.i
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.i
+
+cryptonote/core/blockchain/indexing/timestamp_transaction.s: cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.s
+
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_transaction.s
+
+# target to generate assembly for a file
+cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.s
+.PHONY : cryptonote/core/blockchain/indexing/timestamp_transaction.cpp.s
+
+cryptonote/core/blockchain/serializer/basics.o: cryptonote/core/blockchain/serializer/basics.cpp.o
+
+.PHONY : cryptonote/core/blockchain/serializer/basics.o
+
+# target to build an object file
+cryptonote/core/blockchain/serializer/basics.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/basics.cpp.o
+.PHONY : cryptonote/core/blockchain/serializer/basics.cpp.o
+
+cryptonote/core/blockchain/serializer/basics.i: cryptonote/core/blockchain/serializer/basics.cpp.i
+
+.PHONY : cryptonote/core/blockchain/serializer/basics.i
+
+# target to preprocess a source file
+cryptonote/core/blockchain/serializer/basics.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/basics.cpp.i
+.PHONY : cryptonote/core/blockchain/serializer/basics.cpp.i
+
+cryptonote/core/blockchain/serializer/basics.s: cryptonote/core/blockchain/serializer/basics.cpp.s
+
+.PHONY : cryptonote/core/blockchain/serializer/basics.s
+
+# target to generate assembly for a file
+cryptonote/core/blockchain/serializer/basics.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/basics.cpp.s
+.PHONY : cryptonote/core/blockchain/serializer/basics.cpp.s
+
+cryptonote/core/blockchain/serializer/block_index.o: cryptonote/core/blockchain/serializer/block_index.cpp.o
+
+.PHONY : cryptonote/core/blockchain/serializer/block_index.o
+
+# target to build an object file
+cryptonote/core/blockchain/serializer/block_index.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/block_index.cpp.o
+.PHONY : cryptonote/core/blockchain/serializer/block_index.cpp.o
+
+cryptonote/core/blockchain/serializer/block_index.i: cryptonote/core/blockchain/serializer/block_index.cpp.i
+
+.PHONY : cryptonote/core/blockchain/serializer/block_index.i
+
+# target to preprocess a source file
+cryptonote/core/blockchain/serializer/block_index.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/block_index.cpp.i
+.PHONY : cryptonote/core/blockchain/serializer/block_index.cpp.i
+
+cryptonote/core/blockchain/serializer/block_index.s: cryptonote/core/blockchain/serializer/block_index.cpp.s
+
+.PHONY : cryptonote/core/blockchain/serializer/block_index.s
+
+# target to generate assembly for a file
+cryptonote/core/blockchain/serializer/block_index.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/block_index.cpp.s
+.PHONY : cryptonote/core/blockchain/serializer/block_index.cpp.s
+
+cryptonote/core/blockchain/serializer/crypto.o: cryptonote/core/blockchain/serializer/crypto.cpp.o
+
+.PHONY : cryptonote/core/blockchain/serializer/crypto.o
+
+# target to build an object file
+cryptonote/core/blockchain/serializer/crypto.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/crypto.cpp.o
+.PHONY : cryptonote/core/blockchain/serializer/crypto.cpp.o
+
+cryptonote/core/blockchain/serializer/crypto.i: cryptonote/core/blockchain/serializer/crypto.cpp.i
+
+.PHONY : cryptonote/core/blockchain/serializer/crypto.i
+
+# target to preprocess a source file
+cryptonote/core/blockchain/serializer/crypto.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/crypto.cpp.i
+.PHONY : cryptonote/core/blockchain/serializer/crypto.cpp.i
+
+cryptonote/core/blockchain/serializer/crypto.s: cryptonote/core/blockchain/serializer/crypto.cpp.s
+
+.PHONY : cryptonote/core/blockchain/serializer/crypto.s
+
+# target to generate assembly for a file
+cryptonote/core/blockchain/serializer/crypto.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/crypto.cpp.s
+.PHONY : cryptonote/core/blockchain/serializer/crypto.cpp.s
+
+cryptonote/core/blockchain/serializer/transaction_index.o: cryptonote/core/blockchain/serializer/transaction_index.cpp.o
+
+.PHONY : cryptonote/core/blockchain/serializer/transaction_index.o
+
+# target to build an object file
+cryptonote/core/blockchain/serializer/transaction_index.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/transaction_index.cpp.o
+.PHONY : cryptonote/core/blockchain/serializer/transaction_index.cpp.o
+
+cryptonote/core/blockchain/serializer/transaction_index.i: cryptonote/core/blockchain/serializer/transaction_index.cpp.i
+
+.PHONY : cryptonote/core/blockchain/serializer/transaction_index.i
+
+# target to preprocess a source file
+cryptonote/core/blockchain/serializer/transaction_index.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/transaction_index.cpp.i
+.PHONY : cryptonote/core/blockchain/serializer/transaction_index.cpp.i
+
+cryptonote/core/blockchain/serializer/transaction_index.s: cryptonote/core/blockchain/serializer/transaction_index.cpp.s
+
+.PHONY : cryptonote/core/blockchain/serializer/transaction_index.s
+
+# target to generate assembly for a file
+cryptonote/core/blockchain/serializer/transaction_index.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/blockchain/serializer/transaction_index.cpp.s
+.PHONY : cryptonote/core/blockchain/serializer/transaction_index.cpp.s
+
+cryptonote/core/checkpoints.o: cryptonote/core/checkpoints.cpp.o
+
+.PHONY : cryptonote/core/checkpoints.o
+
+# target to build an object file
+cryptonote/core/checkpoints.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/checkpoints.cpp.o
+.PHONY : cryptonote/core/checkpoints.cpp.o
+
+cryptonote/core/checkpoints.i: cryptonote/core/checkpoints.cpp.i
+
+.PHONY : cryptonote/core/checkpoints.i
+
+# target to preprocess a source file
+cryptonote/core/checkpoints.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/checkpoints.cpp.i
+.PHONY : cryptonote/core/checkpoints.cpp.i
+
+cryptonote/core/checkpoints.s: cryptonote/core/checkpoints.cpp.s
+
+.PHONY : cryptonote/core/checkpoints.s
+
+# target to generate assembly for a file
+cryptonote/core/checkpoints.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/checkpoints.cpp.s
+.PHONY : cryptonote/core/checkpoints.cpp.s
+
+cryptonote/core/core.o: cryptonote/core/core.cpp.o
+
+.PHONY : cryptonote/core/core.o
+
+# target to build an object file
+cryptonote/core/core.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/core.cpp.o
+.PHONY : cryptonote/core/core.cpp.o
+
+cryptonote/core/core.i: cryptonote/core/core.cpp.i
+
+.PHONY : cryptonote/core/core.i
+
+# target to preprocess a source file
+cryptonote/core/core.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/core.cpp.i
+.PHONY : cryptonote/core/core.cpp.i
+
+cryptonote/core/core.s: cryptonote/core/core.cpp.s
+
+.PHONY : cryptonote/core/core.s
+
+# target to generate assembly for a file
+cryptonote/core/core.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/core.cpp.s
+.PHONY : cryptonote/core/core.cpp.s
+
+cryptonote/core/currency.o: cryptonote/core/currency.cpp.o
+
+.PHONY : cryptonote/core/currency.o
+
+# target to build an object file
+cryptonote/core/currency.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/currency.cpp.o
+.PHONY : cryptonote/core/currency.cpp.o
+
+cryptonote/core/currency.i: cryptonote/core/currency.cpp.i
+
+.PHONY : cryptonote/core/currency.i
+
+# target to preprocess a source file
+cryptonote/core/currency.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/currency.cpp.i
+.PHONY : cryptonote/core/currency.cpp.i
+
+cryptonote/core/currency.s: cryptonote/core/currency.cpp.s
+
+.PHONY : cryptonote/core/currency.s
+
+# target to generate assembly for a file
+cryptonote/core/currency.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/currency.cpp.s
+.PHONY : cryptonote/core/currency.cpp.s
+
+cryptonote/core/difficulty.o: cryptonote/core/difficulty.cpp.o
+
+.PHONY : cryptonote/core/difficulty.o
+
+# target to build an object file
+cryptonote/core/difficulty.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/difficulty.cpp.o
+.PHONY : cryptonote/core/difficulty.cpp.o
+
+cryptonote/core/difficulty.i: cryptonote/core/difficulty.cpp.i
+
+.PHONY : cryptonote/core/difficulty.i
+
+# target to preprocess a source file
+cryptonote/core/difficulty.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/difficulty.cpp.i
+.PHONY : cryptonote/core/difficulty.cpp.i
+
+cryptonote/core/difficulty.s: cryptonote/core/difficulty.cpp.s
+
+.PHONY : cryptonote/core/difficulty.s
+
+# target to generate assembly for a file
+cryptonote/core/difficulty.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/difficulty.cpp.s
+.PHONY : cryptonote/core/difficulty.cpp.s
+
+cryptonote/core/hardfork.o: cryptonote/core/hardfork.cpp.o
+
+.PHONY : cryptonote/core/hardfork.o
+
+# target to build an object file
+cryptonote/core/hardfork.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/hardfork.cpp.o
+.PHONY : cryptonote/core/hardfork.cpp.o
+
+cryptonote/core/hardfork.i: cryptonote/core/hardfork.cpp.i
+
+.PHONY : cryptonote/core/hardfork.i
+
+# target to preprocess a source file
+cryptonote/core/hardfork.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/hardfork.cpp.i
+.PHONY : cryptonote/core/hardfork.cpp.i
+
+cryptonote/core/hardfork.s: cryptonote/core/hardfork.cpp.s
+
+.PHONY : cryptonote/core/hardfork.s
+
+# target to generate assembly for a file
+cryptonote/core/hardfork.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/hardfork.cpp.s
+.PHONY : cryptonote/core/hardfork.cpp.s
+
+cryptonote/core/key.o: cryptonote/core/key.cpp.o
+
+.PHONY : cryptonote/core/key.o
+
+# target to build an object file
+cryptonote/core/key.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/key.cpp.o
+.PHONY : cryptonote/core/key.cpp.o
+
+cryptonote/core/key.i: cryptonote/core/key.cpp.i
+
+.PHONY : cryptonote/core/key.i
+
+# target to preprocess a source file
+cryptonote/core/key.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/key.cpp.i
+.PHONY : cryptonote/core/key.cpp.i
+
+cryptonote/core/key.s: cryptonote/core/key.cpp.s
+
+.PHONY : cryptonote/core/key.s
+
+# target to generate assembly for a file
+cryptonote/core/key.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/key.cpp.s
+.PHONY : cryptonote/core/key.cpp.s
+
+cryptonote/core/transaction/transaction.o: cryptonote/core/transaction/transaction.cpp.o
+
+.PHONY : cryptonote/core/transaction/transaction.o
+
+# target to build an object file
+cryptonote/core/transaction/transaction.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/transaction/transaction.cpp.o
+.PHONY : cryptonote/core/transaction/transaction.cpp.o
+
+cryptonote/core/transaction/transaction.i: cryptonote/core/transaction/transaction.cpp.i
+
+.PHONY : cryptonote/core/transaction/transaction.i
+
+# target to preprocess a source file
+cryptonote/core/transaction/transaction.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/transaction/transaction.cpp.i
+.PHONY : cryptonote/core/transaction/transaction.cpp.i
+
+cryptonote/core/transaction/transaction.s: cryptonote/core/transaction/transaction.cpp.s
+
+.PHONY : cryptonote/core/transaction/transaction.s
+
+# target to generate assembly for a file
+cryptonote/core/transaction/transaction.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/transaction/transaction.cpp.s
+.PHONY : cryptonote/core/transaction/transaction.cpp.s
+
+cryptonote/core/tx_memory_pool.o: cryptonote/core/tx_memory_pool.cpp.o
+
+.PHONY : cryptonote/core/tx_memory_pool.o
+
+# target to build an object file
+cryptonote/core/tx_memory_pool.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/tx_memory_pool.cpp.o
+.PHONY : cryptonote/core/tx_memory_pool.cpp.o
+
+cryptonote/core/tx_memory_pool.i: cryptonote/core/tx_memory_pool.cpp.i
+
+.PHONY : cryptonote/core/tx_memory_pool.i
+
+# target to preprocess a source file
+cryptonote/core/tx_memory_pool.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/tx_memory_pool.cpp.i
+.PHONY : cryptonote/core/tx_memory_pool.cpp.i
+
+cryptonote/core/tx_memory_pool.s: cryptonote/core/tx_memory_pool.cpp.s
+
+.PHONY : cryptonote/core/tx_memory_pool.s
+
+# target to generate assembly for a file
+cryptonote/core/tx_memory_pool.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/core/tx_memory_pool.cpp.s
+.PHONY : cryptonote/core/tx_memory_pool.cpp.s
+
+cryptonote/protocol/handler.o: cryptonote/protocol/handler.cpp.o
+
+.PHONY : cryptonote/protocol/handler.o
+
+# target to build an object file
+cryptonote/protocol/handler.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/cryptonote/protocol/handler.cpp.o
+.PHONY : cryptonote/protocol/handler.cpp.o
+
+cryptonote/protocol/handler.i: cryptonote/protocol/handler.cpp.i
+
+.PHONY : cryptonote/protocol/handler.i
+
+# target to preprocess a source file
+cryptonote/protocol/handler.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/cryptonote/protocol/handler.cpp.i
+.PHONY : cryptonote/protocol/handler.cpp.i
+
+cryptonote/protocol/handler.s: cryptonote/protocol/handler.cpp.s
+
+.PHONY : cryptonote/protocol/handler.s
+
+# target to generate assembly for a file
+cryptonote/protocol/handler.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/cryptonote/protocol/handler.cpp.s
+.PHONY : cryptonote/protocol/handler.cpp.s
+
+cryptonote/structures/array.o: cryptonote/structures/array.cpp.o
+
+.PHONY : cryptonote/structures/array.o
+
+# target to build an object file
+cryptonote/structures/array.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/structures/array.cpp.o
+.PHONY : cryptonote/structures/array.cpp.o
+
+cryptonote/structures/array.i: cryptonote/structures/array.cpp.i
+
+.PHONY : cryptonote/structures/array.i
+
+# target to preprocess a source file
+cryptonote/structures/array.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/structures/array.cpp.i
+.PHONY : cryptonote/structures/array.cpp.i
+
+cryptonote/structures/array.s: cryptonote/structures/array.cpp.s
+
+.PHONY : cryptonote/structures/array.s
+
+# target to generate assembly for a file
+cryptonote/structures/array.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/structures/array.cpp.s
+.PHONY : cryptonote/structures/array.cpp.s
+
+cryptonote/structures/block_entry.o: cryptonote/structures/block_entry.cpp.o
+
+.PHONY : cryptonote/structures/block_entry.o
+
+# target to build an object file
+cryptonote/structures/block_entry.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/structures/block_entry.cpp.o
+.PHONY : cryptonote/structures/block_entry.cpp.o
+
+cryptonote/structures/block_entry.i: cryptonote/structures/block_entry.cpp.i
+
+.PHONY : cryptonote/structures/block_entry.i
+
+# target to preprocess a source file
+cryptonote/structures/block_entry.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/structures/block_entry.cpp.i
+.PHONY : cryptonote/structures/block_entry.cpp.i
+
+cryptonote/structures/block_entry.s: cryptonote/structures/block_entry.cpp.s
+
+.PHONY : cryptonote/structures/block_entry.s
+
+# target to generate assembly for a file
+cryptonote/structures/block_entry.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/cryptonote/structures/block_entry.cpp.s
+.PHONY : cryptonote/structures/block_entry.cpp.s
+
+daemon/DaemonCommandsHandler.o: daemon/DaemonCommandsHandler.cpp.o
+
+.PHONY : daemon/DaemonCommandsHandler.o
+
+# target to build an object file
+daemon/DaemonCommandsHandler.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/daemon.dir/build.make src/CMakeFiles/daemon.dir/daemon/DaemonCommandsHandler.cpp.o
+.PHONY : daemon/DaemonCommandsHandler.cpp.o
+
+daemon/DaemonCommandsHandler.i: daemon/DaemonCommandsHandler.cpp.i
+
+.PHONY : daemon/DaemonCommandsHandler.i
+
+# target to preprocess a source file
+daemon/DaemonCommandsHandler.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/daemon.dir/build.make src/CMakeFiles/daemon.dir/daemon/DaemonCommandsHandler.cpp.i
+.PHONY : daemon/DaemonCommandsHandler.cpp.i
+
+daemon/DaemonCommandsHandler.s: daemon/DaemonCommandsHandler.cpp.s
+
+.PHONY : daemon/DaemonCommandsHandler.s
+
+# target to generate assembly for a file
+daemon/DaemonCommandsHandler.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/daemon.dir/build.make src/CMakeFiles/daemon.dir/daemon/DaemonCommandsHandler.cpp.s
+.PHONY : daemon/DaemonCommandsHandler.cpp.s
+
+daemon/daemon.o: daemon/daemon.cpp.o
+
+.PHONY : daemon/daemon.o
+
+# target to build an object file
+daemon/daemon.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/daemon.dir/build.make src/CMakeFiles/daemon.dir/daemon/daemon.cpp.o
+.PHONY : daemon/daemon.cpp.o
+
+daemon/daemon.i: daemon/daemon.cpp.i
+
+.PHONY : daemon/daemon.i
+
+# target to preprocess a source file
+daemon/daemon.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/daemon.dir/build.make src/CMakeFiles/daemon.dir/daemon/daemon.cpp.i
+.PHONY : daemon/daemon.cpp.i
+
+daemon/daemon.s: daemon/daemon.cpp.s
+
+.PHONY : daemon/daemon.s
+
+# target to generate assembly for a file
+daemon/daemon.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/daemon.dir/build.make src/CMakeFiles/daemon.dir/daemon/daemon.cpp.s
+.PHONY : daemon/daemon.cpp.s
+
+http/HttpParser.o: http/HttpParser.cpp.o
+
+.PHONY : http/HttpParser.o
+
+# target to build an object file
+http/HttpParser.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParser.cpp.o
+.PHONY : http/HttpParser.cpp.o
+
+http/HttpParser.i: http/HttpParser.cpp.i
+
+.PHONY : http/HttpParser.i
+
+# target to preprocess a source file
+http/HttpParser.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParser.cpp.i
+.PHONY : http/HttpParser.cpp.i
+
+http/HttpParser.s: http/HttpParser.cpp.s
+
+.PHONY : http/HttpParser.s
+
+# target to generate assembly for a file
+http/HttpParser.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParser.cpp.s
+.PHONY : http/HttpParser.cpp.s
+
+http/HttpParserErrorCodes.o: http/HttpParserErrorCodes.cpp.o
+
+.PHONY : http/HttpParserErrorCodes.o
+
+# target to build an object file
+http/HttpParserErrorCodes.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.o
+.PHONY : http/HttpParserErrorCodes.cpp.o
+
+http/HttpParserErrorCodes.i: http/HttpParserErrorCodes.cpp.i
+
+.PHONY : http/HttpParserErrorCodes.i
+
+# target to preprocess a source file
+http/HttpParserErrorCodes.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.i
+.PHONY : http/HttpParserErrorCodes.cpp.i
+
+http/HttpParserErrorCodes.s: http/HttpParserErrorCodes.cpp.s
+
+.PHONY : http/HttpParserErrorCodes.s
+
+# target to generate assembly for a file
+http/HttpParserErrorCodes.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpParserErrorCodes.cpp.s
+.PHONY : http/HttpParserErrorCodes.cpp.s
+
+http/HttpRequest.o: http/HttpRequest.cpp.o
+
+.PHONY : http/HttpRequest.o
+
+# target to build an object file
+http/HttpRequest.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpRequest.cpp.o
+.PHONY : http/HttpRequest.cpp.o
+
+http/HttpRequest.i: http/HttpRequest.cpp.i
+
+.PHONY : http/HttpRequest.i
+
+# target to preprocess a source file
+http/HttpRequest.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpRequest.cpp.i
+.PHONY : http/HttpRequest.cpp.i
+
+http/HttpRequest.s: http/HttpRequest.cpp.s
+
+.PHONY : http/HttpRequest.s
+
+# target to generate assembly for a file
+http/HttpRequest.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpRequest.cpp.s
+.PHONY : http/HttpRequest.cpp.s
+
+http/HttpResponse.o: http/HttpResponse.cpp.o
+
+.PHONY : http/HttpResponse.o
+
+# target to build an object file
+http/HttpResponse.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpResponse.cpp.o
+.PHONY : http/HttpResponse.cpp.o
+
+http/HttpResponse.i: http/HttpResponse.cpp.i
+
+.PHONY : http/HttpResponse.i
+
+# target to preprocess a source file
+http/HttpResponse.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpResponse.cpp.i
+.PHONY : http/HttpResponse.cpp.i
+
+http/HttpResponse.s: http/HttpResponse.cpp.s
+
+.PHONY : http/HttpResponse.s
+
+# target to generate assembly for a file
+http/HttpResponse.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/http/HttpResponse.cpp.s
+.PHONY : http/HttpResponse.cpp.s
+
+logging/CommonLogger.o: logging/CommonLogger.cpp.o
+
+.PHONY : logging/CommonLogger.o
+
+# target to build an object file
+logging/CommonLogger.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/CommonLogger.cpp.o
+.PHONY : logging/CommonLogger.cpp.o
+
+logging/CommonLogger.i: logging/CommonLogger.cpp.i
+
+.PHONY : logging/CommonLogger.i
+
+# target to preprocess a source file
+logging/CommonLogger.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/CommonLogger.cpp.i
+.PHONY : logging/CommonLogger.cpp.i
+
+logging/CommonLogger.s: logging/CommonLogger.cpp.s
+
+.PHONY : logging/CommonLogger.s
+
+# target to generate assembly for a file
+logging/CommonLogger.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/CommonLogger.cpp.s
+.PHONY : logging/CommonLogger.cpp.s
+
+logging/ConsoleLogger.o: logging/ConsoleLogger.cpp.o
+
+.PHONY : logging/ConsoleLogger.o
+
+# target to build an object file
+logging/ConsoleLogger.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ConsoleLogger.cpp.o
+.PHONY : logging/ConsoleLogger.cpp.o
+
+logging/ConsoleLogger.i: logging/ConsoleLogger.cpp.i
+
+.PHONY : logging/ConsoleLogger.i
+
+# target to preprocess a source file
+logging/ConsoleLogger.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ConsoleLogger.cpp.i
+.PHONY : logging/ConsoleLogger.cpp.i
+
+logging/ConsoleLogger.s: logging/ConsoleLogger.cpp.s
+
+.PHONY : logging/ConsoleLogger.s
+
+# target to generate assembly for a file
+logging/ConsoleLogger.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ConsoleLogger.cpp.s
+.PHONY : logging/ConsoleLogger.cpp.s
+
+logging/FileLogger.o: logging/FileLogger.cpp.o
+
+.PHONY : logging/FileLogger.o
+
+# target to build an object file
+logging/FileLogger.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/FileLogger.cpp.o
+.PHONY : logging/FileLogger.cpp.o
+
+logging/FileLogger.i: logging/FileLogger.cpp.i
+
+.PHONY : logging/FileLogger.i
+
+# target to preprocess a source file
+logging/FileLogger.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/FileLogger.cpp.i
+.PHONY : logging/FileLogger.cpp.i
+
+logging/FileLogger.s: logging/FileLogger.cpp.s
+
+.PHONY : logging/FileLogger.s
+
+# target to generate assembly for a file
+logging/FileLogger.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/FileLogger.cpp.s
+.PHONY : logging/FileLogger.cpp.s
+
+logging/ILogger.o: logging/ILogger.cpp.o
+
+.PHONY : logging/ILogger.o
+
+# target to build an object file
+logging/ILogger.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ILogger.cpp.o
+.PHONY : logging/ILogger.cpp.o
+
+logging/ILogger.i: logging/ILogger.cpp.i
+
+.PHONY : logging/ILogger.i
+
+# target to preprocess a source file
+logging/ILogger.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ILogger.cpp.i
+.PHONY : logging/ILogger.cpp.i
+
+logging/ILogger.s: logging/ILogger.cpp.s
+
+.PHONY : logging/ILogger.s
+
+# target to generate assembly for a file
+logging/ILogger.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/ILogger.cpp.s
+.PHONY : logging/ILogger.cpp.s
+
+logging/LoggerGroup.o: logging/LoggerGroup.cpp.o
+
+.PHONY : logging/LoggerGroup.o
+
+# target to build an object file
+logging/LoggerGroup.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerGroup.cpp.o
+.PHONY : logging/LoggerGroup.cpp.o
+
+logging/LoggerGroup.i: logging/LoggerGroup.cpp.i
+
+.PHONY : logging/LoggerGroup.i
+
+# target to preprocess a source file
+logging/LoggerGroup.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerGroup.cpp.i
+.PHONY : logging/LoggerGroup.cpp.i
+
+logging/LoggerGroup.s: logging/LoggerGroup.cpp.s
+
+.PHONY : logging/LoggerGroup.s
+
+# target to generate assembly for a file
+logging/LoggerGroup.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerGroup.cpp.s
+.PHONY : logging/LoggerGroup.cpp.s
+
+logging/LoggerManager.o: logging/LoggerManager.cpp.o
+
+.PHONY : logging/LoggerManager.o
+
+# target to build an object file
+logging/LoggerManager.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerManager.cpp.o
+.PHONY : logging/LoggerManager.cpp.o
+
+logging/LoggerManager.i: logging/LoggerManager.cpp.i
+
+.PHONY : logging/LoggerManager.i
+
+# target to preprocess a source file
+logging/LoggerManager.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerManager.cpp.i
+.PHONY : logging/LoggerManager.cpp.i
+
+logging/LoggerManager.s: logging/LoggerManager.cpp.s
+
+.PHONY : logging/LoggerManager.s
+
+# target to generate assembly for a file
+logging/LoggerManager.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerManager.cpp.s
+.PHONY : logging/LoggerManager.cpp.s
+
+logging/LoggerMessage.o: logging/LoggerMessage.cpp.o
+
+.PHONY : logging/LoggerMessage.o
+
+# target to build an object file
+logging/LoggerMessage.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerMessage.cpp.o
+.PHONY : logging/LoggerMessage.cpp.o
+
+logging/LoggerMessage.i: logging/LoggerMessage.cpp.i
+
+.PHONY : logging/LoggerMessage.i
+
+# target to preprocess a source file
+logging/LoggerMessage.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerMessage.cpp.i
+.PHONY : logging/LoggerMessage.cpp.i
+
+logging/LoggerMessage.s: logging/LoggerMessage.cpp.s
+
+.PHONY : logging/LoggerMessage.s
+
+# target to generate assembly for a file
+logging/LoggerMessage.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerMessage.cpp.s
+.PHONY : logging/LoggerMessage.cpp.s
+
+logging/LoggerRef.o: logging/LoggerRef.cpp.o
+
+.PHONY : logging/LoggerRef.o
+
+# target to build an object file
+logging/LoggerRef.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerRef.cpp.o
+.PHONY : logging/LoggerRef.cpp.o
+
+logging/LoggerRef.i: logging/LoggerRef.cpp.i
+
+.PHONY : logging/LoggerRef.i
+
+# target to preprocess a source file
+logging/LoggerRef.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerRef.cpp.i
+.PHONY : logging/LoggerRef.cpp.i
+
+logging/LoggerRef.s: logging/LoggerRef.cpp.s
+
+.PHONY : logging/LoggerRef.s
+
+# target to generate assembly for a file
+logging/LoggerRef.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/LoggerRef.cpp.s
+.PHONY : logging/LoggerRef.cpp.s
+
+logging/StreamLogger.o: logging/StreamLogger.cpp.o
+
+.PHONY : logging/StreamLogger.o
+
+# target to build an object file
+logging/StreamLogger.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/StreamLogger.cpp.o
+.PHONY : logging/StreamLogger.cpp.o
+
+logging/StreamLogger.i: logging/StreamLogger.cpp.i
+
+.PHONY : logging/StreamLogger.i
+
+# target to preprocess a source file
+logging/StreamLogger.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/StreamLogger.cpp.i
+.PHONY : logging/StreamLogger.cpp.i
+
+logging/StreamLogger.s: logging/StreamLogger.cpp.s
+
+.PHONY : logging/StreamLogger.s
+
+# target to generate assembly for a file
+logging/StreamLogger.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/logging/StreamLogger.cpp.s
+.PHONY : logging/StreamLogger.cpp.s
+
+miner/BlockchainMonitor.o: miner/BlockchainMonitor.cpp.o
+
+.PHONY : miner/BlockchainMonitor.o
+
+# target to build an object file
+miner/BlockchainMonitor.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/BlockchainMonitor.cpp.o
+.PHONY : miner/BlockchainMonitor.cpp.o
+
+miner/BlockchainMonitor.i: miner/BlockchainMonitor.cpp.i
+
+.PHONY : miner/BlockchainMonitor.i
+
+# target to preprocess a source file
+miner/BlockchainMonitor.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/BlockchainMonitor.cpp.i
+.PHONY : miner/BlockchainMonitor.cpp.i
+
+miner/BlockchainMonitor.s: miner/BlockchainMonitor.cpp.s
+
+.PHONY : miner/BlockchainMonitor.s
+
+# target to generate assembly for a file
+miner/BlockchainMonitor.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/BlockchainMonitor.cpp.s
+.PHONY : miner/BlockchainMonitor.cpp.s
+
+miner/Miner.o: miner/Miner.cpp.o
+
+.PHONY : miner/Miner.o
+
+# target to build an object file
+miner/Miner.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/Miner.cpp.o
+.PHONY : miner/Miner.cpp.o
+
+miner/Miner.i: miner/Miner.cpp.i
+
+.PHONY : miner/Miner.i
+
+# target to preprocess a source file
+miner/Miner.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/Miner.cpp.i
+.PHONY : miner/Miner.cpp.i
+
+miner/Miner.s: miner/Miner.cpp.s
+
+.PHONY : miner/Miner.s
+
+# target to generate assembly for a file
+miner/Miner.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/Miner.cpp.s
+.PHONY : miner/Miner.cpp.s
+
+miner/MinerManager.o: miner/MinerManager.cpp.o
+
+.PHONY : miner/MinerManager.o
+
+# target to build an object file
+miner/MinerManager.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/MinerManager.cpp.o
+.PHONY : miner/MinerManager.cpp.o
+
+miner/MinerManager.i: miner/MinerManager.cpp.i
+
+.PHONY : miner/MinerManager.i
+
+# target to preprocess a source file
+miner/MinerManager.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/MinerManager.cpp.i
+.PHONY : miner/MinerManager.cpp.i
+
+miner/MinerManager.s: miner/MinerManager.cpp.s
+
+.PHONY : miner/MinerManager.s
+
+# target to generate assembly for a file
+miner/MinerManager.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/MinerManager.cpp.s
+.PHONY : miner/MinerManager.cpp.s
+
+miner/MiningConfig.o: miner/MiningConfig.cpp.o
+
+.PHONY : miner/MiningConfig.o
+
+# target to build an object file
+miner/MiningConfig.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/MiningConfig.cpp.o
+.PHONY : miner/MiningConfig.cpp.o
+
+miner/MiningConfig.i: miner/MiningConfig.cpp.i
+
+.PHONY : miner/MiningConfig.i
+
+# target to preprocess a source file
+miner/MiningConfig.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/MiningConfig.cpp.i
+.PHONY : miner/MiningConfig.cpp.i
+
+miner/MiningConfig.s: miner/MiningConfig.cpp.s
+
+.PHONY : miner/MiningConfig.s
+
+# target to generate assembly for a file
+miner/MiningConfig.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/MiningConfig.cpp.s
+.PHONY : miner/MiningConfig.cpp.s
+
+miner/main.o: miner/main.cpp.o
+
+.PHONY : miner/main.o
+
+# target to build an object file
+miner/main.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/main.cpp.o
+.PHONY : miner/main.cpp.o
+
+miner/main.i: miner/main.cpp.i
+
+.PHONY : miner/main.i
+
+# target to preprocess a source file
+miner/main.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/main.cpp.i
+.PHONY : miner/main.cpp.i
+
+miner/main.s: miner/main.cpp.s
+
+.PHONY : miner/main.s
+
+# target to generate assembly for a file
+miner/main.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/miner/main.cpp.s
+.PHONY : miner/main.cpp.s
+
+p2p/IP2pNodeInternal.o: p2p/IP2pNodeInternal.cpp.o
+
+.PHONY : p2p/IP2pNodeInternal.o
+
+# target to build an object file
+p2p/IP2pNodeInternal.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.o
+.PHONY : p2p/IP2pNodeInternal.cpp.o
+
+p2p/IP2pNodeInternal.i: p2p/IP2pNodeInternal.cpp.i
+
+.PHONY : p2p/IP2pNodeInternal.i
+
+# target to preprocess a source file
+p2p/IP2pNodeInternal.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.i
+.PHONY : p2p/IP2pNodeInternal.cpp.i
+
+p2p/IP2pNodeInternal.s: p2p/IP2pNodeInternal.cpp.s
+
+.PHONY : p2p/IP2pNodeInternal.s
+
+# target to generate assembly for a file
+p2p/IP2pNodeInternal.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/IP2pNodeInternal.cpp.s
+.PHONY : p2p/IP2pNodeInternal.cpp.s
+
+p2p/LevinProtocol.o: p2p/LevinProtocol.cpp.o
+
+.PHONY : p2p/LevinProtocol.o
+
+# target to build an object file
+p2p/LevinProtocol.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.o
+.PHONY : p2p/LevinProtocol.cpp.o
+
+p2p/LevinProtocol.i: p2p/LevinProtocol.cpp.i
+
+.PHONY : p2p/LevinProtocol.i
+
+# target to preprocess a source file
+p2p/LevinProtocol.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.i
+.PHONY : p2p/LevinProtocol.cpp.i
+
+p2p/LevinProtocol.s: p2p/LevinProtocol.cpp.s
+
+.PHONY : p2p/LevinProtocol.s
+
+# target to generate assembly for a file
+p2p/LevinProtocol.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/LevinProtocol.cpp.s
+.PHONY : p2p/LevinProtocol.cpp.s
+
+p2p/NetNode.o: p2p/NetNode.cpp.o
+
+.PHONY : p2p/NetNode.o
+
+# target to build an object file
+p2p/NetNode.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.o
+.PHONY : p2p/NetNode.cpp.o
+
+p2p/NetNode.i: p2p/NetNode.cpp.i
+
+.PHONY : p2p/NetNode.i
+
+# target to preprocess a source file
+p2p/NetNode.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.i
+.PHONY : p2p/NetNode.cpp.i
+
+p2p/NetNode.s: p2p/NetNode.cpp.s
+
+.PHONY : p2p/NetNode.s
+
+# target to generate assembly for a file
+p2p/NetNode.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/NetNode.cpp.s
+.PHONY : p2p/NetNode.cpp.s
+
+p2p/P2pConnectionProxy.o: p2p/P2pConnectionProxy.cpp.o
+
+.PHONY : p2p/P2pConnectionProxy.o
+
+# target to build an object file
+p2p/P2pConnectionProxy.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.o
+.PHONY : p2p/P2pConnectionProxy.cpp.o
+
+p2p/P2pConnectionProxy.i: p2p/P2pConnectionProxy.cpp.i
+
+.PHONY : p2p/P2pConnectionProxy.i
+
+# target to preprocess a source file
+p2p/P2pConnectionProxy.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.i
+.PHONY : p2p/P2pConnectionProxy.cpp.i
+
+p2p/P2pConnectionProxy.s: p2p/P2pConnectionProxy.cpp.s
+
+.PHONY : p2p/P2pConnectionProxy.s
+
+# target to generate assembly for a file
+p2p/P2pConnectionProxy.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pConnectionProxy.cpp.s
+.PHONY : p2p/P2pConnectionProxy.cpp.s
+
+p2p/P2pContext.o: p2p/P2pContext.cpp.o
+
+.PHONY : p2p/P2pContext.o
+
+# target to build an object file
+p2p/P2pContext.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.o
+.PHONY : p2p/P2pContext.cpp.o
+
+p2p/P2pContext.i: p2p/P2pContext.cpp.i
+
+.PHONY : p2p/P2pContext.i
+
+# target to preprocess a source file
+p2p/P2pContext.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.i
+.PHONY : p2p/P2pContext.cpp.i
+
+p2p/P2pContext.s: p2p/P2pContext.cpp.s
+
+.PHONY : p2p/P2pContext.s
+
+# target to generate assembly for a file
+p2p/P2pContext.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContext.cpp.s
+.PHONY : p2p/P2pContext.cpp.s
+
+p2p/P2pContextOwner.o: p2p/P2pContextOwner.cpp.o
+
+.PHONY : p2p/P2pContextOwner.o
+
+# target to build an object file
+p2p/P2pContextOwner.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.o
+.PHONY : p2p/P2pContextOwner.cpp.o
+
+p2p/P2pContextOwner.i: p2p/P2pContextOwner.cpp.i
+
+.PHONY : p2p/P2pContextOwner.i
+
+# target to preprocess a source file
+p2p/P2pContextOwner.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.i
+.PHONY : p2p/P2pContextOwner.cpp.i
+
+p2p/P2pContextOwner.s: p2p/P2pContextOwner.cpp.s
+
+.PHONY : p2p/P2pContextOwner.s
+
+# target to generate assembly for a file
+p2p/P2pContextOwner.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pContextOwner.cpp.s
+.PHONY : p2p/P2pContextOwner.cpp.s
+
+p2p/P2pInterfaces.o: p2p/P2pInterfaces.cpp.o
+
+.PHONY : p2p/P2pInterfaces.o
+
+# target to build an object file
+p2p/P2pInterfaces.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.o
+.PHONY : p2p/P2pInterfaces.cpp.o
+
+p2p/P2pInterfaces.i: p2p/P2pInterfaces.cpp.i
+
+.PHONY : p2p/P2pInterfaces.i
+
+# target to preprocess a source file
+p2p/P2pInterfaces.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.i
+.PHONY : p2p/P2pInterfaces.cpp.i
+
+p2p/P2pInterfaces.s: p2p/P2pInterfaces.cpp.s
+
+.PHONY : p2p/P2pInterfaces.s
+
+# target to generate assembly for a file
+p2p/P2pInterfaces.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pInterfaces.cpp.s
+.PHONY : p2p/P2pInterfaces.cpp.s
+
+p2p/P2pNode.o: p2p/P2pNode.cpp.o
+
+.PHONY : p2p/P2pNode.o
+
+# target to build an object file
+p2p/P2pNode.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.o
+.PHONY : p2p/P2pNode.cpp.o
+
+p2p/P2pNode.i: p2p/P2pNode.cpp.i
+
+.PHONY : p2p/P2pNode.i
+
+# target to preprocess a source file
+p2p/P2pNode.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.i
+.PHONY : p2p/P2pNode.cpp.i
+
+p2p/P2pNode.s: p2p/P2pNode.cpp.s
+
+.PHONY : p2p/P2pNode.s
+
+# target to generate assembly for a file
+p2p/P2pNode.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/P2pNode.cpp.s
+.PHONY : p2p/P2pNode.cpp.s
+
+p2p/PeerListManager.o: p2p/PeerListManager.cpp.o
+
+.PHONY : p2p/PeerListManager.o
+
+# target to build an object file
+p2p/PeerListManager.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.o
+.PHONY : p2p/PeerListManager.cpp.o
+
+p2p/PeerListManager.i: p2p/PeerListManager.cpp.i
+
+.PHONY : p2p/PeerListManager.i
+
+# target to preprocess a source file
+p2p/PeerListManager.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.i
+.PHONY : p2p/PeerListManager.cpp.i
+
+p2p/PeerListManager.s: p2p/PeerListManager.cpp.s
+
+.PHONY : p2p/PeerListManager.s
+
+# target to generate assembly for a file
+p2p/PeerListManager.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/p2p/PeerListManager.cpp.s
+.PHONY : p2p/PeerListManager.cpp.s
+
+payment_gate/NodeFactory.o: payment_gate/NodeFactory.cpp.o
+
+.PHONY : payment_gate/NodeFactory.o
+
+# target to build an object file
+payment_gate/NodeFactory.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/NodeFactory.cpp.o
+.PHONY : payment_gate/NodeFactory.cpp.o
+
+payment_gate/NodeFactory.i: payment_gate/NodeFactory.cpp.i
+
+.PHONY : payment_gate/NodeFactory.i
+
+# target to preprocess a source file
+payment_gate/NodeFactory.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/NodeFactory.cpp.i
+.PHONY : payment_gate/NodeFactory.cpp.i
+
+payment_gate/NodeFactory.s: payment_gate/NodeFactory.cpp.s
+
+.PHONY : payment_gate/NodeFactory.s
+
+# target to generate assembly for a file
+payment_gate/NodeFactory.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/NodeFactory.cpp.s
+.PHONY : payment_gate/NodeFactory.cpp.s
+
+payment_gate/PaymentServiceJsonRpcMessages.o: payment_gate/PaymentServiceJsonRpcMessages.cpp.o
+
+.PHONY : payment_gate/PaymentServiceJsonRpcMessages.o
+
+# target to build an object file
+payment_gate/PaymentServiceJsonRpcMessages.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/PaymentServiceJsonRpcMessages.cpp.o
+.PHONY : payment_gate/PaymentServiceJsonRpcMessages.cpp.o
+
+payment_gate/PaymentServiceJsonRpcMessages.i: payment_gate/PaymentServiceJsonRpcMessages.cpp.i
+
+.PHONY : payment_gate/PaymentServiceJsonRpcMessages.i
+
+# target to preprocess a source file
+payment_gate/PaymentServiceJsonRpcMessages.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/PaymentServiceJsonRpcMessages.cpp.i
+.PHONY : payment_gate/PaymentServiceJsonRpcMessages.cpp.i
+
+payment_gate/PaymentServiceJsonRpcMessages.s: payment_gate/PaymentServiceJsonRpcMessages.cpp.s
+
+.PHONY : payment_gate/PaymentServiceJsonRpcMessages.s
+
+# target to generate assembly for a file
+payment_gate/PaymentServiceJsonRpcMessages.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/PaymentServiceJsonRpcMessages.cpp.s
+.PHONY : payment_gate/PaymentServiceJsonRpcMessages.cpp.s
+
+payment_gate/PaymentServiceJsonRpcServer.o: payment_gate/PaymentServiceJsonRpcServer.cpp.o
+
+.PHONY : payment_gate/PaymentServiceJsonRpcServer.o
+
+# target to build an object file
+payment_gate/PaymentServiceJsonRpcServer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/PaymentServiceJsonRpcServer.cpp.o
+.PHONY : payment_gate/PaymentServiceJsonRpcServer.cpp.o
+
+payment_gate/PaymentServiceJsonRpcServer.i: payment_gate/PaymentServiceJsonRpcServer.cpp.i
+
+.PHONY : payment_gate/PaymentServiceJsonRpcServer.i
+
+# target to preprocess a source file
+payment_gate/PaymentServiceJsonRpcServer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/PaymentServiceJsonRpcServer.cpp.i
+.PHONY : payment_gate/PaymentServiceJsonRpcServer.cpp.i
+
+payment_gate/PaymentServiceJsonRpcServer.s: payment_gate/PaymentServiceJsonRpcServer.cpp.s
+
+.PHONY : payment_gate/PaymentServiceJsonRpcServer.s
+
+# target to generate assembly for a file
+payment_gate/PaymentServiceJsonRpcServer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/PaymentServiceJsonRpcServer.cpp.s
+.PHONY : payment_gate/PaymentServiceJsonRpcServer.cpp.s
+
+payment_gate/WalletFactory.o: payment_gate/WalletFactory.cpp.o
+
+.PHONY : payment_gate/WalletFactory.o
+
+# target to build an object file
+payment_gate/WalletFactory.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/WalletFactory.cpp.o
+.PHONY : payment_gate/WalletFactory.cpp.o
+
+payment_gate/WalletFactory.i: payment_gate/WalletFactory.cpp.i
+
+.PHONY : payment_gate/WalletFactory.i
+
+# target to preprocess a source file
+payment_gate/WalletFactory.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/WalletFactory.cpp.i
+.PHONY : payment_gate/WalletFactory.cpp.i
+
+payment_gate/WalletFactory.s: payment_gate/WalletFactory.cpp.s
+
+.PHONY : payment_gate/WalletFactory.s
+
+# target to generate assembly for a file
+payment_gate/WalletFactory.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/WalletFactory.cpp.s
+.PHONY : payment_gate/WalletFactory.cpp.s
+
+payment_gate/WalletService.o: payment_gate/WalletService.cpp.o
+
+.PHONY : payment_gate/WalletService.o
+
+# target to build an object file
+payment_gate/WalletService.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/WalletService.cpp.o
+.PHONY : payment_gate/WalletService.cpp.o
+
+payment_gate/WalletService.i: payment_gate/WalletService.cpp.i
+
+.PHONY : payment_gate/WalletService.i
+
+# target to preprocess a source file
+payment_gate/WalletService.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/WalletService.cpp.i
+.PHONY : payment_gate/WalletService.cpp.i
+
+payment_gate/WalletService.s: payment_gate/WalletService.cpp.s
+
+.PHONY : payment_gate/WalletService.s
+
+# target to generate assembly for a file
+payment_gate/WalletService.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/WalletService.cpp.s
+.PHONY : payment_gate/WalletService.cpp.s
+
+payment_gate/WalletServiceErrorCategory.o: payment_gate/WalletServiceErrorCategory.cpp.o
+
+.PHONY : payment_gate/WalletServiceErrorCategory.o
+
+# target to build an object file
+payment_gate/WalletServiceErrorCategory.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/WalletServiceErrorCategory.cpp.o
+.PHONY : payment_gate/WalletServiceErrorCategory.cpp.o
+
+payment_gate/WalletServiceErrorCategory.i: payment_gate/WalletServiceErrorCategory.cpp.i
+
+.PHONY : payment_gate/WalletServiceErrorCategory.i
+
+# target to preprocess a source file
+payment_gate/WalletServiceErrorCategory.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/WalletServiceErrorCategory.cpp.i
+.PHONY : payment_gate/WalletServiceErrorCategory.cpp.i
+
+payment_gate/WalletServiceErrorCategory.s: payment_gate/WalletServiceErrorCategory.cpp.s
+
+.PHONY : payment_gate/WalletServiceErrorCategory.s
+
+# target to generate assembly for a file
+payment_gate/WalletServiceErrorCategory.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/payment_gate/WalletServiceErrorCategory.cpp.s
+.PHONY : payment_gate/WalletServiceErrorCategory.cpp.s
+
+payment_gate_service/PaymentGateService.o: payment_gate_service/PaymentGateService.cpp.o
+
+.PHONY : payment_gate_service/PaymentGateService.o
+
+# target to build an object file
+payment_gate_service/PaymentGateService.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/payment_gate_service/PaymentGateService.cpp.o
+.PHONY : payment_gate_service/PaymentGateService.cpp.o
+
+payment_gate_service/PaymentGateService.i: payment_gate_service/PaymentGateService.cpp.i
+
+.PHONY : payment_gate_service/PaymentGateService.i
+
+# target to preprocess a source file
+payment_gate_service/PaymentGateService.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/payment_gate_service/PaymentGateService.cpp.i
+.PHONY : payment_gate_service/PaymentGateService.cpp.i
+
+payment_gate_service/PaymentGateService.s: payment_gate_service/PaymentGateService.cpp.s
+
+.PHONY : payment_gate_service/PaymentGateService.s
+
+# target to generate assembly for a file
+payment_gate_service/PaymentGateService.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/payment_gate_service/PaymentGateService.cpp.s
+.PHONY : payment_gate_service/PaymentGateService.cpp.s
+
+payment_gate_service/main.o: payment_gate_service/main.cpp.o
+
+.PHONY : payment_gate_service/main.o
+
+# target to build an object file
+payment_gate_service/main.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/payment_gate_service/main.cpp.o
+.PHONY : payment_gate_service/main.cpp.o
+
+payment_gate_service/main.i: payment_gate_service/main.cpp.i
+
+.PHONY : payment_gate_service/main.i
+
+# target to preprocess a source file
+payment_gate_service/main.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/payment_gate_service/main.cpp.i
+.PHONY : payment_gate_service/main.cpp.i
+
+payment_gate_service/main.s: payment_gate_service/main.cpp.s
+
+.PHONY : payment_gate_service/main.s
+
+# target to generate assembly for a file
+payment_gate_service/main.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/payment_gate_service/main.cpp.s
+.PHONY : payment_gate_service/main.cpp.s
+
+platform/Linux/system/Dispatcher.o: platform/Linux/system/Dispatcher.cpp.o
+
+.PHONY : platform/Linux/system/Dispatcher.o
+
+# target to build an object file
+platform/Linux/system/Dispatcher.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/Dispatcher.cpp.o
+.PHONY : platform/Linux/system/Dispatcher.cpp.o
+
+platform/Linux/system/Dispatcher.i: platform/Linux/system/Dispatcher.cpp.i
+
+.PHONY : platform/Linux/system/Dispatcher.i
+
+# target to preprocess a source file
+platform/Linux/system/Dispatcher.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/Dispatcher.cpp.i
+.PHONY : platform/Linux/system/Dispatcher.cpp.i
+
+platform/Linux/system/Dispatcher.s: platform/Linux/system/Dispatcher.cpp.s
+
+.PHONY : platform/Linux/system/Dispatcher.s
+
+# target to generate assembly for a file
+platform/Linux/system/Dispatcher.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/Dispatcher.cpp.s
+.PHONY : platform/Linux/system/Dispatcher.cpp.s
+
+platform/Linux/system/ErrorMessage.o: platform/Linux/system/ErrorMessage.cpp.o
+
+.PHONY : platform/Linux/system/ErrorMessage.o
+
+# target to build an object file
+platform/Linux/system/ErrorMessage.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/ErrorMessage.cpp.o
+.PHONY : platform/Linux/system/ErrorMessage.cpp.o
+
+platform/Linux/system/ErrorMessage.i: platform/Linux/system/ErrorMessage.cpp.i
+
+.PHONY : platform/Linux/system/ErrorMessage.i
+
+# target to preprocess a source file
+platform/Linux/system/ErrorMessage.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/ErrorMessage.cpp.i
+.PHONY : platform/Linux/system/ErrorMessage.cpp.i
+
+platform/Linux/system/ErrorMessage.s: platform/Linux/system/ErrorMessage.cpp.s
+
+.PHONY : platform/Linux/system/ErrorMessage.s
+
+# target to generate assembly for a file
+platform/Linux/system/ErrorMessage.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/ErrorMessage.cpp.s
+.PHONY : platform/Linux/system/ErrorMessage.cpp.s
+
+platform/Linux/system/Ipv4Resolver.o: platform/Linux/system/Ipv4Resolver.cpp.o
+
+.PHONY : platform/Linux/system/Ipv4Resolver.o
+
+# target to build an object file
+platform/Linux/system/Ipv4Resolver.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/Ipv4Resolver.cpp.o
+.PHONY : platform/Linux/system/Ipv4Resolver.cpp.o
+
+platform/Linux/system/Ipv4Resolver.i: platform/Linux/system/Ipv4Resolver.cpp.i
+
+.PHONY : platform/Linux/system/Ipv4Resolver.i
+
+# target to preprocess a source file
+platform/Linux/system/Ipv4Resolver.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/Ipv4Resolver.cpp.i
+.PHONY : platform/Linux/system/Ipv4Resolver.cpp.i
+
+platform/Linux/system/Ipv4Resolver.s: platform/Linux/system/Ipv4Resolver.cpp.s
+
+.PHONY : platform/Linux/system/Ipv4Resolver.s
+
+# target to generate assembly for a file
+platform/Linux/system/Ipv4Resolver.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/Ipv4Resolver.cpp.s
+.PHONY : platform/Linux/system/Ipv4Resolver.cpp.s
+
+platform/Linux/system/TcpConnection.o: platform/Linux/system/TcpConnection.cpp.o
+
+.PHONY : platform/Linux/system/TcpConnection.o
+
+# target to build an object file
+platform/Linux/system/TcpConnection.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/TcpConnection.cpp.o
+.PHONY : platform/Linux/system/TcpConnection.cpp.o
+
+platform/Linux/system/TcpConnection.i: platform/Linux/system/TcpConnection.cpp.i
+
+.PHONY : platform/Linux/system/TcpConnection.i
+
+# target to preprocess a source file
+platform/Linux/system/TcpConnection.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/TcpConnection.cpp.i
+.PHONY : platform/Linux/system/TcpConnection.cpp.i
+
+platform/Linux/system/TcpConnection.s: platform/Linux/system/TcpConnection.cpp.s
+
+.PHONY : platform/Linux/system/TcpConnection.s
+
+# target to generate assembly for a file
+platform/Linux/system/TcpConnection.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/TcpConnection.cpp.s
+.PHONY : platform/Linux/system/TcpConnection.cpp.s
+
+platform/Linux/system/TcpConnector.o: platform/Linux/system/TcpConnector.cpp.o
+
+.PHONY : platform/Linux/system/TcpConnector.o
+
+# target to build an object file
+platform/Linux/system/TcpConnector.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/TcpConnector.cpp.o
+.PHONY : platform/Linux/system/TcpConnector.cpp.o
+
+platform/Linux/system/TcpConnector.i: platform/Linux/system/TcpConnector.cpp.i
+
+.PHONY : platform/Linux/system/TcpConnector.i
+
+# target to preprocess a source file
+platform/Linux/system/TcpConnector.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/TcpConnector.cpp.i
+.PHONY : platform/Linux/system/TcpConnector.cpp.i
+
+platform/Linux/system/TcpConnector.s: platform/Linux/system/TcpConnector.cpp.s
+
+.PHONY : platform/Linux/system/TcpConnector.s
+
+# target to generate assembly for a file
+platform/Linux/system/TcpConnector.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/TcpConnector.cpp.s
+.PHONY : platform/Linux/system/TcpConnector.cpp.s
+
+platform/Linux/system/TcpListener.o: platform/Linux/system/TcpListener.cpp.o
+
+.PHONY : platform/Linux/system/TcpListener.o
+
+# target to build an object file
+platform/Linux/system/TcpListener.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/TcpListener.cpp.o
+.PHONY : platform/Linux/system/TcpListener.cpp.o
+
+platform/Linux/system/TcpListener.i: platform/Linux/system/TcpListener.cpp.i
+
+.PHONY : platform/Linux/system/TcpListener.i
+
+# target to preprocess a source file
+platform/Linux/system/TcpListener.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/TcpListener.cpp.i
+.PHONY : platform/Linux/system/TcpListener.cpp.i
+
+platform/Linux/system/TcpListener.s: platform/Linux/system/TcpListener.cpp.s
+
+.PHONY : platform/Linux/system/TcpListener.s
+
+# target to generate assembly for a file
+platform/Linux/system/TcpListener.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/TcpListener.cpp.s
+.PHONY : platform/Linux/system/TcpListener.cpp.s
+
+platform/Linux/system/Timer.o: platform/Linux/system/Timer.cpp.o
+
+.PHONY : platform/Linux/system/Timer.o
+
+# target to build an object file
+platform/Linux/system/Timer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/Timer.cpp.o
+.PHONY : platform/Linux/system/Timer.cpp.o
+
+platform/Linux/system/Timer.i: platform/Linux/system/Timer.cpp.i
+
+.PHONY : platform/Linux/system/Timer.i
+
+# target to preprocess a source file
+platform/Linux/system/Timer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/Timer.cpp.i
+.PHONY : platform/Linux/system/Timer.cpp.i
+
+platform/Linux/system/Timer.s: platform/Linux/system/Timer.cpp.s
+
+.PHONY : platform/Linux/system/Timer.s
+
+# target to generate assembly for a file
+platform/Linux/system/Timer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/platform/Linux/system/Timer.cpp.s
+.PHONY : platform/Linux/system/Timer.cpp.s
+
+rpc/HttpClient.o: rpc/HttpClient.cpp.o
+
+.PHONY : rpc/HttpClient.o
+
+# target to build an object file
+rpc/HttpClient.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.o
+.PHONY : rpc/HttpClient.cpp.o
+
+rpc/HttpClient.i: rpc/HttpClient.cpp.i
+
+.PHONY : rpc/HttpClient.i
+
+# target to preprocess a source file
+rpc/HttpClient.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.i
+.PHONY : rpc/HttpClient.cpp.i
+
+rpc/HttpClient.s: rpc/HttpClient.cpp.s
+
+.PHONY : rpc/HttpClient.s
+
+# target to generate assembly for a file
+rpc/HttpClient.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpClient.cpp.s
+.PHONY : rpc/HttpClient.cpp.s
+
+rpc/HttpServer.o: rpc/HttpServer.cpp.o
+
+.PHONY : rpc/HttpServer.o
+
+# target to build an object file
+rpc/HttpServer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.o
+.PHONY : rpc/HttpServer.cpp.o
+
+rpc/HttpServer.i: rpc/HttpServer.cpp.i
+
+.PHONY : rpc/HttpServer.i
+
+# target to preprocess a source file
+rpc/HttpServer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.i
+.PHONY : rpc/HttpServer.cpp.i
+
+rpc/HttpServer.s: rpc/HttpServer.cpp.s
+
+.PHONY : rpc/HttpServer.s
+
+# target to generate assembly for a file
+rpc/HttpServer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/HttpServer.cpp.s
+.PHONY : rpc/HttpServer.cpp.s
+
+rpc/JsonRpc.o: rpc/JsonRpc.cpp.o
+
+.PHONY : rpc/JsonRpc.o
+
+# target to build an object file
+rpc/JsonRpc.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.o
+.PHONY : rpc/JsonRpc.cpp.o
+
+rpc/JsonRpc.i: rpc/JsonRpc.cpp.i
+
+.PHONY : rpc/JsonRpc.i
+
+# target to preprocess a source file
+rpc/JsonRpc.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.i
+.PHONY : rpc/JsonRpc.cpp.i
+
+rpc/JsonRpc.s: rpc/JsonRpc.cpp.s
+
+.PHONY : rpc/JsonRpc.s
+
+# target to generate assembly for a file
+rpc/JsonRpc.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/JsonRpc.cpp.s
+.PHONY : rpc/JsonRpc.cpp.s
+
+rpc/RpcServer.o: rpc/RpcServer.cpp.o
+
+.PHONY : rpc/RpcServer.o
+
+# target to build an object file
+rpc/RpcServer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.o
+.PHONY : rpc/RpcServer.cpp.o
+
+rpc/RpcServer.i: rpc/RpcServer.cpp.i
+
+.PHONY : rpc/RpcServer.i
+
+# target to preprocess a source file
+rpc/RpcServer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.i
+.PHONY : rpc/RpcServer.cpp.i
+
+rpc/RpcServer.s: rpc/RpcServer.cpp.s
+
+.PHONY : rpc/RpcServer.s
+
+# target to generate assembly for a file
+rpc/RpcServer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/rpc/RpcServer.cpp.s
+.PHONY : rpc/RpcServer.cpp.s
+
+serialization/BinaryInputStreamSerializer.o: serialization/BinaryInputStreamSerializer.cpp.o
+
+.PHONY : serialization/BinaryInputStreamSerializer.o
+
+# target to build an object file
+serialization/BinaryInputStreamSerializer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.o
+.PHONY : serialization/BinaryInputStreamSerializer.cpp.o
+
+serialization/BinaryInputStreamSerializer.i: serialization/BinaryInputStreamSerializer.cpp.i
+
+.PHONY : serialization/BinaryInputStreamSerializer.i
+
+# target to preprocess a source file
+serialization/BinaryInputStreamSerializer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.i
+.PHONY : serialization/BinaryInputStreamSerializer.cpp.i
+
+serialization/BinaryInputStreamSerializer.s: serialization/BinaryInputStreamSerializer.cpp.s
+
+.PHONY : serialization/BinaryInputStreamSerializer.s
+
+# target to generate assembly for a file
+serialization/BinaryInputStreamSerializer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryInputStreamSerializer.cpp.s
+.PHONY : serialization/BinaryInputStreamSerializer.cpp.s
+
+serialization/BinaryOutputStreamSerializer.o: serialization/BinaryOutputStreamSerializer.cpp.o
+
+.PHONY : serialization/BinaryOutputStreamSerializer.o
+
+# target to build an object file
+serialization/BinaryOutputStreamSerializer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.o
+.PHONY : serialization/BinaryOutputStreamSerializer.cpp.o
+
+serialization/BinaryOutputStreamSerializer.i: serialization/BinaryOutputStreamSerializer.cpp.i
+
+.PHONY : serialization/BinaryOutputStreamSerializer.i
+
+# target to preprocess a source file
+serialization/BinaryOutputStreamSerializer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.i
+.PHONY : serialization/BinaryOutputStreamSerializer.cpp.i
+
+serialization/BinaryOutputStreamSerializer.s: serialization/BinaryOutputStreamSerializer.cpp.s
+
+.PHONY : serialization/BinaryOutputStreamSerializer.s
+
+# target to generate assembly for a file
+serialization/BinaryOutputStreamSerializer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinaryOutputStreamSerializer.cpp.s
+.PHONY : serialization/BinaryOutputStreamSerializer.cpp.s
+
+serialization/BinarySerializer.o: serialization/BinarySerializer.cpp.o
+
+.PHONY : serialization/BinarySerializer.o
+
+# target to build an object file
+serialization/BinarySerializer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinarySerializer.cpp.o
+.PHONY : serialization/BinarySerializer.cpp.o
+
+serialization/BinarySerializer.i: serialization/BinarySerializer.cpp.i
+
+.PHONY : serialization/BinarySerializer.i
+
+# target to preprocess a source file
+serialization/BinarySerializer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinarySerializer.cpp.i
+.PHONY : serialization/BinarySerializer.cpp.i
+
+serialization/BinarySerializer.s: serialization/BinarySerializer.cpp.s
+
+.PHONY : serialization/BinarySerializer.s
+
+# target to generate assembly for a file
+serialization/BinarySerializer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/BinarySerializer.cpp.s
+.PHONY : serialization/BinarySerializer.cpp.s
+
+serialization/JsonInputStreamSerializer.o: serialization/JsonInputStreamSerializer.cpp.o
+
+.PHONY : serialization/JsonInputStreamSerializer.o
+
+# target to build an object file
+serialization/JsonInputStreamSerializer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.o
+.PHONY : serialization/JsonInputStreamSerializer.cpp.o
+
+serialization/JsonInputStreamSerializer.i: serialization/JsonInputStreamSerializer.cpp.i
+
+.PHONY : serialization/JsonInputStreamSerializer.i
+
+# target to preprocess a source file
+serialization/JsonInputStreamSerializer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.i
+.PHONY : serialization/JsonInputStreamSerializer.cpp.i
+
+serialization/JsonInputStreamSerializer.s: serialization/JsonInputStreamSerializer.cpp.s
+
+.PHONY : serialization/JsonInputStreamSerializer.s
+
+# target to generate assembly for a file
+serialization/JsonInputStreamSerializer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputStreamSerializer.cpp.s
+.PHONY : serialization/JsonInputStreamSerializer.cpp.s
+
+serialization/JsonInputValueSerializer.o: serialization/JsonInputValueSerializer.cpp.o
+
+.PHONY : serialization/JsonInputValueSerializer.o
+
+# target to build an object file
+serialization/JsonInputValueSerializer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.o
+.PHONY : serialization/JsonInputValueSerializer.cpp.o
+
+serialization/JsonInputValueSerializer.i: serialization/JsonInputValueSerializer.cpp.i
+
+.PHONY : serialization/JsonInputValueSerializer.i
+
+# target to preprocess a source file
+serialization/JsonInputValueSerializer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.i
+.PHONY : serialization/JsonInputValueSerializer.cpp.i
+
+serialization/JsonInputValueSerializer.s: serialization/JsonInputValueSerializer.cpp.s
+
+.PHONY : serialization/JsonInputValueSerializer.s
+
+# target to generate assembly for a file
+serialization/JsonInputValueSerializer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonInputValueSerializer.cpp.s
+.PHONY : serialization/JsonInputValueSerializer.cpp.s
+
+serialization/JsonOutputStreamSerializer.o: serialization/JsonOutputStreamSerializer.cpp.o
+
+.PHONY : serialization/JsonOutputStreamSerializer.o
+
+# target to build an object file
+serialization/JsonOutputStreamSerializer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.o
+.PHONY : serialization/JsonOutputStreamSerializer.cpp.o
+
+serialization/JsonOutputStreamSerializer.i: serialization/JsonOutputStreamSerializer.cpp.i
+
+.PHONY : serialization/JsonOutputStreamSerializer.i
+
+# target to preprocess a source file
+serialization/JsonOutputStreamSerializer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.i
+.PHONY : serialization/JsonOutputStreamSerializer.cpp.i
+
+serialization/JsonOutputStreamSerializer.s: serialization/JsonOutputStreamSerializer.cpp.s
+
+.PHONY : serialization/JsonOutputStreamSerializer.s
+
+# target to generate assembly for a file
+serialization/JsonOutputStreamSerializer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/JsonOutputStreamSerializer.cpp.s
+.PHONY : serialization/JsonOutputStreamSerializer.cpp.s
+
+serialization/KVBinaryInputStreamSerializer.o: serialization/KVBinaryInputStreamSerializer.cpp.o
+
+.PHONY : serialization/KVBinaryInputStreamSerializer.o
+
+# target to build an object file
+serialization/KVBinaryInputStreamSerializer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.o
+.PHONY : serialization/KVBinaryInputStreamSerializer.cpp.o
+
+serialization/KVBinaryInputStreamSerializer.i: serialization/KVBinaryInputStreamSerializer.cpp.i
+
+.PHONY : serialization/KVBinaryInputStreamSerializer.i
+
+# target to preprocess a source file
+serialization/KVBinaryInputStreamSerializer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.i
+.PHONY : serialization/KVBinaryInputStreamSerializer.cpp.i
+
+serialization/KVBinaryInputStreamSerializer.s: serialization/KVBinaryInputStreamSerializer.cpp.s
+
+.PHONY : serialization/KVBinaryInputStreamSerializer.s
+
+# target to generate assembly for a file
+serialization/KVBinaryInputStreamSerializer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryInputStreamSerializer.cpp.s
+.PHONY : serialization/KVBinaryInputStreamSerializer.cpp.s
+
+serialization/KVBinaryOutputStreamSerializer.o: serialization/KVBinaryOutputStreamSerializer.cpp.o
+
+.PHONY : serialization/KVBinaryOutputStreamSerializer.o
+
+# target to build an object file
+serialization/KVBinaryOutputStreamSerializer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.o
+.PHONY : serialization/KVBinaryOutputStreamSerializer.cpp.o
+
+serialization/KVBinaryOutputStreamSerializer.i: serialization/KVBinaryOutputStreamSerializer.cpp.i
+
+.PHONY : serialization/KVBinaryOutputStreamSerializer.i
+
+# target to preprocess a source file
+serialization/KVBinaryOutputStreamSerializer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.i
+.PHONY : serialization/KVBinaryOutputStreamSerializer.cpp.i
+
+serialization/KVBinaryOutputStreamSerializer.s: serialization/KVBinaryOutputStreamSerializer.cpp.s
+
+.PHONY : serialization/KVBinaryOutputStreamSerializer.s
+
+# target to generate assembly for a file
+serialization/KVBinaryOutputStreamSerializer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/KVBinaryOutputStreamSerializer.cpp.s
+.PHONY : serialization/KVBinaryOutputStreamSerializer.cpp.s
+
+serialization/MemoryStream.o: serialization/MemoryStream.cpp.o
+
+.PHONY : serialization/MemoryStream.o
+
+# target to build an object file
+serialization/MemoryStream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.o
+.PHONY : serialization/MemoryStream.cpp.o
+
+serialization/MemoryStream.i: serialization/MemoryStream.cpp.i
+
+.PHONY : serialization/MemoryStream.i
+
+# target to preprocess a source file
+serialization/MemoryStream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.i
+.PHONY : serialization/MemoryStream.cpp.i
+
+serialization/MemoryStream.s: serialization/MemoryStream.cpp.s
+
+.PHONY : serialization/MemoryStream.s
+
+# target to generate assembly for a file
+serialization/MemoryStream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/MemoryStream.cpp.s
+.PHONY : serialization/MemoryStream.cpp.s
+
+serialization/SerializationOverloads.o: serialization/SerializationOverloads.cpp.o
+
+.PHONY : serialization/SerializationOverloads.o
+
+# target to build an object file
+serialization/SerializationOverloads.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.o
+.PHONY : serialization/SerializationOverloads.cpp.o
+
+serialization/SerializationOverloads.i: serialization/SerializationOverloads.cpp.i
+
+.PHONY : serialization/SerializationOverloads.i
+
+# target to preprocess a source file
+serialization/SerializationOverloads.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.i
+.PHONY : serialization/SerializationOverloads.cpp.i
+
+serialization/SerializationOverloads.s: serialization/SerializationOverloads.cpp.s
+
+.PHONY : serialization/SerializationOverloads.s
+
+# target to generate assembly for a file
+serialization/SerializationOverloads.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/serialization/SerializationOverloads.cpp.s
+.PHONY : serialization/SerializationOverloads.cpp.s
+
+simplewallet/PasswordContainer.o: simplewallet/PasswordContainer.cpp.o
+
+.PHONY : simplewallet/PasswordContainer.o
+
+# target to build an object file
+simplewallet/PasswordContainer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/PasswordContainer.cpp.o
+.PHONY : simplewallet/PasswordContainer.cpp.o
+
+simplewallet/PasswordContainer.i: simplewallet/PasswordContainer.cpp.i
+
+.PHONY : simplewallet/PasswordContainer.i
+
+# target to preprocess a source file
+simplewallet/PasswordContainer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/PasswordContainer.cpp.i
+.PHONY : simplewallet/PasswordContainer.cpp.i
+
+simplewallet/PasswordContainer.s: simplewallet/PasswordContainer.cpp.s
+
+.PHONY : simplewallet/PasswordContainer.s
+
+# target to generate assembly for a file
+simplewallet/PasswordContainer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/PasswordContainer.cpp.s
+.PHONY : simplewallet/PasswordContainer.cpp.s
+
+simplewallet/main.o: simplewallet/main.cpp.o
+
+.PHONY : simplewallet/main.o
+
+# target to build an object file
+simplewallet/main.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/main.cpp.o
+.PHONY : simplewallet/main.cpp.o
+
+simplewallet/main.i: simplewallet/main.cpp.i
+
+.PHONY : simplewallet/main.i
+
+# target to preprocess a source file
+simplewallet/main.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/main.cpp.i
+.PHONY : simplewallet/main.cpp.i
+
+simplewallet/main.s: simplewallet/main.cpp.s
+
+.PHONY : simplewallet/main.s
+
+# target to generate assembly for a file
+simplewallet/main.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/main.cpp.s
+.PHONY : simplewallet/main.cpp.s
+
+simplewallet/options.o: simplewallet/options.cpp.o
+
+.PHONY : simplewallet/options.o
+
+# target to build an object file
+simplewallet/options.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/options.cpp.o
+.PHONY : simplewallet/options.cpp.o
+
+simplewallet/options.i: simplewallet/options.cpp.i
+
+.PHONY : simplewallet/options.i
+
+# target to preprocess a source file
+simplewallet/options.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/options.cpp.i
+.PHONY : simplewallet/options.cpp.i
+
+simplewallet/options.s: simplewallet/options.cpp.s
+
+.PHONY : simplewallet/options.s
+
+# target to generate assembly for a file
+simplewallet/options.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/options.cpp.s
+.PHONY : simplewallet/options.cpp.s
+
+simplewallet/simplewallet.o: simplewallet/simplewallet.cpp.o
+
+.PHONY : simplewallet/simplewallet.o
+
+# target to build an object file
+simplewallet/simplewallet.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/simplewallet.cpp.o
+.PHONY : simplewallet/simplewallet.cpp.o
+
+simplewallet/simplewallet.i: simplewallet/simplewallet.cpp.i
+
+.PHONY : simplewallet/simplewallet.i
+
+# target to preprocess a source file
+simplewallet/simplewallet.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/simplewallet.cpp.i
+.PHONY : simplewallet/simplewallet.cpp.i
+
+simplewallet/simplewallet.s: simplewallet/simplewallet.cpp.s
+
+.PHONY : simplewallet/simplewallet.s
+
+# target to generate assembly for a file
+simplewallet/simplewallet.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/simplewallet/simplewallet.cpp.s
+.PHONY : simplewallet/simplewallet.cpp.s
+
+stream/IInputStream.o: stream/IInputStream.cpp.o
+
+.PHONY : stream/IInputStream.o
+
+# target to build an object file
+stream/IInputStream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/IInputStream.cpp.o
+.PHONY : stream/IInputStream.cpp.o
+
+stream/IInputStream.i: stream/IInputStream.cpp.i
+
+.PHONY : stream/IInputStream.i
+
+# target to preprocess a source file
+stream/IInputStream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/IInputStream.cpp.i
+.PHONY : stream/IInputStream.cpp.i
+
+stream/IInputStream.s: stream/IInputStream.cpp.s
+
+.PHONY : stream/IInputStream.s
+
+# target to generate assembly for a file
+stream/IInputStream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/IInputStream.cpp.s
+.PHONY : stream/IInputStream.cpp.s
+
+stream/IOutputStream.o: stream/IOutputStream.cpp.o
+
+.PHONY : stream/IOutputStream.o
+
+# target to build an object file
+stream/IOutputStream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/IOutputStream.cpp.o
+.PHONY : stream/IOutputStream.cpp.o
+
+stream/IOutputStream.i: stream/IOutputStream.cpp.i
+
+.PHONY : stream/IOutputStream.i
+
+# target to preprocess a source file
+stream/IOutputStream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/IOutputStream.cpp.i
+.PHONY : stream/IOutputStream.cpp.i
+
+stream/IOutputStream.s: stream/IOutputStream.cpp.s
+
+.PHONY : stream/IOutputStream.s
+
+# target to generate assembly for a file
+stream/IOutputStream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/IOutputStream.cpp.s
+.PHONY : stream/IOutputStream.cpp.s
+
+stream/MemoryInputStream.o: stream/MemoryInputStream.cpp.o
+
+.PHONY : stream/MemoryInputStream.o
+
+# target to build an object file
+stream/MemoryInputStream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/MemoryInputStream.cpp.o
+.PHONY : stream/MemoryInputStream.cpp.o
+
+stream/MemoryInputStream.i: stream/MemoryInputStream.cpp.i
+
+.PHONY : stream/MemoryInputStream.i
+
+# target to preprocess a source file
+stream/MemoryInputStream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/MemoryInputStream.cpp.i
+.PHONY : stream/MemoryInputStream.cpp.i
+
+stream/MemoryInputStream.s: stream/MemoryInputStream.cpp.s
+
+.PHONY : stream/MemoryInputStream.s
+
+# target to generate assembly for a file
+stream/MemoryInputStream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/MemoryInputStream.cpp.s
+.PHONY : stream/MemoryInputStream.cpp.s
+
+stream/StdInputStream.o: stream/StdInputStream.cpp.o
+
+.PHONY : stream/StdInputStream.o
+
+# target to build an object file
+stream/StdInputStream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StdInputStream.cpp.o
+.PHONY : stream/StdInputStream.cpp.o
+
+stream/StdInputStream.i: stream/StdInputStream.cpp.i
+
+.PHONY : stream/StdInputStream.i
+
+# target to preprocess a source file
+stream/StdInputStream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StdInputStream.cpp.i
+.PHONY : stream/StdInputStream.cpp.i
+
+stream/StdInputStream.s: stream/StdInputStream.cpp.s
+
+.PHONY : stream/StdInputStream.s
+
+# target to generate assembly for a file
+stream/StdInputStream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StdInputStream.cpp.s
+.PHONY : stream/StdInputStream.cpp.s
+
+stream/StdOutputStream.o: stream/StdOutputStream.cpp.o
+
+.PHONY : stream/StdOutputStream.o
+
+# target to build an object file
+stream/StdOutputStream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StdOutputStream.cpp.o
+.PHONY : stream/StdOutputStream.cpp.o
+
+stream/StdOutputStream.i: stream/StdOutputStream.cpp.i
+
+.PHONY : stream/StdOutputStream.i
+
+# target to preprocess a source file
+stream/StdOutputStream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StdOutputStream.cpp.i
+.PHONY : stream/StdOutputStream.cpp.i
+
+stream/StdOutputStream.s: stream/StdOutputStream.cpp.s
+
+.PHONY : stream/StdOutputStream.s
+
+# target to generate assembly for a file
+stream/StdOutputStream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StdOutputStream.cpp.s
+.PHONY : stream/StdOutputStream.cpp.s
+
+stream/StreamTools.o: stream/StreamTools.cpp.o
+
+.PHONY : stream/StreamTools.o
+
+# target to build an object file
+stream/StreamTools.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StreamTools.cpp.o
+.PHONY : stream/StreamTools.cpp.o
+
+stream/StreamTools.i: stream/StreamTools.cpp.i
+
+.PHONY : stream/StreamTools.i
+
+# target to preprocess a source file
+stream/StreamTools.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StreamTools.cpp.i
+.PHONY : stream/StreamTools.cpp.i
+
+stream/StreamTools.s: stream/StreamTools.cpp.s
+
+.PHONY : stream/StreamTools.s
+
+# target to generate assembly for a file
+stream/StreamTools.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StreamTools.cpp.s
+.PHONY : stream/StreamTools.cpp.s
+
+stream/StringInputStream.o: stream/StringInputStream.cpp.o
+
+.PHONY : stream/StringInputStream.o
+
+# target to build an object file
+stream/StringInputStream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StringInputStream.cpp.o
+.PHONY : stream/StringInputStream.cpp.o
+
+stream/StringInputStream.i: stream/StringInputStream.cpp.i
+
+.PHONY : stream/StringInputStream.i
+
+# target to preprocess a source file
+stream/StringInputStream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StringInputStream.cpp.i
+.PHONY : stream/StringInputStream.cpp.i
+
+stream/StringInputStream.s: stream/StringInputStream.cpp.s
+
+.PHONY : stream/StringInputStream.s
+
+# target to generate assembly for a file
+stream/StringInputStream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StringInputStream.cpp.s
+.PHONY : stream/StringInputStream.cpp.s
+
+stream/StringOutputStream.o: stream/StringOutputStream.cpp.o
+
+.PHONY : stream/StringOutputStream.o
+
+# target to build an object file
+stream/StringOutputStream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StringOutputStream.cpp.o
+.PHONY : stream/StringOutputStream.cpp.o
+
+stream/StringOutputStream.i: stream/StringOutputStream.cpp.i
+
+.PHONY : stream/StringOutputStream.i
+
+# target to preprocess a source file
+stream/StringOutputStream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StringOutputStream.cpp.i
+.PHONY : stream/StringOutputStream.cpp.i
+
+stream/StringOutputStream.s: stream/StringOutputStream.cpp.s
+
+.PHONY : stream/StringOutputStream.s
+
+# target to generate assembly for a file
+stream/StringOutputStream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/StringOutputStream.cpp.s
+.PHONY : stream/StringOutputStream.cpp.s
+
+stream/VectorOutputStream.o: stream/VectorOutputStream.cpp.o
+
+.PHONY : stream/VectorOutputStream.o
+
+# target to build an object file
+stream/VectorOutputStream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/VectorOutputStream.cpp.o
+.PHONY : stream/VectorOutputStream.cpp.o
+
+stream/VectorOutputStream.i: stream/VectorOutputStream.cpp.i
+
+.PHONY : stream/VectorOutputStream.i
+
+# target to preprocess a source file
+stream/VectorOutputStream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/VectorOutputStream.cpp.i
+.PHONY : stream/VectorOutputStream.cpp.i
+
+stream/VectorOutputStream.s: stream/VectorOutputStream.cpp.s
+
+.PHONY : stream/VectorOutputStream.s
+
+# target to generate assembly for a file
+stream/VectorOutputStream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/stream/VectorOutputStream.cpp.s
+.PHONY : stream/VectorOutputStream.cpp.s
+
+system/ContextGroup.o: system/ContextGroup.cpp.o
+
+.PHONY : system/ContextGroup.o
+
+# target to build an object file
+system/ContextGroup.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroup.cpp.o
+.PHONY : system/ContextGroup.cpp.o
+
+system/ContextGroup.i: system/ContextGroup.cpp.i
+
+.PHONY : system/ContextGroup.i
+
+# target to preprocess a source file
+system/ContextGroup.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroup.cpp.i
+.PHONY : system/ContextGroup.cpp.i
+
+system/ContextGroup.s: system/ContextGroup.cpp.s
+
+.PHONY : system/ContextGroup.s
+
+# target to generate assembly for a file
+system/ContextGroup.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroup.cpp.s
+.PHONY : system/ContextGroup.cpp.s
+
+system/ContextGroupTimeout.o: system/ContextGroupTimeout.cpp.o
+
+.PHONY : system/ContextGroupTimeout.o
+
+# target to build an object file
+system/ContextGroupTimeout.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.o
+.PHONY : system/ContextGroupTimeout.cpp.o
+
+system/ContextGroupTimeout.i: system/ContextGroupTimeout.cpp.i
+
+.PHONY : system/ContextGroupTimeout.i
+
+# target to preprocess a source file
+system/ContextGroupTimeout.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.i
+.PHONY : system/ContextGroupTimeout.cpp.i
+
+system/ContextGroupTimeout.s: system/ContextGroupTimeout.cpp.s
+
+.PHONY : system/ContextGroupTimeout.s
+
+# target to generate assembly for a file
+system/ContextGroupTimeout.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/ContextGroupTimeout.cpp.s
+.PHONY : system/ContextGroupTimeout.cpp.s
+
+system/Event.o: system/Event.cpp.o
+
+.PHONY : system/Event.o
+
+# target to build an object file
+system/Event.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Event.cpp.o
+.PHONY : system/Event.cpp.o
+
+system/Event.i: system/Event.cpp.i
+
+.PHONY : system/Event.i
+
+# target to preprocess a source file
+system/Event.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Event.cpp.i
+.PHONY : system/Event.cpp.i
+
+system/Event.s: system/Event.cpp.s
+
+.PHONY : system/Event.s
+
+# target to generate assembly for a file
+system/Event.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Event.cpp.s
+.PHONY : system/Event.cpp.s
+
+system/EventLock.o: system/EventLock.cpp.o
+
+.PHONY : system/EventLock.o
+
+# target to build an object file
+system/EventLock.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/EventLock.cpp.o
+.PHONY : system/EventLock.cpp.o
+
+system/EventLock.i: system/EventLock.cpp.i
+
+.PHONY : system/EventLock.i
+
+# target to preprocess a source file
+system/EventLock.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/EventLock.cpp.i
+.PHONY : system/EventLock.cpp.i
+
+system/EventLock.s: system/EventLock.cpp.s
+
+.PHONY : system/EventLock.s
+
+# target to generate assembly for a file
+system/EventLock.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/EventLock.cpp.s
+.PHONY : system/EventLock.cpp.s
+
+system/InterruptedException.o: system/InterruptedException.cpp.o
+
+.PHONY : system/InterruptedException.o
+
+# target to build an object file
+system/InterruptedException.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/InterruptedException.cpp.o
+.PHONY : system/InterruptedException.cpp.o
+
+system/InterruptedException.i: system/InterruptedException.cpp.i
+
+.PHONY : system/InterruptedException.i
+
+# target to preprocess a source file
+system/InterruptedException.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/InterruptedException.cpp.i
+.PHONY : system/InterruptedException.cpp.i
+
+system/InterruptedException.s: system/InterruptedException.cpp.s
+
+.PHONY : system/InterruptedException.s
+
+# target to generate assembly for a file
+system/InterruptedException.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/InterruptedException.cpp.s
+.PHONY : system/InterruptedException.cpp.s
+
+system/Ipv4Address.o: system/Ipv4Address.cpp.o
+
+.PHONY : system/Ipv4Address.o
+
+# target to build an object file
+system/Ipv4Address.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Ipv4Address.cpp.o
+.PHONY : system/Ipv4Address.cpp.o
+
+system/Ipv4Address.i: system/Ipv4Address.cpp.i
+
+.PHONY : system/Ipv4Address.i
+
+# target to preprocess a source file
+system/Ipv4Address.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Ipv4Address.cpp.i
+.PHONY : system/Ipv4Address.cpp.i
+
+system/Ipv4Address.s: system/Ipv4Address.cpp.s
+
+.PHONY : system/Ipv4Address.s
+
+# target to generate assembly for a file
+system/Ipv4Address.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/Ipv4Address.cpp.s
+.PHONY : system/Ipv4Address.cpp.s
+
+system/RemoteEventLock.o: system/RemoteEventLock.cpp.o
+
+.PHONY : system/RemoteEventLock.o
+
+# target to build an object file
+system/RemoteEventLock.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.o
+.PHONY : system/RemoteEventLock.cpp.o
+
+system/RemoteEventLock.i: system/RemoteEventLock.cpp.i
+
+.PHONY : system/RemoteEventLock.i
+
+# target to preprocess a source file
+system/RemoteEventLock.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.i
+.PHONY : system/RemoteEventLock.cpp.i
+
+system/RemoteEventLock.s: system/RemoteEventLock.cpp.s
+
+.PHONY : system/RemoteEventLock.s
+
+# target to generate assembly for a file
+system/RemoteEventLock.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/RemoteEventLock.cpp.s
+.PHONY : system/RemoteEventLock.cpp.s
+
+system/TcpStream.o: system/TcpStream.cpp.o
+
+.PHONY : system/TcpStream.o
+
+# target to build an object file
+system/TcpStream.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/TcpStream.cpp.o
+.PHONY : system/TcpStream.cpp.o
+
+system/TcpStream.i: system/TcpStream.cpp.i
+
+.PHONY : system/TcpStream.i
+
+# target to preprocess a source file
+system/TcpStream.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/TcpStream.cpp.i
+.PHONY : system/TcpStream.cpp.i
+
+system/TcpStream.s: system/TcpStream.cpp.s
+
+.PHONY : system/TcpStream.s
+
+# target to generate assembly for a file
+system/TcpStream.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/system/TcpStream.cpp.s
+.PHONY : system/TcpStream.cpp.s
+
+transfers/BlockchainSynchronizer.o: transfers/BlockchainSynchronizer.cpp.o
+
+.PHONY : transfers/BlockchainSynchronizer.o
+
+# target to build an object file
+transfers/BlockchainSynchronizer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/BlockchainSynchronizer.cpp.o
+.PHONY : transfers/BlockchainSynchronizer.cpp.o
+
+transfers/BlockchainSynchronizer.i: transfers/BlockchainSynchronizer.cpp.i
+
+.PHONY : transfers/BlockchainSynchronizer.i
+
+# target to preprocess a source file
+transfers/BlockchainSynchronizer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/BlockchainSynchronizer.cpp.i
+.PHONY : transfers/BlockchainSynchronizer.cpp.i
+
+transfers/BlockchainSynchronizer.s: transfers/BlockchainSynchronizer.cpp.s
+
+.PHONY : transfers/BlockchainSynchronizer.s
+
+# target to generate assembly for a file
+transfers/BlockchainSynchronizer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/BlockchainSynchronizer.cpp.s
+.PHONY : transfers/BlockchainSynchronizer.cpp.s
+
+transfers/SynchronizationState.o: transfers/SynchronizationState.cpp.o
+
+.PHONY : transfers/SynchronizationState.o
+
+# target to build an object file
+transfers/SynchronizationState.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.o
+.PHONY : transfers/SynchronizationState.cpp.o
+
+transfers/SynchronizationState.i: transfers/SynchronizationState.cpp.i
+
+.PHONY : transfers/SynchronizationState.i
+
+# target to preprocess a source file
+transfers/SynchronizationState.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.i
+.PHONY : transfers/SynchronizationState.cpp.i
+
+transfers/SynchronizationState.s: transfers/SynchronizationState.cpp.s
+
+.PHONY : transfers/SynchronizationState.s
+
+# target to generate assembly for a file
+transfers/SynchronizationState.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/SynchronizationState.cpp.s
+.PHONY : transfers/SynchronizationState.cpp.s
+
+transfers/TransfersConsumer.o: transfers/TransfersConsumer.cpp.o
+
+.PHONY : transfers/TransfersConsumer.o
+
+# target to build an object file
+transfers/TransfersConsumer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.o
+.PHONY : transfers/TransfersConsumer.cpp.o
+
+transfers/TransfersConsumer.i: transfers/TransfersConsumer.cpp.i
+
+.PHONY : transfers/TransfersConsumer.i
+
+# target to preprocess a source file
+transfers/TransfersConsumer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.i
+.PHONY : transfers/TransfersConsumer.cpp.i
+
+transfers/TransfersConsumer.s: transfers/TransfersConsumer.cpp.s
+
+.PHONY : transfers/TransfersConsumer.s
+
+# target to generate assembly for a file
+transfers/TransfersConsumer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersConsumer.cpp.s
+.PHONY : transfers/TransfersConsumer.cpp.s
+
+transfers/TransfersContainer.o: transfers/TransfersContainer.cpp.o
+
+.PHONY : transfers/TransfersContainer.o
+
+# target to build an object file
+transfers/TransfersContainer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.o
+.PHONY : transfers/TransfersContainer.cpp.o
+
+transfers/TransfersContainer.i: transfers/TransfersContainer.cpp.i
+
+.PHONY : transfers/TransfersContainer.i
+
+# target to preprocess a source file
+transfers/TransfersContainer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.i
+.PHONY : transfers/TransfersContainer.cpp.i
+
+transfers/TransfersContainer.s: transfers/TransfersContainer.cpp.s
+
+.PHONY : transfers/TransfersContainer.s
+
+# target to generate assembly for a file
+transfers/TransfersContainer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersContainer.cpp.s
+.PHONY : transfers/TransfersContainer.cpp.s
+
+transfers/TransfersSubscription.o: transfers/TransfersSubscription.cpp.o
+
+.PHONY : transfers/TransfersSubscription.o
+
+# target to build an object file
+transfers/TransfersSubscription.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.o
+.PHONY : transfers/TransfersSubscription.cpp.o
+
+transfers/TransfersSubscription.i: transfers/TransfersSubscription.cpp.i
+
+.PHONY : transfers/TransfersSubscription.i
+
+# target to preprocess a source file
+transfers/TransfersSubscription.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.i
+.PHONY : transfers/TransfersSubscription.cpp.i
+
+transfers/TransfersSubscription.s: transfers/TransfersSubscription.cpp.s
+
+.PHONY : transfers/TransfersSubscription.s
+
+# target to generate assembly for a file
+transfers/TransfersSubscription.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSubscription.cpp.s
+.PHONY : transfers/TransfersSubscription.cpp.s
+
+transfers/TransfersSynchronizer.o: transfers/TransfersSynchronizer.cpp.o
+
+.PHONY : transfers/TransfersSynchronizer.o
+
+# target to build an object file
+transfers/TransfersSynchronizer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.o
+.PHONY : transfers/TransfersSynchronizer.cpp.o
+
+transfers/TransfersSynchronizer.i: transfers/TransfersSynchronizer.cpp.i
+
+.PHONY : transfers/TransfersSynchronizer.i
+
+# target to preprocess a source file
+transfers/TransfersSynchronizer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.i
+.PHONY : transfers/TransfersSynchronizer.cpp.i
+
+transfers/TransfersSynchronizer.s: transfers/TransfersSynchronizer.cpp.s
+
+.PHONY : transfers/TransfersSynchronizer.s
+
+# target to generate assembly for a file
+transfers/TransfersSynchronizer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/transfers/TransfersSynchronizer.cpp.s
+.PHONY : transfers/TransfersSynchronizer.cpp.s
+
+wallet/LegacyKeysImporter.o: wallet/LegacyKeysImporter.cpp.o
+
+.PHONY : wallet/LegacyKeysImporter.o
+
+# target to build an object file
+wallet/LegacyKeysImporter.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/LegacyKeysImporter.cpp.o
+.PHONY : wallet/LegacyKeysImporter.cpp.o
+
+wallet/LegacyKeysImporter.i: wallet/LegacyKeysImporter.cpp.i
+
+.PHONY : wallet/LegacyKeysImporter.i
+
+# target to preprocess a source file
+wallet/LegacyKeysImporter.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/LegacyKeysImporter.cpp.i
+.PHONY : wallet/LegacyKeysImporter.cpp.i
+
+wallet/LegacyKeysImporter.s: wallet/LegacyKeysImporter.cpp.s
+
+.PHONY : wallet/LegacyKeysImporter.s
+
+# target to generate assembly for a file
+wallet/LegacyKeysImporter.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/LegacyKeysImporter.cpp.s
+.PHONY : wallet/LegacyKeysImporter.cpp.s
+
+wallet/WalletAsyncContextCounter.o: wallet/WalletAsyncContextCounter.cpp.o
+
+.PHONY : wallet/WalletAsyncContextCounter.o
+
+# target to build an object file
+wallet/WalletAsyncContextCounter.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletAsyncContextCounter.cpp.o
+.PHONY : wallet/WalletAsyncContextCounter.cpp.o
+
+wallet/WalletAsyncContextCounter.i: wallet/WalletAsyncContextCounter.cpp.i
+
+.PHONY : wallet/WalletAsyncContextCounter.i
+
+# target to preprocess a source file
+wallet/WalletAsyncContextCounter.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletAsyncContextCounter.cpp.i
+.PHONY : wallet/WalletAsyncContextCounter.cpp.i
+
+wallet/WalletAsyncContextCounter.s: wallet/WalletAsyncContextCounter.cpp.s
+
+.PHONY : wallet/WalletAsyncContextCounter.s
+
+# target to generate assembly for a file
+wallet/WalletAsyncContextCounter.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletAsyncContextCounter.cpp.s
+.PHONY : wallet/WalletAsyncContextCounter.cpp.s
+
+wallet/WalletErrors.o: wallet/WalletErrors.cpp.o
+
+.PHONY : wallet/WalletErrors.o
+
+# target to build an object file
+wallet/WalletErrors.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletErrors.cpp.o
+.PHONY : wallet/WalletErrors.cpp.o
+
+wallet/WalletErrors.i: wallet/WalletErrors.cpp.i
+
+.PHONY : wallet/WalletErrors.i
+
+# target to preprocess a source file
+wallet/WalletErrors.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletErrors.cpp.i
+.PHONY : wallet/WalletErrors.cpp.i
+
+wallet/WalletErrors.s: wallet/WalletErrors.cpp.s
+
+.PHONY : wallet/WalletErrors.s
+
+# target to generate assembly for a file
+wallet/WalletErrors.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletErrors.cpp.s
+.PHONY : wallet/WalletErrors.cpp.s
+
+wallet/WalletGreen.o: wallet/WalletGreen.cpp.o
+
+.PHONY : wallet/WalletGreen.o
+
+# target to build an object file
+wallet/WalletGreen.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletGreen.cpp.o
+.PHONY : wallet/WalletGreen.cpp.o
+
+wallet/WalletGreen.i: wallet/WalletGreen.cpp.i
+
+.PHONY : wallet/WalletGreen.i
+
+# target to preprocess a source file
+wallet/WalletGreen.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletGreen.cpp.i
+.PHONY : wallet/WalletGreen.cpp.i
+
+wallet/WalletGreen.s: wallet/WalletGreen.cpp.s
+
+.PHONY : wallet/WalletGreen.s
+
+# target to generate assembly for a file
+wallet/WalletGreen.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletGreen.cpp.s
+.PHONY : wallet/WalletGreen.cpp.s
+
+wallet/WalletRpcServer.o: wallet/WalletRpcServer.cpp.o
+
+.PHONY : wallet/WalletRpcServer.o
+
+# target to build an object file
+wallet/WalletRpcServer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletRpcServer.cpp.o
+.PHONY : wallet/WalletRpcServer.cpp.o
+
+wallet/WalletRpcServer.i: wallet/WalletRpcServer.cpp.i
+
+.PHONY : wallet/WalletRpcServer.i
+
+# target to preprocess a source file
+wallet/WalletRpcServer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletRpcServer.cpp.i
+.PHONY : wallet/WalletRpcServer.cpp.i
+
+wallet/WalletRpcServer.s: wallet/WalletRpcServer.cpp.s
+
+.PHONY : wallet/WalletRpcServer.s
+
+# target to generate assembly for a file
+wallet/WalletRpcServer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletRpcServer.cpp.s
+.PHONY : wallet/WalletRpcServer.cpp.s
+
+wallet/WalletSerialization.o: wallet/WalletSerialization.cpp.o
+
+.PHONY : wallet/WalletSerialization.o
+
+# target to build an object file
+wallet/WalletSerialization.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletSerialization.cpp.o
+.PHONY : wallet/WalletSerialization.cpp.o
+
+wallet/WalletSerialization.i: wallet/WalletSerialization.cpp.i
+
+.PHONY : wallet/WalletSerialization.i
+
+# target to preprocess a source file
+wallet/WalletSerialization.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletSerialization.cpp.i
+.PHONY : wallet/WalletSerialization.cpp.i
+
+wallet/WalletSerialization.s: wallet/WalletSerialization.cpp.s
+
+.PHONY : wallet/WalletSerialization.s
+
+# target to generate assembly for a file
+wallet/WalletSerialization.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet/WalletSerialization.cpp.s
+.PHONY : wallet/WalletSerialization.cpp.s
+
+wallet_legacy/KeysStorage.o: wallet_legacy/KeysStorage.cpp.o
+
+.PHONY : wallet_legacy/KeysStorage.o
+
+# target to build an object file
+wallet_legacy/KeysStorage.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/KeysStorage.cpp.o
+.PHONY : wallet_legacy/KeysStorage.cpp.o
+
+wallet_legacy/KeysStorage.i: wallet_legacy/KeysStorage.cpp.i
+
+.PHONY : wallet_legacy/KeysStorage.i
+
+# target to preprocess a source file
+wallet_legacy/KeysStorage.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/KeysStorage.cpp.i
+.PHONY : wallet_legacy/KeysStorage.cpp.i
+
+wallet_legacy/KeysStorage.s: wallet_legacy/KeysStorage.cpp.s
+
+.PHONY : wallet_legacy/KeysStorage.s
+
+# target to generate assembly for a file
+wallet_legacy/KeysStorage.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/KeysStorage.cpp.s
+.PHONY : wallet_legacy/KeysStorage.cpp.s
+
+wallet_legacy/WalletHelper.o: wallet_legacy/WalletHelper.cpp.o
+
+.PHONY : wallet_legacy/WalletHelper.o
+
+# target to build an object file
+wallet_legacy/WalletHelper.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletHelper.cpp.o
+.PHONY : wallet_legacy/WalletHelper.cpp.o
+
+wallet_legacy/WalletHelper.i: wallet_legacy/WalletHelper.cpp.i
+
+.PHONY : wallet_legacy/WalletHelper.i
+
+# target to preprocess a source file
+wallet_legacy/WalletHelper.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletHelper.cpp.i
+.PHONY : wallet_legacy/WalletHelper.cpp.i
+
+wallet_legacy/WalletHelper.s: wallet_legacy/WalletHelper.cpp.s
+
+.PHONY : wallet_legacy/WalletHelper.s
+
+# target to generate assembly for a file
+wallet_legacy/WalletHelper.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletHelper.cpp.s
+.PHONY : wallet_legacy/WalletHelper.cpp.s
+
+wallet_legacy/WalletLegacy.o: wallet_legacy/WalletLegacy.cpp.o
+
+.PHONY : wallet_legacy/WalletLegacy.o
+
+# target to build an object file
+wallet_legacy/WalletLegacy.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletLegacy.cpp.o
+.PHONY : wallet_legacy/WalletLegacy.cpp.o
+
+wallet_legacy/WalletLegacy.i: wallet_legacy/WalletLegacy.cpp.i
+
+.PHONY : wallet_legacy/WalletLegacy.i
+
+# target to preprocess a source file
+wallet_legacy/WalletLegacy.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletLegacy.cpp.i
+.PHONY : wallet_legacy/WalletLegacy.cpp.i
+
+wallet_legacy/WalletLegacy.s: wallet_legacy/WalletLegacy.cpp.s
+
+.PHONY : wallet_legacy/WalletLegacy.s
+
+# target to generate assembly for a file
+wallet_legacy/WalletLegacy.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletLegacy.cpp.s
+.PHONY : wallet_legacy/WalletLegacy.cpp.s
+
+wallet_legacy/WalletLegacySerialization.o: wallet_legacy/WalletLegacySerialization.cpp.o
+
+.PHONY : wallet_legacy/WalletLegacySerialization.o
+
+# target to build an object file
+wallet_legacy/WalletLegacySerialization.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletLegacySerialization.cpp.o
+.PHONY : wallet_legacy/WalletLegacySerialization.cpp.o
+
+wallet_legacy/WalletLegacySerialization.i: wallet_legacy/WalletLegacySerialization.cpp.i
+
+.PHONY : wallet_legacy/WalletLegacySerialization.i
+
+# target to preprocess a source file
+wallet_legacy/WalletLegacySerialization.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletLegacySerialization.cpp.i
+.PHONY : wallet_legacy/WalletLegacySerialization.cpp.i
+
+wallet_legacy/WalletLegacySerialization.s: wallet_legacy/WalletLegacySerialization.cpp.s
+
+.PHONY : wallet_legacy/WalletLegacySerialization.s
+
+# target to generate assembly for a file
+wallet_legacy/WalletLegacySerialization.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletLegacySerialization.cpp.s
+.PHONY : wallet_legacy/WalletLegacySerialization.cpp.s
+
+wallet_legacy/WalletLegacySerializer.o: wallet_legacy/WalletLegacySerializer.cpp.o
+
+.PHONY : wallet_legacy/WalletLegacySerializer.o
+
+# target to build an object file
+wallet_legacy/WalletLegacySerializer.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletLegacySerializer.cpp.o
+.PHONY : wallet_legacy/WalletLegacySerializer.cpp.o
+
+wallet_legacy/WalletLegacySerializer.i: wallet_legacy/WalletLegacySerializer.cpp.i
+
+.PHONY : wallet_legacy/WalletLegacySerializer.i
+
+# target to preprocess a source file
+wallet_legacy/WalletLegacySerializer.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletLegacySerializer.cpp.i
+.PHONY : wallet_legacy/WalletLegacySerializer.cpp.i
+
+wallet_legacy/WalletLegacySerializer.s: wallet_legacy/WalletLegacySerializer.cpp.s
+
+.PHONY : wallet_legacy/WalletLegacySerializer.s
+
+# target to generate assembly for a file
+wallet_legacy/WalletLegacySerializer.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletLegacySerializer.cpp.s
+.PHONY : wallet_legacy/WalletLegacySerializer.cpp.s
+
+wallet_legacy/WalletTransactionSender.o: wallet_legacy/WalletTransactionSender.cpp.o
+
+.PHONY : wallet_legacy/WalletTransactionSender.o
+
+# target to build an object file
+wallet_legacy/WalletTransactionSender.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletTransactionSender.cpp.o
+.PHONY : wallet_legacy/WalletTransactionSender.cpp.o
+
+wallet_legacy/WalletTransactionSender.i: wallet_legacy/WalletTransactionSender.cpp.i
+
+.PHONY : wallet_legacy/WalletTransactionSender.i
+
+# target to preprocess a source file
+wallet_legacy/WalletTransactionSender.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletTransactionSender.cpp.i
+.PHONY : wallet_legacy/WalletTransactionSender.cpp.i
+
+wallet_legacy/WalletTransactionSender.s: wallet_legacy/WalletTransactionSender.cpp.s
+
+.PHONY : wallet_legacy/WalletTransactionSender.s
+
+# target to generate assembly for a file
+wallet_legacy/WalletTransactionSender.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletTransactionSender.cpp.s
+.PHONY : wallet_legacy/WalletTransactionSender.cpp.s
+
+wallet_legacy/WalletUnconfirmedTransactions.o: wallet_legacy/WalletUnconfirmedTransactions.cpp.o
+
+.PHONY : wallet_legacy/WalletUnconfirmedTransactions.o
+
+# target to build an object file
+wallet_legacy/WalletUnconfirmedTransactions.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletUnconfirmedTransactions.cpp.o
+.PHONY : wallet_legacy/WalletUnconfirmedTransactions.cpp.o
+
+wallet_legacy/WalletUnconfirmedTransactions.i: wallet_legacy/WalletUnconfirmedTransactions.cpp.i
+
+.PHONY : wallet_legacy/WalletUnconfirmedTransactions.i
+
+# target to preprocess a source file
+wallet_legacy/WalletUnconfirmedTransactions.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletUnconfirmedTransactions.cpp.i
+.PHONY : wallet_legacy/WalletUnconfirmedTransactions.cpp.i
+
+wallet_legacy/WalletUnconfirmedTransactions.s: wallet_legacy/WalletUnconfirmedTransactions.cpp.s
+
+.PHONY : wallet_legacy/WalletUnconfirmedTransactions.s
+
+# target to generate assembly for a file
+wallet_legacy/WalletUnconfirmedTransactions.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletUnconfirmedTransactions.cpp.s
+.PHONY : wallet_legacy/WalletUnconfirmedTransactions.cpp.s
+
+wallet_legacy/WalletUserTransactionsCache.o: wallet_legacy/WalletUserTransactionsCache.cpp.o
+
+.PHONY : wallet_legacy/WalletUserTransactionsCache.o
+
+# target to build an object file
+wallet_legacy/WalletUserTransactionsCache.cpp.o:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletUserTransactionsCache.cpp.o
+.PHONY : wallet_legacy/WalletUserTransactionsCache.cpp.o
+
+wallet_legacy/WalletUserTransactionsCache.i: wallet_legacy/WalletUserTransactionsCache.cpp.i
+
+.PHONY : wallet_legacy/WalletUserTransactionsCache.i
+
+# target to preprocess a source file
+wallet_legacy/WalletUserTransactionsCache.cpp.i:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletUserTransactionsCache.cpp.i
+.PHONY : wallet_legacy/WalletUserTransactionsCache.cpp.i
+
+wallet_legacy/WalletUserTransactionsCache.s: wallet_legacy/WalletUserTransactionsCache.cpp.s
+
+.PHONY : wallet_legacy/WalletUserTransactionsCache.s
+
+# target to generate assembly for a file
+wallet_legacy/WalletUserTransactionsCache.cpp.s:
+	cd /home/eric/vigcoin/coin/build && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/wallet_legacy/WalletUserTransactionsCache.cpp.s
+.PHONY : wallet_legacy/WalletUserTransactionsCache.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -5060,206 +5495,34 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... P2P"
 	@echo "... NodeRpcProxy"
 	@echo "... InProcessNode"
 	@echo "... test"
 	@echo "... Logging"
-	@echo "... Daemon"
-	@echo "... Common"
 	@echo "... Crypto"
-	@echo "... Http"
-	@echo "... Transfers"
+	@echo "... CryptoNoteCore"
+	@echo "... Config"
 	@echo "... BlockchainExplorer"
 	@echo "... Wallet"
 	@echo "... SimpleWallet"
-	@echo "... CryptoNoteCore"
+	@echo "... Common"
+	@echo "... Transfers"
+	@echo "... Http"
+	@echo "... CommandLine"
 	@echo "... System"
+	@echo "... Miner"
+	@echo "... Rpc"
+	@echo "... P2P"
+	@echo "... rebuild_cache"
+	@echo "... Serialization"
 	@echo "... PaymentGate"
 	@echo "... JsonRpcServer"
 	@echo "... ConnectivityTool"
+	@echo "... daemon"
 	@echo "... PaymentGateService"
-	@echo "... Rpc"
-	@echo "... Miner"
-	@echo "... Serialization"
-	@echo "... rebuild_cache"
-	@echo "... BlockchainExplorer/BlockchainExplorer.o"
-	@echo "... BlockchainExplorer/BlockchainExplorer.i"
-	@echo "... BlockchainExplorer/BlockchainExplorer.s"
-	@echo "... BlockchainExplorer/BlockchainExplorerDataBuilder.o"
-	@echo "... BlockchainExplorer/BlockchainExplorerDataBuilder.i"
-	@echo "... BlockchainExplorer/BlockchainExplorerDataBuilder.s"
-	@echo "... BlockchainExplorer/BlockchainExplorerErrors.o"
-	@echo "... BlockchainExplorer/BlockchainExplorerErrors.i"
-	@echo "... BlockchainExplorer/BlockchainExplorerErrors.s"
-	@echo "... Common/Base58.o"
-	@echo "... Common/Base58.i"
-	@echo "... Common/Base58.s"
-	@echo "... Common/BlockingQueue.o"
-	@echo "... Common/BlockingQueue.i"
-	@echo "... Common/BlockingQueue.s"
-	@echo "... Common/CommandLine.o"
-	@echo "... Common/CommandLine.i"
-	@echo "... Common/CommandLine.s"
-	@echo "... Common/ConsoleHandler.o"
-	@echo "... Common/ConsoleHandler.i"
-	@echo "... Common/ConsoleHandler.s"
-	@echo "... Common/ConsoleTools.o"
-	@echo "... Common/ConsoleTools.i"
-	@echo "... Common/ConsoleTools.s"
-	@echo "... Common/IInputStream.o"
-	@echo "... Common/IInputStream.i"
-	@echo "... Common/IInputStream.s"
-	@echo "... Common/IOutputStream.o"
-	@echo "... Common/IOutputStream.i"
-	@echo "... Common/IOutputStream.s"
-	@echo "... Common/JsonValue.o"
-	@echo "... Common/JsonValue.i"
-	@echo "... Common/JsonValue.s"
-	@echo "... Common/Math.o"
-	@echo "... Common/Math.i"
-	@echo "... Common/Math.s"
-	@echo "... Common/MemoryInputStream.o"
-	@echo "... Common/MemoryInputStream.i"
-	@echo "... Common/MemoryInputStream.s"
-	@echo "... Common/PathTools.o"
-	@echo "... Common/PathTools.i"
-	@echo "... Common/PathTools.s"
-	@echo "... Common/ScopeExit.o"
-	@echo "... Common/ScopeExit.i"
-	@echo "... Common/ScopeExit.s"
-	@echo "... Common/SignalHandler.o"
-	@echo "... Common/SignalHandler.i"
-	@echo "... Common/SignalHandler.s"
-	@echo "... Common/StdInputStream.o"
-	@echo "... Common/StdInputStream.i"
-	@echo "... Common/StdInputStream.s"
-	@echo "... Common/StdOutputStream.o"
-	@echo "... Common/StdOutputStream.i"
-	@echo "... Common/StdOutputStream.s"
-	@echo "... Common/StreamTools.o"
-	@echo "... Common/StreamTools.i"
-	@echo "... Common/StreamTools.s"
-	@echo "... Common/StringInputStream.o"
-	@echo "... Common/StringInputStream.i"
-	@echo "... Common/StringInputStream.s"
-	@echo "... Common/StringOutputStream.o"
-	@echo "... Common/StringOutputStream.i"
-	@echo "... Common/StringOutputStream.s"
-	@echo "... Common/StringTools.o"
-	@echo "... Common/StringTools.i"
-	@echo "... Common/StringTools.s"
-	@echo "... Common/StringView.o"
-	@echo "... Common/StringView.i"
-	@echo "... Common/StringView.s"
-	@echo "... Common/Util.o"
-	@echo "... Common/Util.i"
-	@echo "... Common/Util.s"
-	@echo "... Common/VectorOutputStream.o"
-	@echo "... Common/VectorOutputStream.i"
-	@echo "... Common/VectorOutputStream.s"
 	@echo "... ConnectivityTool/ConnectivityTool.o"
 	@echo "... ConnectivityTool/ConnectivityTool.i"
 	@echo "... ConnectivityTool/ConnectivityTool.s"
-	@echo "... CryptoNoteCore/Account.o"
-	@echo "... CryptoNoteCore/Account.i"
-	@echo "... CryptoNoteCore/Account.s"
-	@echo "... CryptoNoteCore/BlockIndex.o"
-	@echo "... CryptoNoteCore/BlockIndex.i"
-	@echo "... CryptoNoteCore/BlockIndex.s"
-	@echo "... CryptoNoteCore/Blockchain.o"
-	@echo "... CryptoNoteCore/Blockchain.i"
-	@echo "... CryptoNoteCore/Blockchain.s"
-	@echo "... CryptoNoteCore/BlockchainIndices.o"
-	@echo "... CryptoNoteCore/BlockchainIndices.i"
-	@echo "... CryptoNoteCore/BlockchainIndices.s"
-	@echo "... CryptoNoteCore/BlockchainMessages.o"
-	@echo "... CryptoNoteCore/BlockchainMessages.i"
-	@echo "... CryptoNoteCore/BlockchainMessages.s"
-	@echo "... CryptoNoteCore/Checkpoints.o"
-	@echo "... CryptoNoteCore/Checkpoints.i"
-	@echo "... CryptoNoteCore/Checkpoints.s"
-	@echo "... CryptoNoteCore/Core.o"
-	@echo "... CryptoNoteCore/Core.i"
-	@echo "... CryptoNoteCore/Core.s"
-	@echo "... CryptoNoteCore/CoreConfig.o"
-	@echo "... CryptoNoteCore/CoreConfig.i"
-	@echo "... CryptoNoteCore/CoreConfig.s"
-	@echo "... CryptoNoteCore/CryptoNoteBasic.o"
-	@echo "... CryptoNoteCore/CryptoNoteBasic.i"
-	@echo "... CryptoNoteCore/CryptoNoteBasic.s"
-	@echo "... CryptoNoteCore/CryptoNoteBasicImpl.o"
-	@echo "... CryptoNoteCore/CryptoNoteBasicImpl.i"
-	@echo "... CryptoNoteCore/CryptoNoteBasicImpl.s"
-	@echo "... CryptoNoteCore/CryptoNoteFormatUtils.o"
-	@echo "... CryptoNoteCore/CryptoNoteFormatUtils.i"
-	@echo "... CryptoNoteCore/CryptoNoteFormatUtils.s"
-	@echo "... CryptoNoteCore/CryptoNoteSerialization.o"
-	@echo "... CryptoNoteCore/CryptoNoteSerialization.i"
-	@echo "... CryptoNoteCore/CryptoNoteSerialization.s"
-	@echo "... CryptoNoteCore/CryptoNoteTools.o"
-	@echo "... CryptoNoteCore/CryptoNoteTools.i"
-	@echo "... CryptoNoteCore/CryptoNoteTools.s"
-	@echo "... CryptoNoteCore/Currency.o"
-	@echo "... CryptoNoteCore/Currency.i"
-	@echo "... CryptoNoteCore/Currency.s"
-	@echo "... CryptoNoteCore/Difficulty.o"
-	@echo "... CryptoNoteCore/Difficulty.i"
-	@echo "... CryptoNoteCore/Difficulty.s"
-	@echo "... CryptoNoteCore/IBlock.o"
-	@echo "... CryptoNoteCore/IBlock.i"
-	@echo "... CryptoNoteCore/IBlock.s"
-	@echo "... CryptoNoteCore/ITimeProvider.o"
-	@echo "... CryptoNoteCore/ITimeProvider.i"
-	@echo "... CryptoNoteCore/ITimeProvider.s"
-	@echo "... CryptoNoteCore/Miner.o"
-	@echo "... CryptoNoteCore/Miner.i"
-	@echo "... CryptoNoteCore/Miner.s"
-	@echo "... CryptoNoteCore/MinerConfig.o"
-	@echo "... CryptoNoteCore/MinerConfig.i"
-	@echo "... CryptoNoteCore/MinerConfig.s"
-	@echo "... CryptoNoteCore/SwappedMap.o"
-	@echo "... CryptoNoteCore/SwappedMap.i"
-	@echo "... CryptoNoteCore/SwappedMap.s"
-	@echo "... CryptoNoteCore/SwappedVector.o"
-	@echo "... CryptoNoteCore/SwappedVector.i"
-	@echo "... CryptoNoteCore/SwappedVector.s"
-	@echo "... CryptoNoteCore/Transaction.o"
-	@echo "... CryptoNoteCore/Transaction.i"
-	@echo "... CryptoNoteCore/Transaction.s"
-	@echo "... CryptoNoteCore/TransactionExtra.o"
-	@echo "... CryptoNoteCore/TransactionExtra.i"
-	@echo "... CryptoNoteCore/TransactionExtra.s"
-	@echo "... CryptoNoteCore/TransactionPool.o"
-	@echo "... CryptoNoteCore/TransactionPool.i"
-	@echo "... CryptoNoteCore/TransactionPool.s"
-	@echo "... CryptoNoteCore/TransactionPrefixImpl.o"
-	@echo "... CryptoNoteCore/TransactionPrefixImpl.i"
-	@echo "... CryptoNoteCore/TransactionPrefixImpl.s"
-	@echo "... CryptoNoteCore/TransactionUtils.o"
-	@echo "... CryptoNoteCore/TransactionUtils.i"
-	@echo "... CryptoNoteCore/TransactionUtils.s"
-	@echo "... CryptoNoteProtocol/CryptoNoteProtocolHandler.o"
-	@echo "... CryptoNoteProtocol/CryptoNoteProtocolHandler.i"
-	@echo "... CryptoNoteProtocol/CryptoNoteProtocolHandler.s"
-	@echo "... Daemon/Daemon.o"
-	@echo "... Daemon/Daemon.i"
-	@echo "... Daemon/Daemon.s"
-	@echo "... Daemon/DaemonCommandsHandler.o"
-	@echo "... Daemon/DaemonCommandsHandler.i"
-	@echo "... Daemon/DaemonCommandsHandler.s"
-	@echo "... HTTP/HttpParser.o"
-	@echo "... HTTP/HttpParser.i"
-	@echo "... HTTP/HttpParser.s"
-	@echo "... HTTP/HttpParserErrorCodes.o"
-	@echo "... HTTP/HttpParserErrorCodes.i"
-	@echo "... HTTP/HttpParserErrorCodes.s"
-	@echo "... HTTP/HttpRequest.o"
-	@echo "... HTTP/HttpRequest.i"
-	@echo "... HTTP/HttpRequest.s"
-	@echo "... HTTP/HttpResponse.o"
-	@echo "... HTTP/HttpResponse.i"
-	@echo "... HTTP/HttpResponse.s"
 	@echo "... InProcessNode/InProcessNode.o"
 	@echo "... InProcessNode/InProcessNode.i"
 	@echo "... InProcessNode/InProcessNode.s"
@@ -5269,282 +5532,111 @@ help:
 	@echo "... JsonRpcServer/JsonRpcServer.o"
 	@echo "... JsonRpcServer/JsonRpcServer.i"
 	@echo "... JsonRpcServer/JsonRpcServer.s"
-	@echo "... Logging/CommonLogger.o"
-	@echo "... Logging/CommonLogger.i"
-	@echo "... Logging/CommonLogger.s"
-	@echo "... Logging/ConsoleLogger.o"
-	@echo "... Logging/ConsoleLogger.i"
-	@echo "... Logging/ConsoleLogger.s"
-	@echo "... Logging/FileLogger.o"
-	@echo "... Logging/FileLogger.i"
-	@echo "... Logging/FileLogger.s"
-	@echo "... Logging/ILogger.o"
-	@echo "... Logging/ILogger.i"
-	@echo "... Logging/ILogger.s"
-	@echo "... Logging/LoggerGroup.o"
-	@echo "... Logging/LoggerGroup.i"
-	@echo "... Logging/LoggerGroup.s"
-	@echo "... Logging/LoggerManager.o"
-	@echo "... Logging/LoggerManager.i"
-	@echo "... Logging/LoggerManager.s"
-	@echo "... Logging/LoggerMessage.o"
-	@echo "... Logging/LoggerMessage.i"
-	@echo "... Logging/LoggerMessage.s"
-	@echo "... Logging/LoggerRef.o"
-	@echo "... Logging/LoggerRef.i"
-	@echo "... Logging/LoggerRef.s"
-	@echo "... Logging/StreamLogger.o"
-	@echo "... Logging/StreamLogger.i"
-	@echo "... Logging/StreamLogger.s"
-	@echo "... Miner/BlockchainMonitor.o"
-	@echo "... Miner/BlockchainMonitor.i"
-	@echo "... Miner/BlockchainMonitor.s"
-	@echo "... Miner/Miner.o"
-	@echo "... Miner/Miner.i"
-	@echo "... Miner/Miner.s"
-	@echo "... Miner/MinerManager.o"
-	@echo "... Miner/MinerManager.i"
-	@echo "... Miner/MinerManager.s"
-	@echo "... Miner/MiningConfig.o"
-	@echo "... Miner/MiningConfig.i"
-	@echo "... Miner/MiningConfig.s"
-	@echo "... Miner/main.o"
-	@echo "... Miner/main.i"
-	@echo "... Miner/main.s"
 	@echo "... NodeRpcProxy/NodeErrors.o"
 	@echo "... NodeRpcProxy/NodeErrors.i"
 	@echo "... NodeRpcProxy/NodeErrors.s"
 	@echo "... NodeRpcProxy/NodeRpcProxy.o"
 	@echo "... NodeRpcProxy/NodeRpcProxy.i"
 	@echo "... NodeRpcProxy/NodeRpcProxy.s"
-	@echo "... P2p/IP2pNodeInternal.o"
-	@echo "... P2p/IP2pNodeInternal.i"
-	@echo "... P2p/IP2pNodeInternal.s"
-	@echo "... P2p/LevinProtocol.o"
-	@echo "... P2p/LevinProtocol.i"
-	@echo "... P2p/LevinProtocol.s"
-	@echo "... P2p/NetNode.o"
-	@echo "... P2p/NetNode.i"
-	@echo "... P2p/NetNode.s"
-	@echo "... P2p/NetNodeConfig.o"
-	@echo "... P2p/NetNodeConfig.i"
-	@echo "... P2p/NetNodeConfig.s"
-	@echo "... P2p/P2pConnectionProxy.o"
-	@echo "... P2p/P2pConnectionProxy.i"
-	@echo "... P2p/P2pConnectionProxy.s"
-	@echo "... P2p/P2pContext.o"
-	@echo "... P2p/P2pContext.i"
-	@echo "... P2p/P2pContext.s"
-	@echo "... P2p/P2pContextOwner.o"
-	@echo "... P2p/P2pContextOwner.i"
-	@echo "... P2p/P2pContextOwner.s"
-	@echo "... P2p/P2pInterfaces.o"
-	@echo "... P2p/P2pInterfaces.i"
-	@echo "... P2p/P2pInterfaces.s"
-	@echo "... P2p/P2pNode.o"
-	@echo "... P2p/P2pNode.i"
-	@echo "... P2p/P2pNode.s"
-	@echo "... P2p/P2pNodeConfig.o"
-	@echo "... P2p/P2pNodeConfig.i"
-	@echo "... P2p/P2pNodeConfig.s"
-	@echo "... P2p/PeerListManager.o"
-	@echo "... P2p/PeerListManager.i"
-	@echo "... P2p/PeerListManager.s"
-	@echo "... PaymentGate/NodeFactory.o"
-	@echo "... PaymentGate/NodeFactory.i"
-	@echo "... PaymentGate/NodeFactory.s"
-	@echo "... PaymentGate/PaymentServiceJsonRpcMessages.o"
-	@echo "... PaymentGate/PaymentServiceJsonRpcMessages.i"
-	@echo "... PaymentGate/PaymentServiceJsonRpcMessages.s"
-	@echo "... PaymentGate/PaymentServiceJsonRpcServer.o"
-	@echo "... PaymentGate/PaymentServiceJsonRpcServer.i"
-	@echo "... PaymentGate/PaymentServiceJsonRpcServer.s"
-	@echo "... PaymentGate/WalletFactory.o"
-	@echo "... PaymentGate/WalletFactory.i"
-	@echo "... PaymentGate/WalletFactory.s"
-	@echo "... PaymentGate/WalletService.o"
-	@echo "... PaymentGate/WalletService.i"
-	@echo "... PaymentGate/WalletService.s"
-	@echo "... PaymentGate/WalletServiceErrorCategory.o"
-	@echo "... PaymentGate/WalletServiceErrorCategory.i"
-	@echo "... PaymentGate/WalletServiceErrorCategory.s"
-	@echo "... PaymentGateService/ConfigurationManager.o"
-	@echo "... PaymentGateService/ConfigurationManager.i"
-	@echo "... PaymentGateService/ConfigurationManager.s"
-	@echo "... PaymentGateService/PaymentGateService.o"
-	@echo "... PaymentGateService/PaymentGateService.i"
-	@echo "... PaymentGateService/PaymentGateService.s"
-	@echo "... PaymentGateService/PaymentServiceConfiguration.o"
-	@echo "... PaymentGateService/PaymentServiceConfiguration.i"
-	@echo "... PaymentGateService/PaymentServiceConfiguration.s"
-	@echo "... PaymentGateService/RpcNodeConfiguration.o"
-	@echo "... PaymentGateService/RpcNodeConfiguration.i"
-	@echo "... PaymentGateService/RpcNodeConfiguration.s"
-	@echo "... PaymentGateService/main.o"
-	@echo "... PaymentGateService/main.i"
-	@echo "... PaymentGateService/main.s"
-	@echo "... Platform/Linux/System/Dispatcher.o"
-	@echo "... Platform/Linux/System/Dispatcher.i"
-	@echo "... Platform/Linux/System/Dispatcher.s"
-	@echo "... Platform/Linux/System/ErrorMessage.o"
-	@echo "... Platform/Linux/System/ErrorMessage.i"
-	@echo "... Platform/Linux/System/ErrorMessage.s"
-	@echo "... Platform/Linux/System/Ipv4Resolver.o"
-	@echo "... Platform/Linux/System/Ipv4Resolver.i"
-	@echo "... Platform/Linux/System/Ipv4Resolver.s"
-	@echo "... Platform/Linux/System/TcpConnection.o"
-	@echo "... Platform/Linux/System/TcpConnection.i"
-	@echo "... Platform/Linux/System/TcpConnection.s"
-	@echo "... Platform/Linux/System/TcpConnector.o"
-	@echo "... Platform/Linux/System/TcpConnector.i"
-	@echo "... Platform/Linux/System/TcpConnector.s"
-	@echo "... Platform/Linux/System/TcpListener.o"
-	@echo "... Platform/Linux/System/TcpListener.i"
-	@echo "... Platform/Linux/System/TcpListener.s"
-	@echo "... Platform/Linux/System/Timer.o"
-	@echo "... Platform/Linux/System/Timer.i"
-	@echo "... Platform/Linux/System/Timer.s"
-	@echo "... Rpc/HttpClient.o"
-	@echo "... Rpc/HttpClient.i"
-	@echo "... Rpc/HttpClient.s"
-	@echo "... Rpc/HttpServer.o"
-	@echo "... Rpc/HttpServer.i"
-	@echo "... Rpc/HttpServer.s"
-	@echo "... Rpc/JsonRpc.o"
-	@echo "... Rpc/JsonRpc.i"
-	@echo "... Rpc/JsonRpc.s"
-	@echo "... Rpc/RpcServer.o"
-	@echo "... Rpc/RpcServer.i"
-	@echo "... Rpc/RpcServer.s"
-	@echo "... Rpc/RpcServerConfig.o"
-	@echo "... Rpc/RpcServerConfig.i"
-	@echo "... Rpc/RpcServerConfig.s"
-	@echo "... Serialization/BinaryInputStreamSerializer.o"
-	@echo "... Serialization/BinaryInputStreamSerializer.i"
-	@echo "... Serialization/BinaryInputStreamSerializer.s"
-	@echo "... Serialization/BinaryOutputStreamSerializer.o"
-	@echo "... Serialization/BinaryOutputStreamSerializer.i"
-	@echo "... Serialization/BinaryOutputStreamSerializer.s"
-	@echo "... Serialization/JsonInputStreamSerializer.o"
-	@echo "... Serialization/JsonInputStreamSerializer.i"
-	@echo "... Serialization/JsonInputStreamSerializer.s"
-	@echo "... Serialization/JsonInputValueSerializer.o"
-	@echo "... Serialization/JsonInputValueSerializer.i"
-	@echo "... Serialization/JsonInputValueSerializer.s"
-	@echo "... Serialization/JsonOutputStreamSerializer.o"
-	@echo "... Serialization/JsonOutputStreamSerializer.i"
-	@echo "... Serialization/JsonOutputStreamSerializer.s"
-	@echo "... Serialization/KVBinaryInputStreamSerializer.o"
-	@echo "... Serialization/KVBinaryInputStreamSerializer.i"
-	@echo "... Serialization/KVBinaryInputStreamSerializer.s"
-	@echo "... Serialization/KVBinaryOutputStreamSerializer.o"
-	@echo "... Serialization/KVBinaryOutputStreamSerializer.i"
-	@echo "... Serialization/KVBinaryOutputStreamSerializer.s"
-	@echo "... Serialization/MemoryStream.o"
-	@echo "... Serialization/MemoryStream.i"
-	@echo "... Serialization/MemoryStream.s"
-	@echo "... Serialization/SerializationOverloads.o"
-	@echo "... Serialization/SerializationOverloads.i"
-	@echo "... Serialization/SerializationOverloads.s"
-	@echo "... SimpleWallet/PasswordContainer.o"
-	@echo "... SimpleWallet/PasswordContainer.i"
-	@echo "... SimpleWallet/PasswordContainer.s"
-	@echo "... SimpleWallet/SimpleWallet.o"
-	@echo "... SimpleWallet/SimpleWallet.i"
-	@echo "... SimpleWallet/SimpleWallet.s"
-	@echo "... System/ContextGroup.o"
-	@echo "... System/ContextGroup.i"
-	@echo "... System/ContextGroup.s"
-	@echo "... System/ContextGroupTimeout.o"
-	@echo "... System/ContextGroupTimeout.i"
-	@echo "... System/ContextGroupTimeout.s"
-	@echo "... System/Event.o"
-	@echo "... System/Event.i"
-	@echo "... System/Event.s"
-	@echo "... System/EventLock.o"
-	@echo "... System/EventLock.i"
-	@echo "... System/EventLock.s"
-	@echo "... System/InterruptedException.o"
-	@echo "... System/InterruptedException.i"
-	@echo "... System/InterruptedException.s"
-	@echo "... System/Ipv4Address.o"
-	@echo "... System/Ipv4Address.i"
-	@echo "... System/Ipv4Address.s"
-	@echo "... System/RemoteEventLock.o"
-	@echo "... System/RemoteEventLock.i"
-	@echo "... System/RemoteEventLock.s"
-	@echo "... System/TcpStream.o"
-	@echo "... System/TcpStream.i"
-	@echo "... System/TcpStream.s"
-	@echo "... Transfers/BlockchainSynchronizer.o"
-	@echo "... Transfers/BlockchainSynchronizer.i"
-	@echo "... Transfers/BlockchainSynchronizer.s"
-	@echo "... Transfers/SynchronizationState.o"
-	@echo "... Transfers/SynchronizationState.i"
-	@echo "... Transfers/SynchronizationState.s"
-	@echo "... Transfers/TransfersConsumer.o"
-	@echo "... Transfers/TransfersConsumer.i"
-	@echo "... Transfers/TransfersConsumer.s"
-	@echo "... Transfers/TransfersContainer.o"
-	@echo "... Transfers/TransfersContainer.i"
-	@echo "... Transfers/TransfersContainer.s"
-	@echo "... Transfers/TransfersSubscription.o"
-	@echo "... Transfers/TransfersSubscription.i"
-	@echo "... Transfers/TransfersSubscription.s"
-	@echo "... Transfers/TransfersSynchronizer.o"
-	@echo "... Transfers/TransfersSynchronizer.i"
-	@echo "... Transfers/TransfersSynchronizer.s"
-	@echo "... Wallet/LegacyKeysImporter.o"
-	@echo "... Wallet/LegacyKeysImporter.i"
-	@echo "... Wallet/LegacyKeysImporter.s"
-	@echo "... Wallet/WalletAsyncContextCounter.o"
-	@echo "... Wallet/WalletAsyncContextCounter.i"
-	@echo "... Wallet/WalletAsyncContextCounter.s"
-	@echo "... Wallet/WalletErrors.o"
-	@echo "... Wallet/WalletErrors.i"
-	@echo "... Wallet/WalletErrors.s"
-	@echo "... Wallet/WalletGreen.o"
-	@echo "... Wallet/WalletGreen.i"
-	@echo "... Wallet/WalletGreen.s"
-	@echo "... Wallet/WalletRpcServer.o"
-	@echo "... Wallet/WalletRpcServer.i"
-	@echo "... Wallet/WalletRpcServer.s"
-	@echo "... Wallet/WalletSerialization.o"
-	@echo "... Wallet/WalletSerialization.i"
-	@echo "... Wallet/WalletSerialization.s"
-	@echo "... Wallet/WalletUtils.o"
-	@echo "... Wallet/WalletUtils.i"
-	@echo "... Wallet/WalletUtils.s"
-	@echo "... WalletLegacy/KeysStorage.o"
-	@echo "... WalletLegacy/KeysStorage.i"
-	@echo "... WalletLegacy/KeysStorage.s"
-	@echo "... WalletLegacy/WalletHelper.o"
-	@echo "... WalletLegacy/WalletHelper.i"
-	@echo "... WalletLegacy/WalletHelper.s"
-	@echo "... WalletLegacy/WalletLegacy.o"
-	@echo "... WalletLegacy/WalletLegacy.i"
-	@echo "... WalletLegacy/WalletLegacy.s"
-	@echo "... WalletLegacy/WalletLegacySerialization.o"
-	@echo "... WalletLegacy/WalletLegacySerialization.i"
-	@echo "... WalletLegacy/WalletLegacySerialization.s"
-	@echo "... WalletLegacy/WalletLegacySerializer.o"
-	@echo "... WalletLegacy/WalletLegacySerializer.i"
-	@echo "... WalletLegacy/WalletLegacySerializer.s"
-	@echo "... WalletLegacy/WalletTransactionSender.o"
-	@echo "... WalletLegacy/WalletTransactionSender.i"
-	@echo "... WalletLegacy/WalletTransactionSender.s"
-	@echo "... WalletLegacy/WalletUnconfirmedTransactions.o"
-	@echo "... WalletLegacy/WalletUnconfirmedTransactions.i"
-	@echo "... WalletLegacy/WalletUnconfirmedTransactions.s"
-	@echo "... WalletLegacy/WalletUserTransactionsCache.o"
-	@echo "... WalletLegacy/WalletUserTransactionsCache.i"
-	@echo "... WalletLegacy/WalletUserTransactionsCache.s"
+	@echo "... blockchain_explorer/BlockchainExplorer.o"
+	@echo "... blockchain_explorer/BlockchainExplorer.i"
+	@echo "... blockchain_explorer/BlockchainExplorer.s"
+	@echo "... blockchain_explorer/BlockchainExplorerDataBuilder.o"
+	@echo "... blockchain_explorer/BlockchainExplorerDataBuilder.i"
+	@echo "... blockchain_explorer/BlockchainExplorerDataBuilder.s"
+	@echo "... blockchain_explorer/BlockchainExplorerErrors.o"
+	@echo "... blockchain_explorer/BlockchainExplorerErrors.i"
+	@echo "... blockchain_explorer/BlockchainExplorerErrors.s"
+	@echo "... command_line/ConfigurationManager.o"
+	@echo "... command_line/ConfigurationManager.i"
+	@echo "... command_line/ConfigurationManager.s"
+	@echo "... command_line/CoreConfig.o"
+	@echo "... command_line/CoreConfig.i"
+	@echo "... command_line/CoreConfig.s"
+	@echo "... command_line/MinerConfig.o"
+	@echo "... command_line/MinerConfig.i"
+	@echo "... command_line/MinerConfig.s"
+	@echo "... command_line/NetNodeConfig.o"
+	@echo "... command_line/NetNodeConfig.i"
+	@echo "... command_line/NetNodeConfig.s"
+	@echo "... command_line/P2pNodeConfig.o"
+	@echo "... command_line/P2pNodeConfig.i"
+	@echo "... command_line/P2pNodeConfig.s"
+	@echo "... command_line/PaymentServiceConfiguration.o"
+	@echo "... command_line/PaymentServiceConfiguration.i"
+	@echo "... command_line/PaymentServiceConfiguration.s"
+	@echo "... command_line/RpcNodeConfiguration.o"
+	@echo "... command_line/RpcNodeConfiguration.i"
+	@echo "... command_line/RpcNodeConfiguration.s"
+	@echo "... command_line/RpcServerConfig.o"
+	@echo "... command_line/RpcServerConfig.i"
+	@echo "... command_line/RpcServerConfig.s"
+	@echo "... command_line/daemon.o"
+	@echo "... command_line/daemon.i"
+	@echo "... command_line/daemon.s"
+	@echo "... command_line/options.o"
+	@echo "... command_line/options.i"
+	@echo "... command_line/options.s"
+	@echo "... common/BlockingQueue.o"
+	@echo "... common/BlockingQueue.i"
+	@echo "... common/BlockingQueue.s"
+	@echo "... common/ConsoleHandler.o"
+	@echo "... common/ConsoleHandler.i"
+	@echo "... common/ConsoleHandler.s"
+	@echo "... common/ConsoleTools.o"
+	@echo "... common/ConsoleTools.i"
+	@echo "... common/ConsoleTools.s"
+	@echo "... common/JsonValue.o"
+	@echo "... common/JsonValue.i"
+	@echo "... common/JsonValue.s"
+	@echo "... common/ScopeExit.o"
+	@echo "... common/ScopeExit.i"
+	@echo "... common/ScopeExit.s"
+	@echo "... common/SignalHandler.o"
+	@echo "... common/SignalHandler.i"
+	@echo "... common/SignalHandler.s"
+	@echo "... common/StringTools.o"
+	@echo "... common/StringTools.i"
+	@echo "... common/StringTools.s"
+	@echo "... common/StringView.o"
+	@echo "... common/StringView.i"
+	@echo "... common/StringView.s"
+	@echo "... common/base58.o"
+	@echo "... common/base58.i"
+	@echo "... common/base58.s"
+	@echo "... common/binary_array.o"
+	@echo "... common/binary_array.i"
+	@echo "... common/binary_array.s"
+	@echo "... common/file.o"
+	@echo "... common/file.i"
+	@echo "... common/file.s"
+	@echo "... common/hex.o"
+	@echo "... common/hex.i"
+	@echo "... common/hex.s"
+	@echo "... common/os.o"
+	@echo "... common/os.i"
+	@echo "... common/os.s"
+	@echo "... common/stream.o"
+	@echo "... common/stream.i"
+	@echo "... common/stream.s"
+	@echo "... config/common.o"
+	@echo "... config/common.i"
+	@echo "... config/common.s"
+	@echo "... config/mainnet.o"
+	@echo "... config/mainnet.i"
+	@echo "... config/mainnet.s"
+	@echo "... config/testnet.o"
+	@echo "... config/testnet.i"
+	@echo "... config/testnet.s"
+	@echo "... crypto/aesb.o"
+	@echo "... crypto/aesb.i"
+	@echo "... crypto/aesb.s"
 	@echo "... crypto/blake256.o"
 	@echo "... crypto/blake256.i"
 	@echo "... crypto/blake256.s"
-	@echo "... crypto/chacha8.o"
-	@echo "... crypto/chacha8.i"
-	@echo "... crypto/chacha8.s"
+	@echo "... crypto/chacha.o"
+	@echo "... crypto/chacha.i"
+	@echo "... crypto/chacha.s"
 	@echo "... crypto/crypto-ops-data.o"
 	@echo "... crypto/crypto-ops-data.i"
 	@echo "... crypto/crypto-ops-data.s"
@@ -5590,12 +5682,402 @@ help:
 	@echo "... crypto/slow-hash.o"
 	@echo "... crypto/slow-hash.i"
 	@echo "... crypto/slow-hash.s"
-	@echo "... crypto/slow-hash.o"
-	@echo "... crypto/slow-hash.i"
-	@echo "... crypto/slow-hash.s"
 	@echo "... crypto/tree-hash.o"
 	@echo "... crypto/tree-hash.i"
 	@echo "... crypto/tree-hash.s"
+	@echo "... cryptonote/core/BlockchainMessages.o"
+	@echo "... cryptonote/core/BlockchainMessages.i"
+	@echo "... cryptonote/core/BlockchainMessages.s"
+	@echo "... cryptonote/core/CryptoNoteFormatUtils.o"
+	@echo "... cryptonote/core/CryptoNoteFormatUtils.i"
+	@echo "... cryptonote/core/CryptoNoteFormatUtils.s"
+	@echo "... cryptonote/core/CryptoNoteTools.o"
+	@echo "... cryptonote/core/CryptoNoteTools.i"
+	@echo "... cryptonote/core/CryptoNoteTools.s"
+	@echo "... cryptonote/core/IBlock.o"
+	@echo "... cryptonote/core/IBlock.i"
+	@echo "... cryptonote/core/IBlock.s"
+	@echo "... cryptonote/core/ITimeProvider.o"
+	@echo "... cryptonote/core/ITimeProvider.i"
+	@echo "... cryptonote/core/ITimeProvider.s"
+	@echo "... cryptonote/core/Miner.o"
+	@echo "... cryptonote/core/Miner.i"
+	@echo "... cryptonote/core/Miner.s"
+	@echo "... cryptonote/core/Transaction.o"
+	@echo "... cryptonote/core/Transaction.i"
+	@echo "... cryptonote/core/Transaction.s"
+	@echo "... cryptonote/core/TransactionExtra.o"
+	@echo "... cryptonote/core/TransactionExtra.i"
+	@echo "... cryptonote/core/TransactionExtra.s"
+	@echo "... cryptonote/core/TransactionPrefixImpl.o"
+	@echo "... cryptonote/core/TransactionPrefixImpl.i"
+	@echo "... cryptonote/core/TransactionPrefixImpl.s"
+	@echo "... cryptonote/core/TransactionUtils.o"
+	@echo "... cryptonote/core/TransactionUtils.i"
+	@echo "... cryptonote/core/TransactionUtils.s"
+	@echo "... cryptonote/core/account.o"
+	@echo "... cryptonote/core/account.i"
+	@echo "... cryptonote/core/account.s"
+	@echo "... cryptonote/core/blockchain.o"
+	@echo "... cryptonote/core/blockchain.i"
+	@echo "... cryptonote/core/blockchain.s"
+	@echo "... cryptonote/core/blockchain/indexing/generated_transaction.o"
+	@echo "... cryptonote/core/blockchain/indexing/generated_transaction.i"
+	@echo "... cryptonote/core/blockchain/indexing/generated_transaction.s"
+	@echo "... cryptonote/core/blockchain/indexing/orphan_block.o"
+	@echo "... cryptonote/core/blockchain/indexing/orphan_block.i"
+	@echo "... cryptonote/core/blockchain/indexing/orphan_block.s"
+	@echo "... cryptonote/core/blockchain/indexing/payment.o"
+	@echo "... cryptonote/core/blockchain/indexing/payment.i"
+	@echo "... cryptonote/core/blockchain/indexing/payment.s"
+	@echo "... cryptonote/core/blockchain/indexing/timestamp_block.o"
+	@echo "... cryptonote/core/blockchain/indexing/timestamp_block.i"
+	@echo "... cryptonote/core/blockchain/indexing/timestamp_block.s"
+	@echo "... cryptonote/core/blockchain/indexing/timestamp_transaction.o"
+	@echo "... cryptonote/core/blockchain/indexing/timestamp_transaction.i"
+	@echo "... cryptonote/core/blockchain/indexing/timestamp_transaction.s"
+	@echo "... cryptonote/core/blockchain/serializer/basics.o"
+	@echo "... cryptonote/core/blockchain/serializer/basics.i"
+	@echo "... cryptonote/core/blockchain/serializer/basics.s"
+	@echo "... cryptonote/core/blockchain/serializer/block_index.o"
+	@echo "... cryptonote/core/blockchain/serializer/block_index.i"
+	@echo "... cryptonote/core/blockchain/serializer/block_index.s"
+	@echo "... cryptonote/core/blockchain/serializer/crypto.o"
+	@echo "... cryptonote/core/blockchain/serializer/crypto.i"
+	@echo "... cryptonote/core/blockchain/serializer/crypto.s"
+	@echo "... cryptonote/core/blockchain/serializer/transaction_index.o"
+	@echo "... cryptonote/core/blockchain/serializer/transaction_index.i"
+	@echo "... cryptonote/core/blockchain/serializer/transaction_index.s"
+	@echo "... cryptonote/core/checkpoints.o"
+	@echo "... cryptonote/core/checkpoints.i"
+	@echo "... cryptonote/core/checkpoints.s"
+	@echo "... cryptonote/core/core.o"
+	@echo "... cryptonote/core/core.i"
+	@echo "... cryptonote/core/core.s"
+	@echo "... cryptonote/core/currency.o"
+	@echo "... cryptonote/core/currency.i"
+	@echo "... cryptonote/core/currency.s"
+	@echo "... cryptonote/core/difficulty.o"
+	@echo "... cryptonote/core/difficulty.i"
+	@echo "... cryptonote/core/difficulty.s"
+	@echo "... cryptonote/core/hardfork.o"
+	@echo "... cryptonote/core/hardfork.i"
+	@echo "... cryptonote/core/hardfork.s"
+	@echo "... cryptonote/core/key.o"
+	@echo "... cryptonote/core/key.i"
+	@echo "... cryptonote/core/key.s"
+	@echo "... cryptonote/core/transaction/transaction.o"
+	@echo "... cryptonote/core/transaction/transaction.i"
+	@echo "... cryptonote/core/transaction/transaction.s"
+	@echo "... cryptonote/core/tx_memory_pool.o"
+	@echo "... cryptonote/core/tx_memory_pool.i"
+	@echo "... cryptonote/core/tx_memory_pool.s"
+	@echo "... cryptonote/protocol/handler.o"
+	@echo "... cryptonote/protocol/handler.i"
+	@echo "... cryptonote/protocol/handler.s"
+	@echo "... cryptonote/structures/array.o"
+	@echo "... cryptonote/structures/array.i"
+	@echo "... cryptonote/structures/array.s"
+	@echo "... cryptonote/structures/block_entry.o"
+	@echo "... cryptonote/structures/block_entry.i"
+	@echo "... cryptonote/structures/block_entry.s"
+	@echo "... daemon/DaemonCommandsHandler.o"
+	@echo "... daemon/DaemonCommandsHandler.i"
+	@echo "... daemon/DaemonCommandsHandler.s"
+	@echo "... daemon/daemon.o"
+	@echo "... daemon/daemon.i"
+	@echo "... daemon/daemon.s"
+	@echo "... http/HttpParser.o"
+	@echo "... http/HttpParser.i"
+	@echo "... http/HttpParser.s"
+	@echo "... http/HttpParserErrorCodes.o"
+	@echo "... http/HttpParserErrorCodes.i"
+	@echo "... http/HttpParserErrorCodes.s"
+	@echo "... http/HttpRequest.o"
+	@echo "... http/HttpRequest.i"
+	@echo "... http/HttpRequest.s"
+	@echo "... http/HttpResponse.o"
+	@echo "... http/HttpResponse.i"
+	@echo "... http/HttpResponse.s"
+	@echo "... logging/CommonLogger.o"
+	@echo "... logging/CommonLogger.i"
+	@echo "... logging/CommonLogger.s"
+	@echo "... logging/ConsoleLogger.o"
+	@echo "... logging/ConsoleLogger.i"
+	@echo "... logging/ConsoleLogger.s"
+	@echo "... logging/FileLogger.o"
+	@echo "... logging/FileLogger.i"
+	@echo "... logging/FileLogger.s"
+	@echo "... logging/ILogger.o"
+	@echo "... logging/ILogger.i"
+	@echo "... logging/ILogger.s"
+	@echo "... logging/LoggerGroup.o"
+	@echo "... logging/LoggerGroup.i"
+	@echo "... logging/LoggerGroup.s"
+	@echo "... logging/LoggerManager.o"
+	@echo "... logging/LoggerManager.i"
+	@echo "... logging/LoggerManager.s"
+	@echo "... logging/LoggerMessage.o"
+	@echo "... logging/LoggerMessage.i"
+	@echo "... logging/LoggerMessage.s"
+	@echo "... logging/LoggerRef.o"
+	@echo "... logging/LoggerRef.i"
+	@echo "... logging/LoggerRef.s"
+	@echo "... logging/StreamLogger.o"
+	@echo "... logging/StreamLogger.i"
+	@echo "... logging/StreamLogger.s"
+	@echo "... miner/BlockchainMonitor.o"
+	@echo "... miner/BlockchainMonitor.i"
+	@echo "... miner/BlockchainMonitor.s"
+	@echo "... miner/Miner.o"
+	@echo "... miner/Miner.i"
+	@echo "... miner/Miner.s"
+	@echo "... miner/MinerManager.o"
+	@echo "... miner/MinerManager.i"
+	@echo "... miner/MinerManager.s"
+	@echo "... miner/MiningConfig.o"
+	@echo "... miner/MiningConfig.i"
+	@echo "... miner/MiningConfig.s"
+	@echo "... miner/main.o"
+	@echo "... miner/main.i"
+	@echo "... miner/main.s"
+	@echo "... p2p/IP2pNodeInternal.o"
+	@echo "... p2p/IP2pNodeInternal.i"
+	@echo "... p2p/IP2pNodeInternal.s"
+	@echo "... p2p/LevinProtocol.o"
+	@echo "... p2p/LevinProtocol.i"
+	@echo "... p2p/LevinProtocol.s"
+	@echo "... p2p/NetNode.o"
+	@echo "... p2p/NetNode.i"
+	@echo "... p2p/NetNode.s"
+	@echo "... p2p/P2pConnectionProxy.o"
+	@echo "... p2p/P2pConnectionProxy.i"
+	@echo "... p2p/P2pConnectionProxy.s"
+	@echo "... p2p/P2pContext.o"
+	@echo "... p2p/P2pContext.i"
+	@echo "... p2p/P2pContext.s"
+	@echo "... p2p/P2pContextOwner.o"
+	@echo "... p2p/P2pContextOwner.i"
+	@echo "... p2p/P2pContextOwner.s"
+	@echo "... p2p/P2pInterfaces.o"
+	@echo "... p2p/P2pInterfaces.i"
+	@echo "... p2p/P2pInterfaces.s"
+	@echo "... p2p/P2pNode.o"
+	@echo "... p2p/P2pNode.i"
+	@echo "... p2p/P2pNode.s"
+	@echo "... p2p/PeerListManager.o"
+	@echo "... p2p/PeerListManager.i"
+	@echo "... p2p/PeerListManager.s"
+	@echo "... payment_gate/NodeFactory.o"
+	@echo "... payment_gate/NodeFactory.i"
+	@echo "... payment_gate/NodeFactory.s"
+	@echo "... payment_gate/PaymentServiceJsonRpcMessages.o"
+	@echo "... payment_gate/PaymentServiceJsonRpcMessages.i"
+	@echo "... payment_gate/PaymentServiceJsonRpcMessages.s"
+	@echo "... payment_gate/PaymentServiceJsonRpcServer.o"
+	@echo "... payment_gate/PaymentServiceJsonRpcServer.i"
+	@echo "... payment_gate/PaymentServiceJsonRpcServer.s"
+	@echo "... payment_gate/WalletFactory.o"
+	@echo "... payment_gate/WalletFactory.i"
+	@echo "... payment_gate/WalletFactory.s"
+	@echo "... payment_gate/WalletService.o"
+	@echo "... payment_gate/WalletService.i"
+	@echo "... payment_gate/WalletService.s"
+	@echo "... payment_gate/WalletServiceErrorCategory.o"
+	@echo "... payment_gate/WalletServiceErrorCategory.i"
+	@echo "... payment_gate/WalletServiceErrorCategory.s"
+	@echo "... payment_gate_service/PaymentGateService.o"
+	@echo "... payment_gate_service/PaymentGateService.i"
+	@echo "... payment_gate_service/PaymentGateService.s"
+	@echo "... payment_gate_service/main.o"
+	@echo "... payment_gate_service/main.i"
+	@echo "... payment_gate_service/main.s"
+	@echo "... platform/Linux/system/Dispatcher.o"
+	@echo "... platform/Linux/system/Dispatcher.i"
+	@echo "... platform/Linux/system/Dispatcher.s"
+	@echo "... platform/Linux/system/ErrorMessage.o"
+	@echo "... platform/Linux/system/ErrorMessage.i"
+	@echo "... platform/Linux/system/ErrorMessage.s"
+	@echo "... platform/Linux/system/Ipv4Resolver.o"
+	@echo "... platform/Linux/system/Ipv4Resolver.i"
+	@echo "... platform/Linux/system/Ipv4Resolver.s"
+	@echo "... platform/Linux/system/TcpConnection.o"
+	@echo "... platform/Linux/system/TcpConnection.i"
+	@echo "... platform/Linux/system/TcpConnection.s"
+	@echo "... platform/Linux/system/TcpConnector.o"
+	@echo "... platform/Linux/system/TcpConnector.i"
+	@echo "... platform/Linux/system/TcpConnector.s"
+	@echo "... platform/Linux/system/TcpListener.o"
+	@echo "... platform/Linux/system/TcpListener.i"
+	@echo "... platform/Linux/system/TcpListener.s"
+	@echo "... platform/Linux/system/Timer.o"
+	@echo "... platform/Linux/system/Timer.i"
+	@echo "... platform/Linux/system/Timer.s"
+	@echo "... rpc/HttpClient.o"
+	@echo "... rpc/HttpClient.i"
+	@echo "... rpc/HttpClient.s"
+	@echo "... rpc/HttpServer.o"
+	@echo "... rpc/HttpServer.i"
+	@echo "... rpc/HttpServer.s"
+	@echo "... rpc/JsonRpc.o"
+	@echo "... rpc/JsonRpc.i"
+	@echo "... rpc/JsonRpc.s"
+	@echo "... rpc/RpcServer.o"
+	@echo "... rpc/RpcServer.i"
+	@echo "... rpc/RpcServer.s"
+	@echo "... serialization/BinaryInputStreamSerializer.o"
+	@echo "... serialization/BinaryInputStreamSerializer.i"
+	@echo "... serialization/BinaryInputStreamSerializer.s"
+	@echo "... serialization/BinaryOutputStreamSerializer.o"
+	@echo "... serialization/BinaryOutputStreamSerializer.i"
+	@echo "... serialization/BinaryOutputStreamSerializer.s"
+	@echo "... serialization/BinarySerializer.o"
+	@echo "... serialization/BinarySerializer.i"
+	@echo "... serialization/BinarySerializer.s"
+	@echo "... serialization/JsonInputStreamSerializer.o"
+	@echo "... serialization/JsonInputStreamSerializer.i"
+	@echo "... serialization/JsonInputStreamSerializer.s"
+	@echo "... serialization/JsonInputValueSerializer.o"
+	@echo "... serialization/JsonInputValueSerializer.i"
+	@echo "... serialization/JsonInputValueSerializer.s"
+	@echo "... serialization/JsonOutputStreamSerializer.o"
+	@echo "... serialization/JsonOutputStreamSerializer.i"
+	@echo "... serialization/JsonOutputStreamSerializer.s"
+	@echo "... serialization/KVBinaryInputStreamSerializer.o"
+	@echo "... serialization/KVBinaryInputStreamSerializer.i"
+	@echo "... serialization/KVBinaryInputStreamSerializer.s"
+	@echo "... serialization/KVBinaryOutputStreamSerializer.o"
+	@echo "... serialization/KVBinaryOutputStreamSerializer.i"
+	@echo "... serialization/KVBinaryOutputStreamSerializer.s"
+	@echo "... serialization/MemoryStream.o"
+	@echo "... serialization/MemoryStream.i"
+	@echo "... serialization/MemoryStream.s"
+	@echo "... serialization/SerializationOverloads.o"
+	@echo "... serialization/SerializationOverloads.i"
+	@echo "... serialization/SerializationOverloads.s"
+	@echo "... simplewallet/PasswordContainer.o"
+	@echo "... simplewallet/PasswordContainer.i"
+	@echo "... simplewallet/PasswordContainer.s"
+	@echo "... simplewallet/main.o"
+	@echo "... simplewallet/main.i"
+	@echo "... simplewallet/main.s"
+	@echo "... simplewallet/options.o"
+	@echo "... simplewallet/options.i"
+	@echo "... simplewallet/options.s"
+	@echo "... simplewallet/simplewallet.o"
+	@echo "... simplewallet/simplewallet.i"
+	@echo "... simplewallet/simplewallet.s"
+	@echo "... stream/IInputStream.o"
+	@echo "... stream/IInputStream.i"
+	@echo "... stream/IInputStream.s"
+	@echo "... stream/IOutputStream.o"
+	@echo "... stream/IOutputStream.i"
+	@echo "... stream/IOutputStream.s"
+	@echo "... stream/MemoryInputStream.o"
+	@echo "... stream/MemoryInputStream.i"
+	@echo "... stream/MemoryInputStream.s"
+	@echo "... stream/StdInputStream.o"
+	@echo "... stream/StdInputStream.i"
+	@echo "... stream/StdInputStream.s"
+	@echo "... stream/StdOutputStream.o"
+	@echo "... stream/StdOutputStream.i"
+	@echo "... stream/StdOutputStream.s"
+	@echo "... stream/StreamTools.o"
+	@echo "... stream/StreamTools.i"
+	@echo "... stream/StreamTools.s"
+	@echo "... stream/StringInputStream.o"
+	@echo "... stream/StringInputStream.i"
+	@echo "... stream/StringInputStream.s"
+	@echo "... stream/StringOutputStream.o"
+	@echo "... stream/StringOutputStream.i"
+	@echo "... stream/StringOutputStream.s"
+	@echo "... stream/VectorOutputStream.o"
+	@echo "... stream/VectorOutputStream.i"
+	@echo "... stream/VectorOutputStream.s"
+	@echo "... system/ContextGroup.o"
+	@echo "... system/ContextGroup.i"
+	@echo "... system/ContextGroup.s"
+	@echo "... system/ContextGroupTimeout.o"
+	@echo "... system/ContextGroupTimeout.i"
+	@echo "... system/ContextGroupTimeout.s"
+	@echo "... system/Event.o"
+	@echo "... system/Event.i"
+	@echo "... system/Event.s"
+	@echo "... system/EventLock.o"
+	@echo "... system/EventLock.i"
+	@echo "... system/EventLock.s"
+	@echo "... system/InterruptedException.o"
+	@echo "... system/InterruptedException.i"
+	@echo "... system/InterruptedException.s"
+	@echo "... system/Ipv4Address.o"
+	@echo "... system/Ipv4Address.i"
+	@echo "... system/Ipv4Address.s"
+	@echo "... system/RemoteEventLock.o"
+	@echo "... system/RemoteEventLock.i"
+	@echo "... system/RemoteEventLock.s"
+	@echo "... system/TcpStream.o"
+	@echo "... system/TcpStream.i"
+	@echo "... system/TcpStream.s"
+	@echo "... transfers/BlockchainSynchronizer.o"
+	@echo "... transfers/BlockchainSynchronizer.i"
+	@echo "... transfers/BlockchainSynchronizer.s"
+	@echo "... transfers/SynchronizationState.o"
+	@echo "... transfers/SynchronizationState.i"
+	@echo "... transfers/SynchronizationState.s"
+	@echo "... transfers/TransfersConsumer.o"
+	@echo "... transfers/TransfersConsumer.i"
+	@echo "... transfers/TransfersConsumer.s"
+	@echo "... transfers/TransfersContainer.o"
+	@echo "... transfers/TransfersContainer.i"
+	@echo "... transfers/TransfersContainer.s"
+	@echo "... transfers/TransfersSubscription.o"
+	@echo "... transfers/TransfersSubscription.i"
+	@echo "... transfers/TransfersSubscription.s"
+	@echo "... transfers/TransfersSynchronizer.o"
+	@echo "... transfers/TransfersSynchronizer.i"
+	@echo "... transfers/TransfersSynchronizer.s"
+	@echo "... wallet/LegacyKeysImporter.o"
+	@echo "... wallet/LegacyKeysImporter.i"
+	@echo "... wallet/LegacyKeysImporter.s"
+	@echo "... wallet/WalletAsyncContextCounter.o"
+	@echo "... wallet/WalletAsyncContextCounter.i"
+	@echo "... wallet/WalletAsyncContextCounter.s"
+	@echo "... wallet/WalletErrors.o"
+	@echo "... wallet/WalletErrors.i"
+	@echo "... wallet/WalletErrors.s"
+	@echo "... wallet/WalletGreen.o"
+	@echo "... wallet/WalletGreen.i"
+	@echo "... wallet/WalletGreen.s"
+	@echo "... wallet/WalletRpcServer.o"
+	@echo "... wallet/WalletRpcServer.i"
+	@echo "... wallet/WalletRpcServer.s"
+	@echo "... wallet/WalletSerialization.o"
+	@echo "... wallet/WalletSerialization.i"
+	@echo "... wallet/WalletSerialization.s"
+	@echo "... wallet_legacy/KeysStorage.o"
+	@echo "... wallet_legacy/KeysStorage.i"
+	@echo "... wallet_legacy/KeysStorage.s"
+	@echo "... wallet_legacy/WalletHelper.o"
+	@echo "... wallet_legacy/WalletHelper.i"
+	@echo "... wallet_legacy/WalletHelper.s"
+	@echo "... wallet_legacy/WalletLegacy.o"
+	@echo "... wallet_legacy/WalletLegacy.i"
+	@echo "... wallet_legacy/WalletLegacy.s"
+	@echo "... wallet_legacy/WalletLegacySerialization.o"
+	@echo "... wallet_legacy/WalletLegacySerialization.i"
+	@echo "... wallet_legacy/WalletLegacySerialization.s"
+	@echo "... wallet_legacy/WalletLegacySerializer.o"
+	@echo "... wallet_legacy/WalletLegacySerializer.i"
+	@echo "... wallet_legacy/WalletLegacySerializer.s"
+	@echo "... wallet_legacy/WalletTransactionSender.o"
+	@echo "... wallet_legacy/WalletTransactionSender.i"
+	@echo "... wallet_legacy/WalletTransactionSender.s"
+	@echo "... wallet_legacy/WalletUnconfirmedTransactions.o"
+	@echo "... wallet_legacy/WalletUnconfirmedTransactions.i"
+	@echo "... wallet_legacy/WalletUnconfirmedTransactions.s"
+	@echo "... wallet_legacy/WalletUserTransactionsCache.o"
+	@echo "... wallet_legacy/WalletUserTransactionsCache.i"
+	@echo "... wallet_legacy/WalletUserTransactionsCache.s"
 .PHONY : help
 
 
