@@ -1,5 +1,5 @@
 #Download base image ubuntu 16.04
-FROM vigcoin/core:v2.1
+FROM vigcoin/core
 
 # Update Ubuntu Software repository
 

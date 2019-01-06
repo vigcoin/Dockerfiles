@@ -1,9 +1,9 @@
 #Download base image ubuntu 16.04
-FROM vigcoin/coind:v2.1
+FROM vigcoin/coind
 
 # Update Ubuntu Software repository
 
-RUN apt-get update && apt-get install -y redis-server git curl supervisor build-essential libboost-all-dev
+RUN apt-get update && apt-get install -y redis-server git curl supervisor build-essential libboost-all-dev net-tools
 
 RUN git clone https://github.com/vigcoin/pool.git /pool
 

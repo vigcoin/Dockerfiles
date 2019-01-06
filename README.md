@@ -22,6 +22,8 @@ export VIGCOIN_WALLET_PASSWORD=#YOUR_PASSWORD
 # set vig home data directory
 export VIGCOIN_HOME=$HOME/vigcoin
 export VIGCOIN_WALLET_PORT=19802
+export VIGCOIN_EXTRA=""
+
 ```
 
 2. run image
@@ -59,6 +61,7 @@ vigcoin/pool:v1
 ````
 
 ## Testing
+
 1. Set Env
 
 ```
