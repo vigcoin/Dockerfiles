@@ -1,5 +1,7 @@
 *.o
 data
 CMakeFiles
+.vigcoin
+.vigcointest
 *.log
 *.wallet
