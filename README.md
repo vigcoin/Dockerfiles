@@ -13,7 +13,8 @@ Dockerfiles for vigcoin docker images
 
 ## Production
 
-1. set env
+1. Set Env
+
 ```
 
 # set wallet password
@@ -40,6 +41,7 @@ docker run -it    # Interactive Running
 
 
 ```
+-e VIGCOIN_DAEMON_PORT=$VIGCOIN_DAEMON_PORT                     \
 -e VIGCOIN_WALLET_PORT=$VIGCOIN_WALLET_PORT                     \
 -e VIGCOIN_EXTRA=$VIGCOIN_EXTRA                                 \
 -e PASSWORD=$VIGCOIN_WALLET_PASSWORD                            \
@@ -91,6 +93,7 @@ docker run -it    # Interactive Running
 
 
 ```
+-e VIGCOIN_DAEMON_PORT=$VIGCOIN_DAEMON_PORT                     \
 -e VIGCOIN_WALLET_PORT=$VIGCOIN_WALLET_PORT                     \
 -e VIGCOIN_EXTRA="$VIGCOIN_EXTRA"                               \
 -e PASSWORD=$VIGCOIN_WALLET_PASSWORD                            \
