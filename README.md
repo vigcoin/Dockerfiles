@@ -21,6 +21,7 @@ export VIGCOIN_WALLET_PASSWORD=#YOUR_PASSWORD
 
 # set vig home data directory
 export VIGCOIN_HOME=$HOME/vigcoin
+export VIGCOIN_DAEMON_PORT=19801
 export VIGCOIN_WALLET_PORT=19802
 export VIGCOIN_EXTRA=""
 
@@ -56,7 +57,7 @@ docker run -it    # Interactive Running
 -v $VIGCOIN_HOME/log:/var/log                                   \
 -v $VIGCOIN_HOME/root/.vigcoin:/root/.vigcoin                   \
 -v $VIGCOIN_HOME/pool/config:/pool/config                       \
-vigcoin/pool:v1
+vigcoin/pool
 
 ````
 
@@ -70,6 +71,7 @@ export VIGCOIN_WALLET_PASSWORD=#YOUR_PASSWORD
 
 # set vig home data directory
 export VIGCOIN_HOME=$HOME/vigcoin
+export VIGCOIN_DAEMON_PORT=29801
 export VIGCOIN_WALLET_PORT=29802
 
 # set test env
@@ -106,7 +108,7 @@ docker run -it    # Interactive Running
 -v $VIGCOIN_HOME/log:/var/log                                   \
 -v $VIGCOIN_HOME/root/.vigcointest:/root/.vigcointest           \
 -v $VIGCOIN_HOME/pool/config.test:/pool/config                  \
-vigcoin/pool:v1
+vigcoin/pool
 
 ````
 
