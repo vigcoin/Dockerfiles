@@ -2,45 +2,40 @@
 
 Dockerfiles for vigcoin docker images
 
-# Images
+## Images
 
 1. vigcoin/core
-2. vigcoin/coind
-3. vigcoin/pool
+2. vigcoin/one
 
-# Usage
+## Usage
 
-
-## Production
+### Production
 
 1. Set Env
 
-```
-
+```sh
 # set wallet password
 export VIGCOIN_WALLET_PASSWORD=#YOUR_PASSWORD
 
 # set vig home data directory
-export VIGCOIN_HOME=$HOME/vigcoin
+export VIGCOIN_HOME=`(pwd)`
 export VIGCOIN_DAEMON_PORT=19801
 export VIGCOIN_WALLET_PORT=19802
 export VIGCOIN_EXTRA=""
 
 ```
 
-2. run image
+1. Run Image
 
-```
+```sh
 
 docker run -d     # Daemon Running
-docker run -it    # Interactive Running
 
 ```
 
-3. Options
+1. Options
 
-
-```
+```sh
 -e VIGCOIN_DAEMON_PORT=$VIGCOIN_DAEMON_PORT                     \
 -e VIGCOIN_WALLET_PORT=$VIGCOIN_WALLET_PORT                     \
 -e VIGCOIN_EXTRA=$VIGCOIN_EXTRA                                 \
@@ -60,20 +55,20 @@ docker run -it    # Interactive Running
 -v $VIGCOIN_HOME/root/.vigcoin:/root/.vigcoin                   \
 -v $VIGCOIN_HOME/pool/config:/pool/config                       \
 -v $VIGCOIN_HOME/www/config:/www/config                         \
-vigcoin/pool
+vigcoin/one
 
-````
+```
 
 ## Testing
 
 1. Set Env
 
-```
+```sh
 # set wallet password
 export VIGCOIN_WALLET_PASSWORD=#YOUR_PASSWORD
 
 # set vig home data directory
-export VIGCOIN_HOME=$HOME/vigcoin
+export VIGCOIN_HOME=`(pwd)`
 export VIGCOIN_DAEMON_PORT=29801
 export VIGCOIN_WALLET_PORT=29802
 
@@ -81,19 +76,18 @@ export VIGCOIN_WALLET_PORT=29802
 export VIGCOIN_EXTRA="--allow-local-ip --testnet"
 ```
 
-2. Run image
+1. Run image
 
-```
+```sh
 
 docker run -d     # Daemon Running
 docker run -it    # Interactive Running
 
 ```
 
-3. Options
+1. Options
 
-
-```
+```sh
 -e VIGCOIN_DAEMON_PORT=$VIGCOIN_DAEMON_PORT                     \
 -e VIGCOIN_WALLET_PORT=$VIGCOIN_WALLET_PORT                     \
 -e VIGCOIN_EXTRA="$VIGCOIN_EXTRA"                               \
@@ -113,7 +107,6 @@ docker run -it    # Interactive Running
 -v $VIGCOIN_HOME/root/.vigcointest:/root/.vigcointest           \
 -v $VIGCOIN_HOME/pool/config.test:/pool/config                  \
 -v $VIGCOIN_HOME/www/config:/www/config                         \
-vigcoin/pool
+vigcoin/one
 
-````
-
+```
