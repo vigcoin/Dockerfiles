@@ -59,6 +59,7 @@ docker run -it    # Interactive Running
 -v $VIGCOIN_HOME/log:/var/log                                   \
 -v $VIGCOIN_HOME/root/.vigcoin:/root/.vigcoin                   \
 -v $VIGCOIN_HOME/pool/config:/pool/config                       \
+-v $VIGCOIN_HOME/www/config:/www/config                         \
 vigcoin/pool
 
 ````
@@ -111,6 +112,7 @@ docker run -it    # Interactive Running
 -v $VIGCOIN_HOME/log:/var/log                                   \
 -v $VIGCOIN_HOME/root/.vigcointest:/root/.vigcointest           \
 -v $VIGCOIN_HOME/pool/config.test:/pool/config                  \
+-v $VIGCOIN_HOME/www/config:/www/config                         \
 vigcoin/pool
 
 ````
