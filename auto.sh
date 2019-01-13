@@ -1,2 +1,2 @@
-docker build $1 -t vigcoin/one one
+docker build --no-cache -t vigcoin/one one
 docker push vigcoin/one
