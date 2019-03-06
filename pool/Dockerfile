@@ -3,12 +3,10 @@ FROM vigcoin/coind
 
 # Update Ubuntu Software repository
 
-RUN apt-get update && apt-get install -y redis-server git curl supervisor build-essential libboost-all-dev net-tools
-
+RUN apt-get install -y redis-server curl supervisor
+RUN git config --global http.postBuffer 1048576000
 RUN git clone https://github.com/vigcoin/pool.git /pool
-
 RUN cd /pool
-
 WORKDIR /pool
 
 RUN curl -o- https://raw.githubusercontent.com/calidion/chinese-noder-the-easy-way/master/install.sh?ver=1.1 | bash
